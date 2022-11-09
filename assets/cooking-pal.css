@@ -1,0 +1,155 @@
+.cooking-pal-cart {
+  visibility: hidden;
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(var(--color-foreground),.5);
+  transition: visibility var(--duration-default) ease;
+}
+
+body.js-my-cart-open .cooking-pal-cart {
+  visibility: visible;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner {
+  background: #fff;
+  height: 100%;
+  width: 40rem;
+  max-width: calc(100vw - 3rem);
+  border: 0.1rem solid rgba(var(--color-foreground),.2);
+  border-right: 0;
+  background-color: rgb(var(--color-background));
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .cooking-pal-cart-header {
+  padding: 1rem 1.5rem;
+  background: #383838;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .cooking-pal-cart-header h2 {
+  color: #fff;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .cooking-pal-cart-header button {
+  background: none;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  color: #fff;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .cart-announcement {
+  padding: 0.5rem 1.5rem;
+  background: #56c98b;
+  text-align: center;
+  font-weight: 700;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner form {
+  padding: 0 1.5rem;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .my-cart__items {
+  position: relative;
+  padding: 1rem;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .my-cart__items .item-cart {
+  display: grid;
+  grid-template-columns: 130px auto;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .my-cart__items .item-cart img {
+  max-with: 130px;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .my-cart__items .item-cart .item-details .item-title {
+  color: #343434;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .my-cart__items .item-cart .item-details .item-price-qty {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .my-cart__items .item-cart .item-details .item-price-qty .item-qty-counter {
+  display: inline-flex;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .my-cart__items .item-cart .item-details .item-price-qty .item-qty-counter a {
+  background: #f0f0f0;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  color: #343434;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .my-cart__items .item-cart .item-details .item-price-qty .item-qty-counter .minus {
+  border-bottom-left-radius: 300px;
+  border-top-left-radius: 300px;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .my-cart__items .item-cart .item-details .item-price-qty .item-qty-counter .add {
+  border-bottom-right-radius: 300px;
+  border-top-right-radius: 300px;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .my-cart__items .item-cart .item-details .item-price-qty .item-qty-counter input {
+  width: 100%;
+  max-width: 50px;
+  background: #F0F0F0;
+  border: none;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .cart-footer {
+  background: #383838;
+  padding: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .cart-footer .checkout-buttons {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 5px;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .cart-footer .total {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .cart-footer .total h2 {
+  color: #fff;
+  font-size: calc(var(--font-heading-scale) * 1.6rem);
+}
+
+.cooking-pal-cart .cooking-pal-cart-inner .cart-footer button {
+  border: none;
+  background: #56c98b;
+  border-radius: 100px;
+  height: 55px;
+  margin: auto 0 0 0;
+  cursor: pointer;
+  font-weight: 700;
+}

@@ -1,0 +1,114 @@
+<div class="cooking-pal-cart" data-ajax-cart-section>
+  <div class="cooking-pal-cart-inner">
+    <div class="cooking-pal-cart-header">
+      <h2>Cart</h2>
+      <button data-ajax-cart-toggle-class-button="js-my-cart-open | remove">
+        X
+      </button>
+    </div>
+    <div class="cart-announcement">
+      Free Shipping Contenental US
+    </div>
+    <form action="{{ routes.cart_url }}" method="post" class="my-cart ">
+        <!-- data-ajax-cart-section-scroll keeps the scroll position unchanged
+        when the element's HTML is changed -->
+        <div class="my-cart__items" data-ajax-cart-section-scroll>
+          {% for item in cart.items %}
+            {% assign item_index = forloop.index %}
+
+            <div class="item-cart">
+            
+              {% if item.image %}
+                <img class="cart-item__image"
+                  src="{{ item.image | image_url: width: 300 }}"
+                  alt="{{ item.image.alt | escape }}"
+                  loading="lazy"
+                  width="150"
+                  height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
+                >
+              {% endif %}
+
+              <div class="item-details">
+                <a href="{{ item.url }}" class="item-title">{{ item.title }}</a>
+
+                <div class="item-price-qty">
+                  <div class="item-qty-counter">
+                    <a class="minus" data-ajax-cart-request-button
+                      href="{{ routes.cart_change_url }}?line={{ item_index }}&quantity={{ item.quantity | minus: 1 }}" > 
+                      -
+                    </a>
+          
+                    <!-- data-ajax-cart-quantity-input ajaxifies the line item quantity input -->
+                    <input data-ajax-cart-quantity-input="{{ item_index }}"
+                      name="updates[]" 
+                      value="{{ item.quantity }}" 
+                      type="number" />
+          
+                    <!-- data-ajax-cart-request-button ajaxifies the "Plus one" button -->
+                    <a  class="add" data-ajax-cart-request-button 
+                      href="{{ routes.cart_change_url }}?line={{ item_index }}&quantity={{ item.quantity | plus: 1 }}"> 
+                      +
+                    </a>
+                  </div>
+                  <div>{{ item.final_price | money }}</div>
+                  
+                </div>
+
+                <!-- Ajaxified "Remove" button -->
+                <a data-ajax-cart-request-button href="{{ item.url_to_remove }}">
+                  Remove from cart
+                </a>
+              </div>
+
+
+            </div>
+
+    
+            <!-- Container for errors -->
+            <div data-ajax-cart-messages="{{ item.key }}"></div>
+            
+          {% endfor %}
+        </div>
+        
+        <!-- data-ajax-cart-static-element keeps the container unchanged
+        when the cart and the surrounding HTML get updated -->
+        <div data-ajax-cart-static-element class="my-cart__app-container"></div>
+    </form>
+    <div class="cart-footer">
+      <div class="total">
+        <h2>Subtotal:</h2>
+        <p class="total-value"><strong>{{ cart.total_price | money_with_currency }}</strong></p>
+      </div>
+      <small class="tax-note caption-large rte">
+        <p>Delivery: (Continental US, Canada, Mexico) <strong>FREE</strong></p>
+        {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
+          {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
+        {%- elsif cart.taxes_included -%}
+          {{ 'sections.cart.taxes_included_but_shipping_at_checkout' | t }}
+        {%- elsif shop.shipping_policy.body != blank -%}
+          {{ 'sections.cart.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url }}
+        {%- else -%}
+          {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
+        {%- endif -%}
+      </small>
+      <div class="checkout-buttons">
+        {% if additional_checkout_buttons %}
+          <div class="additional-checkout-buttons">
+            {{ content_for_additional_checkout_buttons }}
+          </div>
+        {% endif %}
+        <button type="submit" name="checkout">
+          Checkout
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %} { "name": "Cart" } {% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
