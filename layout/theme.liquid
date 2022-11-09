@@ -38,14 +38,6 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
-    <script type="application/json" data-ajax-cart-initial-state >
-      {{ cart | json }}
-    </script>
-     
-    <script type="module">
-      import '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}';
-    </script>
-
     {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
@@ -261,6 +253,7 @@
     </main>
 
     {% section 'footer' %}
+
     {% section 'cookingpal-cart' %}
 
     <ul hidden>
@@ -301,5 +294,19 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <script type="application/json" data-ajax-cart-initial-state >
+      {{ cart | json }}
+    </script>
+     
+    <script type="module">
+      import '{{ "liquid-ajax-cart-v1.10.3.js" | asset_url }}';
+    </script>
+
+    <script type="application/json" data-ajax-cart-configuration >
+      {
+        "addToCartCssClass": "js-my-cart-open"
+      }
+    </script>
   </body>
 </html>
