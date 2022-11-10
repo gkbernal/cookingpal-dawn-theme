@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "CeraPro-Light";
+    src: url("CeraPro-Light.woff2") format("woff2"),
+    url("CeraPro-Light.woff") format("woff");
+}
+
+@font-face {
+font-family: "CeraPro-Regular";
+src: url("CeraPro-Regular.woff2") format("woff2"),
+url("CeraPro-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "CeraPro-Medium";
+    src: url("CeraPro-Medium.woff2") format("woff2"),
+    url("CeraPro-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "CeraPro-Bold";
+    src: url("CeraPro-Bold.woff2") format("woff2"),
+    url("CeraPro-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "CeraPro-Black";
+    src: url("CeraPro-Black.woff2") format("woff2"),
+    url("CeraPro-Black.woff") format("woff");
+}
+
+h1 {
+    font-family: 'CeraPro-Bold';
+    font-size: 30px;
+    line-height: 1.26em;
+    color: #383838;
+}
+
+h2 {
+    font-family: 'CeraPro-Bold';
+    font-size: 24px;
+    line-height: 1.25em;
+    color: #383838;
+}
+
+h3 {
+    font-family: 'CeraPro-Bold';
+    font-size: 20px;
+    line-height: 1.3em;
+    color: #383838;
+}
+
+p {
+    font-family: 'CeraPro-Regular';
+    font-size: 14px;
+    line-height: 1.214em;
+    color: #383838;
+}
+
+/*************************************** header *************************************/
+sticky-header.header-wrapper {
+    background-color: #383838;
+    padding: 0 5%;
+}
+
+header.header {
+    max-width: 1260px;
+    padding: 6px 0;
+    display: grid;
+    grid-template-columns: 20% 75% 5%;
+    column-gap: 0;
+}
+
+.header .header__icons .header__search {
+    display: none !important;
+}
+
+a.header__menu-item {
+    padding: 0 20px;
+}
+
+a.header__menu-item span {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'CeraPro-Medium';
+    font-size: 13px;
+}
+
+nav.header__inline-menu {
+    text-align: end;
+}
+
+.shopify-section .announcement-bar {
+    background-color: #6A6A6C;
+}
+
+/********************************* end header **************************************/
+/*************************************** side cart *******************************/
+.item-price-qty div:nth-child(2) {
+    color: #343434;
+    font-family: 'CeraPro-Bold';
+    text-align: end;
+}
+
+.item-details a:nth-child(3) {
+    color: #343434;
+    font-family: 'CeraPro-Bold';
+}
+
+a.add {
+    font-size: 20px;
+    font-weight: 500 !important;
+    padding: 7px 8px !important;
+    height: 30px;
+    line-height: 0.8;
+}
+
+a.minus {
+    font-size: 20px;
+    font-weight: 500 !important;
+    padding: 7px 8px !important;
+    height: 30px;
+    line-height: 0.8;
+}
+
+form.my-cart {
+    padding: 0 30px 0 25px !important;
+}
+
+.my-cart__items {
+    padding: 20px 0 0 !important;
+}
+
+.item-qty-counter input {
+    width: 35px !important;
+    padding: 0;
+    text-align: end;
+    z-index: 999;
+    height: 30px;
+}
+
+.item-price-qty {
+    place-items: unset;
+    justify-items: start;
+}
