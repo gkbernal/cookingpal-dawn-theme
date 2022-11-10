@@ -14,7 +14,7 @@ header.cooking-pal-header .header__menu-item {
 
 .header.cooking-pal-header .mega-menu__content {
   background: #383838;
-  width: 80%;
+  max-width: 830px;
   margin: 0 auto;
 }
 
@@ -41,6 +41,10 @@ header.cooking-pal-header .cooking-pal-mega-menu-item .mega-menu__link {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
+}
+
+header.cooking-pal-header .menu-drawer__navigation .cooking-pal-mega-menu-item-container img {
+  width: 100%;
 }
 
 /** END COOKING PAL HEADER **/
