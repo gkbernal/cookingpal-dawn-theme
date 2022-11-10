@@ -28,6 +28,34 @@ url("CeraPro-Regular.woff") format("woff");
     url("CeraPro-Black.woff") format("woff");
 }
 
+h1 {
+    font-family: 'CeraPro-Bold';
+    font-size: 30px;
+    line-height: 1.26em;
+    color: #383838;
+}
+
+h2 {
+    font-family: 'CeraPro-Bold';
+    font-size: 24px;
+    line-height: 1.25em;
+    color: #383838;
+}
+
+h3 {
+    font-family: 'CeraPro-Bold';
+    font-size: 20px;
+    line-height: 1.3em;
+    color: #383838;
+}
+
+p {
+    font-family: 'CeraPro-Regular';
+    font-size: 14px;
+    line-height: 1.214em;
+    color: #383838;
+}
+
 sticky-header.header-wrapper {
     background-color: #383838;
     padding: 0 5%;
@@ -42,7 +70,7 @@ header.header {
 }
 
 .header .header__icons .header__search {
-    display: none;
+    display: none !important;
 }
 
 a.header__menu-item {
@@ -52,7 +80,7 @@ a.header__menu-item {
 a.header__menu-item span {
     color: #fff;
     text-decoration: none;
-    font-family: 'CeraPro-Bold';
+    font-family: 'CeraPro-Medium';
     font-size: 13px;
 }
 
