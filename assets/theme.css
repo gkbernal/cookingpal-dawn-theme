@@ -1,0 +1,28 @@
+@font-face {
+font-family: "CeraPro-Medium";
+src: url("CeraPro-Medium.woff2") format("woff2"),
+url("CeraPro-Medium.woff") format("woff");
+}
+
+sticky-header.header-wrapper {
+    background-color: #383838;
+}
+
+a.header__menu-item span {
+    color: #fff;
+    text-decoration: none;
+}
+
+header.header {
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    column-gap: 0;
+}
+
+nav.header__inline-menu {
+    text-align: end;
+}
+
+.announcement-bar {
+    background-color: #6A6A6C;
+}
