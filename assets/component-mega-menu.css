@@ -32,12 +32,13 @@
 .js .mega-menu__content {
   opacity: 1;
   transform: translateY(0);
+  transition: all 0.5s;
 }
 
 .mega-menu[open] .mega-menu__content {
   opacity: 1;
   transform: translateY(0);
-
+  transition: all 0.5s;
 }
 
 .mega-menu__list {
