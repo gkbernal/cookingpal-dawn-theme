@@ -82,7 +82,7 @@ body.js-my-cart-open .cooking-pal-cart {
   transition: all 0.2s;
 }
 
-.cooking-pal-cart:after {
+.cooking-pal-cart-inner:after {
     content: '';
     background-color: rgba(var(--color-foreground),.5);
     width: 100%;
