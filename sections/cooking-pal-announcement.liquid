@@ -1,0 +1,50 @@
+<div class="cooking-pal-announcement-bar announcement-bar" style="background:{{ section.settings.cooking-pal-announcement-color }};" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+      {%- when 'announcement' -%}
+        <div class="cooking-pal-announcement-block">
+          {{ block.settings.cooking-pal-announcement-img | img_url | img_tag }}
+          {{ block.settings.cooking-pal-announcement-text | escape }}
+        </div>
+    {%- endcase -%}
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Cooking Pal Announcement",
+  "class": "cooking-pal-announcement",
+  "settings": [
+    {
+      "label": "Color",
+      "type": "color",
+      "id": "cooking-pal-announcement-color",
+      "default": "#E76B38"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "Announcement",
+      "settings": [
+        {
+          "label": "Image",
+          "type": "image_picker",
+          "id": "cooking-pal-announcement-img"
+        },
+        {
+          "label": "Text",
+          "type": "text",
+          "id": "cooking-pal-announcement-text"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
