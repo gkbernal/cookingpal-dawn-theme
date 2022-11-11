@@ -96,7 +96,7 @@ body.js-my-cart-open .cooking-pal-cart {
 
 body.js-my-cart-open .cooking-pal-cart:before {
     opacity: 1;
-    transition: all ease-in-out 1s;
+    
 }
 
 body.js-my-cart-open .cooking-pal-cart {
