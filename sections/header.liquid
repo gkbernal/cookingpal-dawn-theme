@@ -673,7 +673,7 @@
     item.addEventListener("mouseover", () => {
       item.setAttribute("open", true);
       item.querySelector("ul").addEventListener("mouseleave", () => {
-        item.removeAttribute("open");
+        item.removeAttribute("open").style.transition = "all 2s";
       });
     item.addEventListener("mouseleave", () => {
       item.removeAttribute("open");
