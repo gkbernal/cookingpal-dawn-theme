@@ -109,6 +109,16 @@ nav.header__inline-menu {
     top: 2px;
 }
 
+.header__menu-item:hover span {
+    border-bottom: solid 2px #56C98B;
+    padding-bottom: 2px;;
+}
+
+.header__menu-item span {
+    border-bottom: solid 2px transparent;
+    padding-bottom: 2px;;
+}
+
 /********************************* end header **************************************/
 /*************************************** side cart *******************************/
 .item-price-qty div:nth-child(2) {
