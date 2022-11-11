@@ -93,6 +93,10 @@ nav.header__inline-menu {
     background-color: #6A6A6C;
 }
 
+.list-menu li {
+    display: flex;
+}
+
 /********************************* end header **************************************/
 /*************************************** side cart *******************************/
 .item-price-qty div:nth-child(2) {
@@ -141,4 +145,111 @@ form.my-cart {
 .item-price-qty {
     place-items: unset;
     justify-items: start;
+}
+
+/************************************************* footer style **********************************/
+footer.footer {
+    background-color: #383838;
+    padding: 0 7%;
+}
+
+.footer .footer__content-top {
+    padding: 0;
+    max-width: 100%;
+}
+
+.footer .footer__blocks-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 21%;
+    padding: 35px 0 50px;
+}
+
+.footer .footer-block.footer-block--menu {
+    width: 100%;
+}
+
+.footer h2.footer-block__heading {
+    margin-bottom: 15px;
+    color: #fff;
+    font-family: 'CeraPro-Medium';
+    font-size: 18px;
+}
+
+.footer a.link.link--text {
+    line-height: 1.1em;
+    color: #d7d7d7;
+    font-family: CeraPro-Regular;
+    font-size: 18px;
+    padding: 0 0 8px;
+}
+
+.footer .footer-block__details-content li {
+    line-height: 1em;
+}
+
+.footer .footer-block.grid__item {
+    width: 100%;
+}
+
+.footer  .footer-block.grid__item p {
+    color: #FFFFFF;
+    font-family: 'CeraPro-Regular';
+    font-size: 18px;
+    line-height: 1.1em;
+}
+
+.footer .footer-block--newsletter {
+    margin: 0;
+    align-items: baseline;
+    order: 5;
+}
+
+.footer a.list-social__link {
+    padding: 0;
+    margin-right: 19px;
+    margin-bottom: 19px;
+}
+
+.footer ul.footer__list-social {
+    justify-content: flex-start !important;
+}
+
+.footer .footer-block:nth-child(5) {
+    order: 6;
+}
+
+.footer__content-bottom {
+    display: none;
+}
+
+@media (max-width: 1366px){
+header.header {
+    max-width: 100%;
+}
+  
+.footer .footer__blocks-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3rem !important;
+}
+}
+
+@media (max-width: 1024px){
+.footer h2.footer-block__heading {
+    font-size: 16px;
+}
+
+.footer a.link.link--text {
+    font-size: 16px;
+}
+
+.footer  .footer-block.grid__item p {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 767px){
+.footer .footer__blocks-wrapper {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem !important;
+}
 }
