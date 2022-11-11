@@ -1,8 +1,16 @@
 /** COOKING PAL ANNOUNCEMENT **/
 .cooking-pal-announcement-bar {
-  display: grid;
+  overflow: hidden;
+  position: relative;
+}
+
+.cooking-pal-announcement-bar .cooking-pal-announcement-bar-wrapper {
+  display: flex;
   grid-template-columns: repeat(5,minmax(0,1fr));
   place-items: center;
+  justify-content: space-between;
+  transform:translateX(100%);
+  animation: announcementanimation 20s linear infinite;
 }
 
 .cooking-pal-announcement-bar .cooking-pal-announcement-block {
@@ -10,6 +18,15 @@
   color: #fff;
   font-weight: 700;
   place-items: center;
+}
+
+@keyframes announcementanimation {
+ 0% { 
+   transform: translateX(100%); 		
+ }
+ 100% { 
+   transform: translateX(-100%); 
+ }
 }
 
 .cooking-pal-announcement-bar .cooking-pal-announcement-block img {
