@@ -309,4 +309,9 @@ header.header {
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem !important;
 }
+
+.cooking-pal-cart {
+    font-size: start;
+    justify-content: flex-start;
+}
 }
