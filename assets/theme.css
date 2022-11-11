@@ -307,7 +307,7 @@ header.header {
 }
 }
 
-@media (max-width: 990px){
+@media (max-width: 989px){
 #menu-drawer {
     width: 100%;
     background-color: #00000005;
