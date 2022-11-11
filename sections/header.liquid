@@ -673,10 +673,10 @@
     item.addEventListener("mouseover", () => {
       item.setAttribute("open", true).style.transition = "all 2s";
       item.querySelector("ul").addEventListener("mouseleave", () => {
-        item.removeAttribute("open").style.transition = "all 2s";
+        item.removeAttribute("open");
       });
     item.addEventListener("mouseleave", () => {
-      item.removeAttribute("open").style.transition = "all 2s";
+      item.removeAttribute("open");
     });
   });
   
