@@ -126,6 +126,22 @@ nav.header__inline-menu {
 .header__menu-item svg.icon.icon-caret {
     transition: all 0.5s;
 }
+
+.mega-menu__list .list-unstyled li {
+    text-align: start;
+}
+
+.mega-menu__list .list-unstyled li:nth-child(1) a.mega-menu__link.link {
+    line-height: 0.9em;
+    font-size: 13px;
+    font-family: 'CeraPro-Bold';
+}
+
+.mega-menu__list .list-unstyled li a.mega-menu__link.link {
+    line-height: 0.9em;
+    font-size: 13px;
+    font-family: 'CeraPro-Regular';
+}
 /********************************* end header **************************************/
 /*************************************** side cart *******************************/
 .item-price-qty div:nth-child(2) {
