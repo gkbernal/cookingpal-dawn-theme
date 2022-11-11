@@ -101,12 +101,16 @@ nav.header__inline-menu {
     fill: #56C98B;
 }
 
-.list-menu svg {
+.header__menu-item svg {
     width: 15px;
     height: 15px;
     position: relative;
     right: 5px;
     top: 2px;
+}
+
+.header__menu-item span {
+    font-family: 'CeraPro-Medium';
 }
 
 .header__menu-item:hover span {
