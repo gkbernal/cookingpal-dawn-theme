@@ -93,11 +93,15 @@ body.js-my-cart-open .cooking-pal-cart {
     transition: all 5s;
 }
 
+body.js-my-cart-open .cooking-pal-cart:before {
+    content: '';
+    background-color: rgba(var(--color-foreground),.1);
+    transition: all 5s;
+}
 
 body.js-my-cart-open .cooking-pal-cart {
   right: 0;
   transition: all 0.2s;
-  
 }
 
 .cooking-pal-cart .cooking-pal-cart-inner {
