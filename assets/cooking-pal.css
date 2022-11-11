@@ -90,13 +90,13 @@ body.js-my-cart-open .cooking-pal-cart {
     position: absolute;
     top: 0;
     left: 0;
-    transition: all 5s;
+    transition: all ease-in-out 1s;
 }
 
 body.js-my-cart-open .cooking-pal-cart:before {
     content: '';
     background-color: rgba(var(--color-foreground),.5);
-    transition: all 1s;
+    transition: all ease-in-out 1s;
 }
 
 body.js-my-cart-open .cooking-pal-cart {
