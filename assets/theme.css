@@ -204,6 +204,7 @@ form.my-cart {
 .item-details .item-price-qty {
     place-items: unset !important;
     justify-items: start !important;
+    padding: 5px 0;
 }
 
 /************************************************* footer style **********************************/
