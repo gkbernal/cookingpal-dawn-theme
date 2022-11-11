@@ -671,12 +671,12 @@
   console.log(items)
   items.forEach(item => {
     item.addEventListener("mouseover", () => {
-      item.setAttribute("open", true);
+      item.setAttribute("open", true).style.transition = "all 2s";
       item.querySelector("ul").addEventListener("mouseleave", () => {
         item.removeAttribute("open").style.transition = "all 2s";
       });
     item.addEventListener("mouseleave", () => {
-      item.removeAttribute("open");
+      item.removeAttribute("open").style.transition = "all 2s";
     });
   });
   
