@@ -120,7 +120,7 @@ nav.header__inline-menu {
 }
 
 #MegaMenu-Content-1 {
-    transition: all 0.5s !important;
+    transition: all ease-in-out 0.5s !important;
 }
 /********************************* end header **************************************/
 /*************************************** side cart *******************************/
