@@ -119,6 +119,9 @@ nav.header__inline-menu {
     padding-bottom: 2px;;
 }
 
+#MegaMenu-Content-1 {
+    transition: all 0.5s !important;
+}
 /********************************* end header **************************************/
 /*************************************** side cart *******************************/
 .item-price-qty div:nth-child(2) {
