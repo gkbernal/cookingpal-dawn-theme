@@ -83,6 +83,7 @@ body.js-my-cart-open .cooking-pal-cart {
 }
 
 .cooking-pal-cart:after {
+    content: '';
     background-color: rgba(var(--color-foreground),.5);
     width: 100%;
     height: 100%;
