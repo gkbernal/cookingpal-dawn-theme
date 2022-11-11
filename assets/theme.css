@@ -201,7 +201,7 @@ form.my-cart {
     height: 30px;
 }
 
-.item-price-qty {
+.item-details .item-price-qty {
     place-items: unset;
     justify-items: start;
 }
