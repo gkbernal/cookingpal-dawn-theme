@@ -97,6 +97,18 @@ nav.header__inline-menu {
     display: flex;
 }
 
+.list-menu svg path {
+    fill: #56C98B;
+}
+
+.list-menu svg {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+
 /********************************* end header **************************************/
 /*************************************** side cart *******************************/
 .item-price-qty div:nth-child(2) {
