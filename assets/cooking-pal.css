@@ -84,7 +84,7 @@ body.js-my-cart-open .cooking-pal-cart {
 
 .cooking-pal-cart:before {
     content: '';
-    background-color: rgba(var(--color-foreground),.5);
+    background-color: rgba(var(--color-foreground),.0);
     width: 100%;
     height: 100%;
     position: absolute;
