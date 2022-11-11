@@ -307,17 +307,8 @@ header.header {
 }
 }
 
-@media (max-width: 767px){
-.footer .footer__blocks-wrapper {
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem !important;
-}
-
-.shopify-section .cooking-pal-cart {
-    justify-content: flex-start;
-}
-
-#menu-drawer {
+@media (max-width: 980px){
+  #menu-drawer {
     width: 100%;
     background-color: #00000005;
     padding: 0 45px;
@@ -351,5 +342,16 @@ svg.icon.icon-close path {
 header.cooking-pal-header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr !important;
+}
+}
+
+@media (max-width: 767px){
+.footer .footer__blocks-wrapper {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem !important;
+}
+
+.shopify-section .cooking-pal-cart {
+    justify-content: flex-start;
 }
 }
