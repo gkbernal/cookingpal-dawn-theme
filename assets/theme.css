@@ -105,8 +105,8 @@ nav.header__inline-menu {
     width: 15px;
     height: 15px;
     position: relative;
-    right: 5px;
-    top: 2px;
+    right: -4px;
+    top: -1px;
 }
 
 .header__menu-item span {
