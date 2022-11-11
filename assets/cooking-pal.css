@@ -96,7 +96,7 @@ body.js-my-cart-open .cooking-pal-cart {
 body.js-my-cart-open .cooking-pal-cart:before {
     content: '';
     background-color: rgba(var(--color-foreground),.5);
-    transition: all 5s;
+    transition: all 2s;
 }
 
 body.js-my-cart-open .cooking-pal-cart {
