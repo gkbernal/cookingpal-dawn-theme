@@ -310,8 +310,7 @@ header.header {
     row-gap: 2rem !important;
 }
 
-.cooking-pal-cart {
-    font-size: start;
+.shopify-section .cooking-pal-cart {
     justify-content: flex-start;
 }
 }
