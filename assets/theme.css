@@ -358,4 +358,8 @@ header.cooking-pal-header {
 .shopify-section .cooking-pal-cart {
     justify-content: flex-start;
 }
+
+body.js-my-cart-open .cooking-pal-cart {
+    right: -16px;
+}
 }
