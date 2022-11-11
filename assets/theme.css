@@ -308,7 +308,7 @@ header.header {
 }
 
 @media (max-width: 980px){
-  #menu-drawer {
+#menu-drawer {
     width: 100%;
     background-color: #00000005;
     padding: 0 45px;
@@ -316,6 +316,10 @@ header.header {
 
 #Details-menu-drawer-menu-item-1 {
     width: 100%;
+}
+
+svg.icon.icon-hamburger path {
+    fill: #fff;
 }
 
 summary.menu-drawer__menu-item.list-menu__item {
