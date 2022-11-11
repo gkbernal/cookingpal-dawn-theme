@@ -80,6 +80,7 @@ body.js-my-cart-open .cooking-pal-cart {
   justify-content: flex-end;
   background-color: rgba(var(--color-foreground),.5);
   transition: visibility var(--duration-default) ease;
+  transition: all 0.2s;
 }
 
 body.js-my-cart-open .cooking-pal-cart {
