@@ -1,3 +1,41 @@
+/** COOKING PAL ANNOUNCEMENT **/
+.cooking-pal-announcement-bar {
+  overflow: hidden;
+  position: relative;
+}
+
+.cooking-pal-announcement-bar .cooking-pal-announcement-bar-wrapper {
+  display: flex;
+  grid-template-columns: repeat(5,minmax(0,1fr));
+  place-items: center;
+  justify-content: space-between;
+  transform:translateX(100%);
+  animation: announcementanimation 20s linear infinite;
+}
+
+.cooking-pal-announcement-bar .cooking-pal-announcement-block {
+  display: flex;
+  color: #fff;
+  font-weight: 700;
+  place-items: center;
+}
+
+@keyframes announcementanimation {
+ 0% { 
+   transform: translateX(100%); 		
+ }
+ 100% { 
+   transform: translateX(-100%); 
+ }
+}
+
+.cooking-pal-announcement-bar .cooking-pal-announcement-block img {
+  max-height: 18px;
+  margin: 10px;
+}
+
+/** END COOKING PAL ANNOUNCEMENT **/
+
 /** COOKING PAL HEADER **/
 header.cooking-pal-header,
 .cooking-pal-sticky-header {
@@ -41,6 +79,15 @@ header.cooking-pal-header .cooking-pal-mega-menu-item .mega-menu__link {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
+}
+
+header.cooking-pal-header .menu-drawer {
+  background: rgba(56, 56, 56, 0.8);
+}
+
+header.cooking-pal-header .menu-drawer a,
+header.cooking-pal-header .menu-drawer summary {
+  color: #fff;
 }
 
 header.cooking-pal-header .menu-drawer__navigation .cooking-pal-mega-menu-item-container img {
@@ -205,4 +252,12 @@ body.js-my-cart-open .cooking-pal-cart {
   cursor: pointer;
   font-weight: 700;
 }
+
+@media screen and (max-width: 480px) {
+  .cooking-pal-cart {
+    left: 0;
+    width: inherit;
+  }
+}
+
 /** END COOKING PAL CART **/
