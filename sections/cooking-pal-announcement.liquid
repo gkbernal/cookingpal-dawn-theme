@@ -1,14 +1,18 @@
-<div class="cooking-pal-announcement-bar scroll-box announcement-bar" style="background:{{ section.settings.cooking-pal-announcement-color }};" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-  <div class="cooking-pal-announcement-bar-wrapper">
+{% assign announcement_count  = 0 | plus: 1 %}
+<div class="cooking-pal-announcement-bar announcement-bar swiper-container" style="background:{{ section.settings.cooking-pal-announcement-color }};">
+  <div class="cooking-pal-announcement-bar-wrapper swiper-wrapper">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when 'announcement' -%}
-        <div class="cooking-pal-announcement-block" id="scroll-element">
+        <div class="cooking-pal-announcement-block swiper-slide">
             {% if block.settings.cooking-pal-announcement-img %}
-              {{ block.settings.cooking-pal-announcement-img | img_url | img_tag }}
+              {{ block.settings.cooking-pal-announcement-img | image_url: width: 400 | image_tag: width: nil }}
             {% endif %}
             {{ block.settings.cooking-pal-announcement-text | escape }}
+            {{ announcement_count }}
           </div>
+      
+          {% assign announcement_count = announcement_count | plus: 1 %}
     {%- endcase -%}
   {%- endfor -%}
   </div>
@@ -51,4 +55,16 @@
 {% endstylesheet %}
 
 {% javascript %}
+  var swiper = new Swiper(".swiper-container", {
+    autoplay: true,
+    slidesPerView: 1,
+    centeredSlides: true,
+    loop: true,
+    breakpoints: {
+      640: {
+        slidesPerView: 5,
+        spaceBetween: 20,
+      },
+    },
+  });
 {% endjavascript %}
