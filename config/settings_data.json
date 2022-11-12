@@ -214,6 +214,44 @@
         "type": "cookingpal-cart",
         "settings": {
         }
+      },
+      "cooking-pal-announcement": {
+        "type": "cooking-pal-announcement",
+        "blocks": {
+          "95bc977c-4fad-40fd-b67e-5367eaf598a4": {
+            "type": "announcement",
+            "settings": {
+              "cooking-pal-announcement-text": "Get Multo for $19 \/ week"
+            }
+          },
+          "f99a7585-a2d4-4c10-8d6a-68e60668bb08": {
+            "type": "announcement",
+            "settings": {
+              "cooking-pal-announcement-text": "Free Shipping Continental US"
+            }
+          },
+          "e9f120fd-4cdc-4c12-ac5d-d201588bc9dd": {
+            "type": "announcement",
+            "settings": {
+              "cooking-pal-announcement-text": "4.9\/5"
+            }
+          },
+          "570fb899-0c98-43e5-b7a5-ac53782c73e1": {
+            "type": "announcement",
+            "settings": {
+              "cooking-pal-announcement-text": "2 Year Warranty"
+            }
+          }
+        },
+        "block_order": [
+          "95bc977c-4fad-40fd-b67e-5367eaf598a4",
+          "f99a7585-a2d4-4c10-8d6a-68e60668bb08",
+          "e9f120fd-4cdc-4c12-ac5d-d201588bc9dd",
+          "570fb899-0c98-43e5-b7a5-ac53782c73e1"
+        ],
+        "settings": {
+          "cooking-pal-announcement-color": "#E76B38"
+        }
       }
     },
     "content_for_index": [
