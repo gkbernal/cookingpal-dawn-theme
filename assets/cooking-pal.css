@@ -1,6 +1,5 @@
 /** COOKING PAL ANNOUNCEMENT **/
 .cooking-pal-announcement-bar {
-  overflow: hidden;
   position: relative;
 }
 
@@ -9,8 +8,6 @@
   grid-template-columns: repeat(5,minmax(0,1fr));
   place-items: center;
   justify-content: space-between;
-  transform:translateX(100%);
-  animation: announcementanimation 20s linear infinite;
 }
 
 .cooking-pal-announcement-bar .cooking-pal-announcement-block {
@@ -18,15 +15,6 @@
   color: #fff;
   font-weight: 700;
   place-items: center;
-}
-
-@keyframes announcementanimation {
- 0% { 
-   transform: translateX(100%); 		
- }
- 100% { 
-   transform: translateX(-100%); 
- }
 }
 
 .cooking-pal-announcement-bar .cooking-pal-announcement-block img {
@@ -97,7 +85,7 @@ header.cooking-pal-header .menu-drawer__navigation .cooking-pal-mega-menu-item-c
 /** END COOKING PAL HEADER **/
 
 /** COOKING PAL CART **/
-.cooking-pal-cart {
+/* .cooking-pal-cart {
   visibility: hidden;
   position: fixed;
   z-index: 1000;
@@ -113,6 +101,42 @@ header.cooking-pal-header .menu-drawer__navigation .cooking-pal-mega-menu-item-c
 
 body.js-my-cart-open .cooking-pal-cart {
   visibility: visible;
+} */
+
+.cooking-pal-cart {
+  visibility: visible;
+  position: fixed;
+  z-index: 1000;
+  right: -105%;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  transition: visibility var(--duration-default) ease;
+  transition: all 0.2s;
+}
+
+.cooking-pal-cart:before {
+    content: '';
+    background-color: rgba(var(--color-foreground),.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all ease-in-out 0s;
+}
+
+body.js-my-cart-open .cooking-pal-cart:before {
+    opacity: 1;
+    transition: all ease-in-out 1s;
+}
+
+body.js-my-cart-open .cooking-pal-cart {
+  right: 0;
+  transition: all 0.2s;
 }
 
 .cooking-pal-cart .cooking-pal-cart-inner {
@@ -254,7 +278,7 @@ body.js-my-cart-open .cooking-pal-cart {
 }
 
 @media screen and (max-width: 480px) {
-  .cooking-pal-cart {
+  body.js-my-cart-open .cooking-pal-cart {
     left: 0;
     width: inherit;
   }
