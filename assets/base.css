@@ -2643,14 +2643,14 @@ details[open] > .header__submenu {
   transition: text-decoration var(--duration-short) ease;
 }
 
-.header__menu-item:hover span {
+/* .header__menu-item:hover span {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
-}
+} */
 
-details[open] > .header__menu-item {
+/* details[open] > .header__menu-item {
   text-decoration: underline;
-}
+} */
 
 details[open]:hover > .header__menu-item {
   text-decoration-thickness: 0.2rem;
@@ -2956,4 +2956,8 @@ details-disclosure > details {
   .localization-form__select:focus {
     outline: transparent solid 1px;
   }
+}
+
+.header__menu-item.list-menu__item.link.link--text.focus-inset:hover:before {
+           background: red;
 }
