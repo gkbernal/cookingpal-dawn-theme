@@ -233,6 +233,7 @@
           "e9f120fd-4cdc-4c12-ac5d-d201588bc9dd": {
             "type": "announcement",
             "settings": {
+              "cooking-pal-announcement-img": "shopify:\/\/shop_images\/5star.png",
               "cooking-pal-announcement-text": "4.9\/5"
             }
           },
