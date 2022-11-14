@@ -174,7 +174,7 @@ ul.mega-menu__list {
     top: -1px;
 }
 
-a.mega-menu__link:hover {
+.mega-menu__list a.mega-menu__link:hover {
     text-decoration-color: #56c98b;
     text-decoration-thickness: 2px;
 }
