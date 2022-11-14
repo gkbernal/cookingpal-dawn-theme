@@ -352,7 +352,7 @@ header.header {
 @media (max-width: 989px){
 #menu-drawer {
     width: 100%;
-    background-color: #00000005;
+    background-color: rgba(56, 56, 56, 0.8);
     padding: 0 45px;
 }
 
