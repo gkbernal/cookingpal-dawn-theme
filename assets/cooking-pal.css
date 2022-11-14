@@ -1,6 +1,7 @@
 /** COOKING PAL ANNOUNCEMENT **/
 .cooking-pal-announcement-bar {
   position: relative;
+  overflow: hidden;
 }
 
 .cooking-pal-announcement-bar .cooking-pal-announcement-bar-wrapper {
