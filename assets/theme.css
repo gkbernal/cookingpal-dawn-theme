@@ -412,4 +412,24 @@ body.js-my-cart-open .cooking-pal-cart {
 .item-cart img.cart-item__image {
     max-width: 100%;
 }
+
+#link-cooking-pal-ecosystem {
+    background-color: transparent;
+}
+
+.menu-drawer__inner-submenu ul.menu-drawer__menu.list-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 10%;
+    grid-gap: 40px;
+}
+
+button.menu-drawer__close-button {
+    color: #fff;
+    margin: 0;
+}
+
+button.menu-drawer__close-button:hover {
+    color: #e76b38;
+}
 }
