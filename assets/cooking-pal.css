@@ -252,7 +252,7 @@ body.js-my-cart-open .cooking-pal-cart {
 
 .cooking-pal-cart .cooking-pal-cart-inner .cart-footer .checkout-buttons {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 80% 20%;
   gap: 5px;
 }
 
