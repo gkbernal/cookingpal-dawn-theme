@@ -312,6 +312,21 @@
           "addToCartCssClass": "js-my-cart-open"
         }
       </script>
+
+      <script>
+        var swiper = new Swiper(".swiper-container", {
+          autoplay: true,
+          slidesPerView: 1,
+          centeredSlides: true,
+          loop: true,
+          breakpoints: {
+            640: {
+              slidesPerView: 5,
+              spaceBetween: 20,
+            },
+          },
+        });
+      </script>
     </body>
   </html>
   

@@ -9,9 +9,7 @@
               {{ block.settings.cooking-pal-announcement-img | image_url: width: 400 | image_tag: width: nil }}
             {% endif %}
             {{ block.settings.cooking-pal-announcement-text | escape }}
-            {{ announcement_count }}
           </div>
-      
           {% assign announcement_count = announcement_count | plus: 1 %}
     {%- endcase -%}
   {%- endfor -%}
@@ -55,16 +53,5 @@
 {% endstylesheet %}
 
 {% javascript %}
-  var swiper = new Swiper(".swiper-container", {
-    autoplay: true,
-    slidesPerView: 1,
-    centeredSlides: true,
-    loop: true,
-    breakpoints: {
-      640: {
-        slidesPerView: 5,
-        spaceBetween: 20,
-      },
-    },
-  });
+  
 {% endjavascript %}
