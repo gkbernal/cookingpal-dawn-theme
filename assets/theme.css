@@ -93,10 +93,6 @@ nav.header__inline-menu {
     background-color: #6A6A6C;
 }
 
-.list-menu li {
-    display: flex;
-}
-
 .list-menu svg path {
     fill: #E76B38;
 }
