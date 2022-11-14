@@ -198,11 +198,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "pagefly-home": {
-      "type": "pagefly-home",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -211,7 +206,6 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn",
-    "pagefly-home"
+    "multicolumn"
   ]
 }
