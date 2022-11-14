@@ -360,7 +360,7 @@ header.header {
     padding: 0 45px;
 }
 
-#Details-menu-drawer-menu-item-1 {
+.list-menu li details {
     width: 100%;
 }
 
