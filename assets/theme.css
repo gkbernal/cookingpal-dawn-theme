@@ -171,9 +171,31 @@ ul.mega-menu__list {
 }
 
 .mega-menu__list a.mega-menu__link:hover {
-    text-decoration-color: #56c98b;
+    text-decoration-color: #E76B38;
     text-decoration-thickness: 2px;
 }
+
+.mega-menu .mega-menu__content {
+    top: 53px;
+    border: none;
+    padding: 0;
+}
+
+.mega-menu ul.mega-menu__list {
+    background-color: #383838;
+    padding: 45px 50px 39px;
+    width: 830px;
+}
+
+.mega-menu li.cooking-pal-mega-menu-item {
+    max-width: 100%;
+    width: 100%
+}
+
+.mega-menu li.cooking-pal-mega-menu-item img {
+    max-width: 100%;
+    height: 100%;
+}  
 /********************************* end header **************************************/
 /*************************************** side cart *******************************/
 .item-price-qty div:nth-child(2) {
