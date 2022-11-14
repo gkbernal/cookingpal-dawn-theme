@@ -249,6 +249,10 @@ form.my-cart {
     padding: 5px 0;
 }
 
+.cart-footer p {
+    color: #fff;
+}
+
 /************************************************* footer style **********************************/
 footer.footer {
     background-color: #383838;
