@@ -404,4 +404,8 @@ header.cooking-pal-header {
 body.js-my-cart-open .cooking-pal-cart {
     right: -16px;
 }
+
+.item-cart img.cart-item__image {
+    max-width: 100%;
+}
 }
