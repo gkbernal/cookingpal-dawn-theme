@@ -173,6 +173,11 @@ ul.mega-menu__list {
     right: -4px !important;
     top: -1px;
 }
+
+.mega-menu__link:hover, .mega-menu__link--active {
+    text-decoration-color: #56c98b;
+    text-decoration-thickness: 2px;
+}
 /********************************* end header **************************************/
 /*************************************** side cart *******************************/
 .item-price-qty div:nth-child(2) {
