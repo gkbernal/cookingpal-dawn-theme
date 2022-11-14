@@ -39,9 +39,9 @@ header.cooking-pal-header .header__menu-item {
 }
 
 .header.cooking-pal-header .mega-menu__content {
-  background: #383838;
-  max-width: 830px;
-  margin: 0 auto;
+  background: transparent;
+/*   max-width: 830px;
+  margin: 0 auto; */
 }
 
 .header.cooking-pal-header .mega-menu__content .mega-menu__list {
