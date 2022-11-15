@@ -1,7 +1,7 @@
 <div class="section3-container">
   {% for block in section.blocks  %}
     <div class="custom-column">
-      <img src="{{block.settings.images | img_url: 'full'}}" />
+      <img src="{{block.settings.images | img_url: '100%'}}" />
       <h3>{{ block.settings.heading-title }}</h3>
       <p>{{ block.settings.box-description }}</p>
     </div>
