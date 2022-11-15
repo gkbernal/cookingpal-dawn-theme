@@ -281,6 +281,15 @@ form.my-cart {
     margin-bottom: 10px;
 }
 
+#shopify-section-cookingpal-cart a.item-title {
+    font-family: 'CeraPro-Bold';
+    font-size: 16px;
+}
+
+#shopify-section-cookingpal-cart .item-details {
+    line-height: 21px;
+}
+
 .item-price-qty + a {
     font-size: 14px;
 }
