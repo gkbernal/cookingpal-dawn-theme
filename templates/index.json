@@ -55,10 +55,17 @@
           "settings": {
             "above-img": "shopify:\/\/shop_images\/IMG_3460_1.jpg"
           }
+        },
+        "f4c5a89e-9805-47a9-ab70-f0c029d7745f": {
+          "type": "image",
+          "settings": {
+            "above-img": "shopify:\/\/shop_images\/IMG_3460_1.jpg"
+          }
         }
       },
       "block_order": [
-        "d00e80e2-4a4c-435e-bb30-b33ad7963752"
+        "d00e80e2-4a4c-435e-bb30-b33ad7963752",
+        "f4c5a89e-9805-47a9-ab70-f0c029d7745f"
       ],
       "settings": {
       }
