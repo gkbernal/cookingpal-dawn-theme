@@ -47,7 +47,7 @@
         "show_text_below": false
       }
     },
-    "59d6df3e-eb11-445f-9378-14d01869b3cf": {
+    "0abe063c-21c8-4aac-9b5d-2d13af96dab2": {
       "type": "section2-gkb",
       "settings": {
       }
@@ -217,7 +217,7 @@
   },
   "order": [
     "image_banner",
-    "59d6df3e-eb11-445f-9378-14d01869b3cf",
+    "0abe063c-21c8-4aac-9b5d-2d13af96dab2",
     "rich_text",
     "featured_collection",
     "collage",
