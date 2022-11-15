@@ -246,11 +246,43 @@ form.my-cart {
 .item-details .item-price-qty {
     place-items: unset !important;
     justify-items: start !important;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .cart-footer p {
     color: #fff;
+}
+
+#dynamic-checkout-cart ul {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 5px;
+    justify-items: center;
+}
+
+#dynamic-checkout-cart li {
+    width: 100%;
+    height: 70px;
+}
+
+#dynamic-checkout-cart li iframe {
+    width: 120px;
+    height: 60px;
+    max-height: 54px;
+    border: none;
+    border-radius: 50px !important;
+}
+
+#dynamic-checkout-cart .h7OYsWHrW5495r9beh2n {
+    border-radius: 50px !important;
+}
+
+.checkout-buttons .additional-checkout-buttons {
+    margin-bottom: 10px;
+}
+
+.item-price-qty + a {
+    font-size: 14px;
 }
 
 /************************************************* footer style **********************************/
