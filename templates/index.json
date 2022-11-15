@@ -54,7 +54,8 @@
           "type": "image",
           "settings": {
             "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
-            "heading-title": "Easy"
+            "heading-title": "Easy",
+            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         }
       },
