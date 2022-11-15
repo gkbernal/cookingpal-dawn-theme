@@ -1,8 +1,11 @@
-{% for block in section.blocks  %}
-  <img src="{{block.settings.images | img_url: 'large'}}" />
-  <h3>{{ block.settings.heading-title }}</h3>
-  <p>{{ block.settings.box-description }}</p>
-{% endfor %}
+<div class="section3-container"
+  {% for block in section.blocks  %}
+    <img src="{{block.settings.images | img_url: 'large'}}" />
+    <h3>{{ block.settings.heading-title }}</h3>
+    <p>{{ block.settings.box-description }}</p>
+  {% endfor %}
+</div>
+
 {% schema %}
   {
     "name": "Image with content",
