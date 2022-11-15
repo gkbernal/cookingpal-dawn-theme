@@ -1,0 +1,31 @@
+.section3-container {
+    padding: 87px 50px 95px;
+    width: 1620px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.custom-column img {
+    width: 100%;
+    text-align: center;
+}
+
+h3.box-heading {
+    text-align: center;
+    font-family: 'CeraPro-Bold';
+    font-size: 40px;
+    color: #000;
+    margin: 0;
+    margin: 10px 0;
+}
+
+.box-description p {
+    text-align: center;
+    color: #304A36;
+    font-size: 20px;
+    line-height: 1.43em;
+    width: 375px;
+    margin: auto;
+}
