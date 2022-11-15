@@ -2,7 +2,7 @@
 
 {% for block in section.blocks  %}
   <img src="{{block.settings.image | img_url: 'large'}}" />
-  <h3>{{ section.settings.headding-title }}</h3>
+  <h3>{{ section.settings.text }}</h3>
 {% endfor %}
 {% schema %}
   {
@@ -10,7 +10,7 @@
     "max_blocks": 3,
     "blocks" : [
       {
-        "type" : "images",
+        "type" : "image",
         "name" : "Image block",
         "settings" : [
           {
