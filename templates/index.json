@@ -49,6 +49,17 @@
     },
     "0abe063c-21c8-4aac-9b5d-2d13af96dab2": {
       "type": "section2-gkb",
+      "blocks": {
+        "d00e80e2-4a4c-435e-bb30-b33ad7963752": {
+          "type": "image",
+          "settings": {
+            "above-img": "shopify:\/\/shop_images\/IMG_3460_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "d00e80e2-4a4c-435e-bb30-b33ad7963752"
+      ],
       "settings": {
       }
     },
