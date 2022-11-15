@@ -1,7 +1,8 @@
 <h1>asd</h1>
 
+{% for block in section.blocks  %}
 <img src="{{block.settings.image}}" style="width: 100px; height: 100px;" />
-
+{% endfor %}
 {% schema %}
   {
     "name": "Image with content",
