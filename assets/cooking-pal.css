@@ -312,6 +312,9 @@ body.js-my-cart-open .cooking-pal-cart {
     left: 0;
     width: inherit;
   }
+  .cooking-pal-announcement-bar .cooking-pal-announcement-block {
+    place-content: center;
+  }
 }
 
 /** END COOKING PAL CART **/
