@@ -1,7 +1,7 @@
 <h1>asd</h1>
 
 {% for block in section.blocks  %}
-  <img src="{{block.settings.image | img_url: 'large'}}" />
+  <img src="{{block.settings.images | img_url: 'large'}}" />
   <h3>{{ section.settings.heading-title }}</h3>
 {% endfor %}
 {% schema %}

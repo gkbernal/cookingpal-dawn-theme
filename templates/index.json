@@ -53,7 +53,7 @@
         "e61951c4-57fc-4d14-96e3-dc1c149e42a5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
+            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
             "heading-title": "Easy"
           }
         }
