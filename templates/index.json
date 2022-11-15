@@ -50,29 +50,16 @@
     "0abe063c-21c8-4aac-9b5d-2d13af96dab2": {
       "type": "section2-gkb",
       "blocks": {
-        "d00e80e2-4a4c-435e-bb30-b33ad7963752": {
+        "e61951c4-57fc-4d14-96e3-dc1c149e42a5": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3460_1.jpg"
-          }
-        },
-        "f4c5a89e-9805-47a9-ab70-f0c029d7745f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3460_1.jpg"
-          }
-        },
-        "9a88cb4d-a603-40fb-b92d-e03f29bae592": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_3460_1.jpg"
+            "image": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
+            "heading-title": "Easy"
           }
         }
       },
       "block_order": [
-        "d00e80e2-4a4c-435e-bb30-b33ad7963752",
-        "f4c5a89e-9805-47a9-ab70-f0c029d7745f",
-        "9a88cb4d-a603-40fb-b92d-e03f29bae592"
+        "e61951c4-57fc-4d14-96e3-dc1c149e42a5"
       ],
       "settings": {
       }
