@@ -158,6 +158,10 @@ body.js-my-cart-open .cooking-pal-cart {
   transition: all 0.2s;
 }
 
+.cooking-pal-cart-header button {
+  cursor: pointer;
+}
+
 .cooking-pal-cart-header button svg {
   width: 15px;
   height: 15px;
