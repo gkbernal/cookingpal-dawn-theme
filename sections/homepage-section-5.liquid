@@ -1,0 +1,33 @@
+<div class="section5-container">
+  <div class="section5-col isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
+    <h3 class="subscribe-heading">{{ section.settings.heading-title }}</h3>
+    <form class="subscribe-form">
+    <input type="text" class="form-input" placeholder="Email Address"/>
+    <a href="#" class="form-submit">Subscribe</a>
+    </form>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Subscribe form",
+    "settings": [
+      {
+        "type" : "text",
+        "label" : "Heading 3",
+        "id" : "heading-title"
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Section 5"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

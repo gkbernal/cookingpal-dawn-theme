@@ -1,40 +1,114 @@
 {
   "sections": {
-    "image_banner": { 
-      "type": "homepage-section-1",
+    "multicolumn": {
+      "type": "multicolumn",
+      "disabled": true,
       "blocks": {
-        "company_logo": {
-          "type": "company_logo"
-        },
-        "heading": {
-          "type": "heading",
+        "column1": {
+          "type": "column",
           "settings": {
-            "text": "Heading Text"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "text": {
-          "type": "text",
+        "column2": {
+          "type": "column",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "button": {
-          "type": "button",
+        "column3": {
+          "type": "column",
           "settings": {
-            "button_label_1": "Shop now",
-            "button_link_1": "shopify:\/\/collections\/all"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "company_logo",
-        "heading",
-        "text",
-        "button"
-      ]
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "855ed9f9-0408-4210-92f8-855f70656800": {
+      "type": "homepage-section-2",
+      "blocks": {
+        "a4b7ca75-dcff-4ddb-88fb-af904870da15": {
+          "type": "image",
+          "settings": {
+            "images": "shopify:\/\/shop_images\/easy-img.jpg",
+            "heading-title": "Easy",
+            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "49e53ab0-552f-442a-9845-650b121fdb12": {
+          "type": "image",
+          "settings": {
+            "images": "shopify:\/\/shop_images\/healthy-img.jpg",
+            "heading-title": "Healthy",
+            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "dc6713d4-852b-4a0f-acc4-53f65bb68cdb": {
+          "type": "image",
+          "settings": {
+            "images": "shopify:\/\/shop_images\/tasty-img.jpg",
+            "heading-title": "Tasty",
+            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a4b7ca75-dcff-4ddb-88fb-af904870da15",
+        "49e53ab0-552f-442a-9845-650b121fdb12",
+        "dc6713d4-852b-4a0f-acc4-53f65bb68cdb"
+      ],
+      "settings": {
+      }
+    },
+    "15c2b411-ecfe-4059-8ccd-e6a74875a6aa": {
+      "type": "homepage-section-5",
+      "settings": {
+        "heading-title": "Be the first to know our latest offers, email-exclusive deals, newest recipes and more."
+      }
+    },
+    "86302d89-3564-47ae-bc60-d40117ee8125": {
+      "type": "homepage-section-7",
+      "settings": {
+        "heading-title": "Got a cooking question? Ask our Chef!",
+        "body-content": "<p>If you have 45 mins, book a cooking class...<\/p>",
+        "images": "shopify:\/\/shop_images\/jamiefull.jpg"
+      }
     }
   },
   "order": [
-    "image_banner"
+    "multicolumn",
+    "855ed9f9-0408-4210-92f8-855f70656800",
+    "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
+    "86302d89-3564-47ae-bc60-d40117ee8125"
   ]
 }

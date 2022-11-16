@@ -1,7 +1,10 @@
 /** COOKING PAL ANNOUNCEMENT **/
 .cooking-pal-announcement-bar {
-  position: relative;
+  position: fixed;
   overflow: hidden;
+  height: 40px;
+  width: 100%;
+  z-index: 9999;
 }
 
 .cooking-pal-announcement-bar .cooking-pal-announcement-bar-wrapper {
@@ -16,7 +19,6 @@
   color: #fff;
   font-weight: 700;
   place-items: center;
-  place-content: center;
 }
 
 .cooking-pal-announcement-bar .cooking-pal-announcement-block img {
@@ -27,6 +29,14 @@
 /** END COOKING PAL ANNOUNCEMENT **/
 
 /** COOKING PAL HEADER **/
+.shopify-section.section-header {
+  position: fixed;
+  width: 100%;
+  top: 40px;
+  z-index: 9999;
+  transform:translateY(0px);
+}
+
 header.cooking-pal-header,
 .cooking-pal-sticky-header {
   background: #383838;
@@ -125,7 +135,7 @@ body.js-my-cart-open .cooking-pal-cart {
 .cooking-pal-cart {
   visibility: visible;
   position: fixed;
-  z-index: 1000;
+  z-index: 99999;
   right: -105%;
   top: 0;
   width: 100vw;
@@ -312,6 +322,9 @@ body.js-my-cart-open .cooking-pal-cart {
   body.js-my-cart-open .cooking-pal-cart {
     left: 0;
     width: inherit;
+  }
+  .cooking-pal-announcement-bar .cooking-pal-announcement-block {
+    place-content: center;
   }
 }
 
