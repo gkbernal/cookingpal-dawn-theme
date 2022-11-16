@@ -6,7 +6,7 @@
     padding-right: 5rem;
 }
 
-.section5-col {
+.section5-container .section5-col {
     padding: 0;
     max-width: 1260px;
 }
