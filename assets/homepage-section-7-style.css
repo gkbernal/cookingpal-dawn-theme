@@ -52,3 +52,9 @@ a.book-class {
     height: 595px;
     visibility: hidden;
 }
+
+@media (max-width: 1280px){
+h2.section-7-heading {
+    width: 100%;
+}  
+}
