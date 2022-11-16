@@ -51,6 +51,7 @@ a.book-class {
 .section7-col-2 img {
     height: 595px;
     visibility: hidden;
+    width: 0;
 }
 
 @media (max-width: 1280px){
