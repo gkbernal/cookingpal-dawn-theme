@@ -1,0 +1,43 @@
+.section5-container {
+    background-color: #304A36;
+    padding: 50px 0;
+}
+
+h3.subscribe-heading {
+    font-family: 'CeraPro-Medium';
+    color: #FFF;
+    text-align: center;
+    line-height: 1.23em;
+    margin: 0 0 30px 0;
+    font-size: 30px;
+}
+
+.subscribe-form {
+    width: 1040px;
+    margin: auto;
+}
+
+button.form-submit {
+    padding: 12px 115px;
+    border-radius: 50px;
+    border: solid 1px #E76B38;
+    background-color: #E76B38;
+    color: #FFF;
+    font-family: 'CeraPro-Medium';
+    font-size: 18px;
+}
+
+input.form-input {
+    width: 676px;
+    padding: 12px 32px;
+    border-radius: 50px;
+    border: solid 1px #FFFFFF;
+    background-color: #FFFFFF;
+    font-family: 'CeraPro-Medium';
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+input.form-input::placeholder {
+    color: #3232324D;
+}
