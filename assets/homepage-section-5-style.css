@@ -65,7 +65,7 @@ input.form-input::placeholder {
     color: #3232324D;
 }
 
-@media (max-width: 1040px){
+@media (max-width: 1160px){
 .subscribe-form {
     width: 100%;
     grid-gap: 20px;
