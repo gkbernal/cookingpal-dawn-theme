@@ -80,3 +80,13 @@ h2.section-7-heading {
     height: 450px;
 }
 }
+
+@media (max-width: 1024px){
+h2.section-7-heading {
+    font-size: 35px;
+} 
+
+.book-description p {
+    font-size: 21px;
+}
+}
