@@ -14,7 +14,7 @@
 h2.section-7-heading {
     width: 535px;
     color: #FFFFFF;
-    font-family: 'CeraPro-Bold';
+    font-family: 'Cera Pro Bold';
     font-size: 45px;
     line-height: 1.24em;
     margin: 0;
@@ -25,7 +25,7 @@ h2.section-7-heading {
 .book-description p {
     margin: 0;
     font-size: 25px;
-    font-family: 'CeraPro-Bold';
+    font-family: 'Cera Pro Bold';
     line-height: 1.44em;
     color: #FFF;
     text-align: center;
@@ -37,7 +37,7 @@ a.book-class {
     background-color: #E76B38;
     border-radius: 50px;
     text-decoration: none;
-    font-family: 'CeraPro-Medium';
+    font-family: 'Cera Pro Medium';
     color: #FFF;
     transition: all ease-in-out 0.2s;
 }

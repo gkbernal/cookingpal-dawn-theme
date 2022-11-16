@@ -1,56 +1,56 @@
 @font-face {
-    font-family: "CeraPro-Light";
+    font-family: "Cera Pro Light";
     src: url("CeraPro-Light.woff2") format("woff2"),
     url("CeraPro-Light.woff") format("woff");
 }
 
 @font-face {
-font-family: "CeraPro-Regular";
+font-family: "Cera Pro Regular";
 src: url("CeraPro-Regular.woff2") format("woff2"),
 url("CeraPro-Regular.woff") format("woff");
 }
 
 @font-face {
-    font-family: "CeraPro-Medium";
+    font-family: "Cera Pro Medium";
     src: url("CeraPro-Medium.woff2") format("woff2"),
     url("CeraPro-Medium.woff") format("woff");
 }
 
 @font-face {
-    font-family: "CeraPro-Bold";
+    font-family: "Cera Pro Bold";
     src: url("CeraPro-Bold.woff2") format("woff2"),
     url("CeraPro-Bold.woff") format("woff");
 }
 
 @font-face {
-    font-family: "CeraPro-Black";
+    font-family: "Cera Pro Black";
     src: url("CeraPro-Black.woff2") format("woff2"),
     url("CeraPro-Black.woff") format("woff");
 }
 
 h1 {
-    font-family: 'CeraPro-Bold';
+    font-family: 'Cera Pro Bold';
     font-size: 30px;
     line-height: 1.26em;
     color: #383838;
 }
 
 h2 {
-    font-family: 'CeraPro-Bold';
+    font-family: 'Cera Pro Bold';
     font-size: 24px;
     line-height: 1.25em;
     color: #383838;
 }
 
 h3 {
-    font-family: 'CeraPro-Bold';
+    font-family: 'Cera Pro Bold';
     font-size: 20px;
     line-height: 1.3em;
     color: #383838;
 }
 
 p {
-    font-family: 'CeraPro-Regular';
+    font-family: 'Cera Pro Regular';
     font-size: 14px;
     line-height: 1.214em;
     color: #383838;
@@ -81,7 +81,7 @@ a.header__menu-item {
 a.header__menu-item span {
     color: #fff;
     text-decoration: none;
-    font-family: 'CeraPro-Medium';
+    font-family: 'Cera Pro Medium';
     font-size: 13px;
 }
 
@@ -106,7 +106,7 @@ nav.header__inline-menu {
 }
 
 .header__menu-item span {
-    font-family: 'CeraPro-Medium';
+    font-family: 'Cera Pro Medium';
 }
 
 .header__menu-item:hover span {
@@ -134,13 +134,13 @@ nav.header__inline-menu {
 .mega-menu__list .list-unstyled li:nth-child(1) a.mega-menu__link.link {
     line-height: 0.9em;
     font-size: 13px;
-    font-family: 'CeraPro-Bold';
+    font-family: 'Cera Pro Bold';
 }
 
 .mega-menu__list .list-unstyled li a.mega-menu__link.link {
     line-height: 0.9em;
     font-size: 13px;
-    font-family: 'CeraPro-Regular';
+    font-family: 'Cera Pro Regular';
 }
 
 ul.mega-menu__list {
@@ -154,7 +154,7 @@ ul.mega-menu__list {
 .mega-menu__content  a.mega-menu__link {
     color: #FFF;
     text-transform: capitalize;
-    font-family: 'CeraPro-Regular';
+    font-family: 'Cera Pro Regular';
     font-size: 14px;
 }
 
@@ -196,13 +196,13 @@ ul.mega-menu__list {
 /*************************************** side cart *******************************/
 .item-price-qty div:nth-child(2) {
     color: #343434;
-    font-family: 'CeraPro-Bold';
+    font-family: 'Cera Pro Bold';
     text-align: end;
 }
 
 .item-details a:nth-child(3) {
     color: #343434;
-    font-family: 'CeraPro-Bold';
+    font-family: 'Cera Pro Bold';
 }
 
 a.add {
@@ -211,7 +211,7 @@ a.add {
     padding: 7px 8px !important;
     height: 30px;
     line-height: 0.8;
-    font-family: 'CeraPro-Regular' !important;
+    font-family: 'Cera Pro Regular' !important;
 }
 
 a.minus {
@@ -220,7 +220,7 @@ a.minus {
     padding: 7px 8px !important;
     height: 30px;
     line-height: 0.8;
-    font-family: 'CeraPro-Regular' !important;
+    font-family: 'Cera Pro Regular' !important;
 }
 
 form.my-cart {
@@ -278,7 +278,7 @@ form.my-cart {
 }
 
 #shopify-section-cookingpal-cart a.item-title {
-    font-family: 'CeraPro-Bold';
+    font-family: 'Cera Pro Bold';
     font-size: 16px;
 }
 
@@ -314,14 +314,14 @@ footer.footer {
 .footer h2.footer-block__heading {
     margin-bottom: 15px;
     color: #fff;
-    font-family: 'CeraPro-Medium';
+    font-family: 'Cera Pro Medium';
     font-size: 18px;
 }
 
 .footer a.link.link--text {
     line-height: 1.1em;
     color: #d7d7d7;
-    font-family: CeraPro-Regular;
+    font-family: Cera Pro Regular;
     font-size: 18px;
     padding: 0 0 8px;
 }
@@ -336,7 +336,7 @@ footer.footer {
 
 .footer  .footer-block.grid__item p {
     color: #FFFFFF;
-    font-family: 'CeraPro-Regular';
+    font-family: 'Cera Pro Regular';
     font-size: 18px;
     line-height: 1.1em;
 }
