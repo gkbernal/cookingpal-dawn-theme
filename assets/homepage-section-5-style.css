@@ -36,6 +36,12 @@ a.form-submit {
     text-decoration: none;
 }
 
+a.form-submit:hover {
+    border: solid 1px #FFFFFF;
+    background-color: #FFFFFF;
+    color: #E76B38;
+}
+
 input.form-input {
     width: 676px;
     padding: 12px 32px;
