@@ -47,8 +47,8 @@ h3.box-heading {
 }
 
 .custom-column img {
-    width: 500px;
-    margin: auto;
+    width: 400px;
+    text-align: center;
 }
   
 h3.box-heading {
@@ -57,5 +57,11 @@ h3.box-heading {
 
 .box-description p {
     display: none;
+}
+}
+
+@media (max-width: 400px){
+.custom-column img {
+    width: 100%;
 }
 }
