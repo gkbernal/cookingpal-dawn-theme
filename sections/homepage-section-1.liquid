@@ -1,0 +1,132 @@
+{{ 'homepage-section-1.css' | asset_url | stylesheet_tag }}
+
+<div id="homepage-section-1" class="homepage-top-banner">
+  <div class="image-banner-media">
+    <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %}">
+      {%- if section.settings.image != blank -%}
+        {{ section.settings.image | image_url: width: 1940 | image_tag: width: nil }}
+      {%- else -%}
+        {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </div>
+  </div>
+  <div class="banner-content">
+    <div class="banner-details isolate page-width">
+      <div class="banner-details-content">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'company_logo' -%}
+              {%- if block.settings.company_logo != blank -%}
+              <div class="company-logo">
+                {{ block.settings.company_logo | image_url: width: 310 | image_tag: width: nil }}
+              </div>
+              {%- endif -%}
+            {%- when 'heading' -%}
+              <p class="heading">
+                {{ block.settings.heading }}
+              </p>
+            {%- when 'text' -%}
+              <p class="text">
+                {{ block.settings.text }}
+              </p>
+            {%- when 'button' -%}
+              {%- if block.settings.button_link_1 != blank and block.settings.button_label_1 != blank -%}
+              <a class="banner-button" href="{{ block.settings.button_link_1 }}">{{ block.settings.button_label_1 }}</a>
+              {%- endif -%}
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.image-banner.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Banner image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "company_logo",
+      "name": "Company logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "company_logo",
+          "label": "Company Logo"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "You're heading text here.",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner.blocks.text.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Give customers details about the banner image(s) or content on the template.",
+          "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "default": "Show now",
+          "label": "Button label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "Button link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.image-banner.presets.name",
+      "blocks": [
+        {
+          "type": "company_logo"
+        },
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "button"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
