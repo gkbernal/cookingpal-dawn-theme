@@ -1,6 +1,9 @@
 <div class="section5-container isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
   <h3 class="subscribe-heading">{{ section.settings.heading-title }}</h3>
-  <input type="text" /><button></button>
+  <form>
+  <input type="text" placeholder="Email Address"/>
+  <button>Subscribe</button>
+  </form>
 </div>
 
 {% schema %}
