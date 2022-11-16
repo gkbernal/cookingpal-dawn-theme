@@ -25,6 +25,7 @@ a.form-submit {
     color: #FFF;
     font-family: 'CeraPro-Medium';
     font-size: 18px;
+    text-decoration: none;
 }
 
 input.form-input {
