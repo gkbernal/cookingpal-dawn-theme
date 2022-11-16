@@ -48,6 +48,9 @@ h3.box-heading {
 
 .custom-column img {
     width: 400px;
+}
+
+.custom-column {
     text-align: center;
 }
   
