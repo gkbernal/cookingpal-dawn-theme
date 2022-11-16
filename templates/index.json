@@ -53,9 +53,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "855ed9f9-0408-4210-92f8-855f70656800": {
+      "type": "homepage-section-2",
+      "blocks": {
+        "a4b7ca75-dcff-4ddb-88fb-af904870da15": {
+          "type": "image",
+          "settings": {
+            "images": "shopify:\/\/shop_images\/easy-img.jpg",
+            "heading-title": "Easy",
+            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "49e53ab0-552f-442a-9845-650b121fdb12": {
+          "type": "image",
+          "settings": {
+            "images": "shopify:\/\/shop_images\/healthy-img.jpg",
+            "heading-title": "Healthy",
+            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "dc6713d4-852b-4a0f-acc4-53f65bb68cdb": {
+          "type": "image",
+          "settings": {
+            "images": "shopify:\/\/shop_images\/tasty-img.jpg",
+            "heading-title": "Tasty",
+            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "a4b7ca75-dcff-4ddb-88fb-af904870da15",
+        "49e53ab0-552f-442a-9845-650b121fdb12",
+        "dc6713d4-852b-4a0f-acc4-53f65bb68cdb"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "multicolumn"
+    "multicolumn",
+    "855ed9f9-0408-4210-92f8-855f70656800"
   ]
 }
