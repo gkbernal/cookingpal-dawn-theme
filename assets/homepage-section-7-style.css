@@ -1,0 +1,112 @@
+.section7-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #383838;
+}
+
+.section7-col-1 {
+    text-align: center;
+    padding: 50px;
+}
+
+h2.section-7-heading {
+    width: 535px;
+    color: #FFFFFF;
+    font-family: 'CeraPro-Bold';
+    font-size: 45px;
+    line-height: 1.24em;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.book-description p {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'CeraPro-Bold';
+    line-height: 1.44em;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a.book-class {
+    padding: 16px 77px;
+    background-color: #E76B38;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'CeraPro-Medium';
+    color: #FFF;
+    transition: all ease-in-out 0.2s;
+}
+
+a.book-class:hover {
+    background-color: #FFF;
+    color: #E76B38;
+}
+
+.section7-col-2 {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section7-col-2 img {
+    height: 595px;
+    visibility: hidden;
+    width: 0;
+}
+
+@media (max-width: 1280px){
+h2.section-7-heading {
+    width: 100%;
+}  
+}
+
+@media (max-width: 1024px){
+h2.section-7-heading {
+    font-size: 40px;
+} 
+
+.book-description p {
+    font-size: 23px;
+}
+}
+
+@media (max-width: 800px){
+.section7-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.section7-col-2 img {
+    height: 450px;
+}
+  
+.section7-col-1 {
+    padding: 80px 40px 95px;
+}
+}
+
+@media (max-width: 767px){
+h2.section-7-heading {
+    font-size: 35px;
+} 
+
+.book-description p {
+    font-size: 21px;
+}
+}
+
+@media (max-width: 600px){
+.section7-col-2 img {
+    height: 350px;
+}
+  
+.section7-col-1 {
+    padding: 50px 30px 65px;
+}
+}

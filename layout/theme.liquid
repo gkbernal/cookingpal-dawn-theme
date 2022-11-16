@@ -219,6 +219,9 @@
       {{ 'base.css' | asset_url | stylesheet_tag }}
       {{ 'cooking-pal.css' | asset_url | stylesheet_tag }}
       {{ 'theme.css' | asset_url | stylesheet_tag }}
+      {{ 'homepage-section-2-style.css' | asset_url | stylesheet_tag }}
+      {{ 'homepage-section-5-style.css' | asset_url | stylesheet_tag }}
+      {{ 'homepage-section-7-style.css' | asset_url | stylesheet_tag }}
   
       {%- unless settings.type_body_font.system? -%}
         <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -311,21 +314,6 @@
         {
           "addToCartCssClass": "js-my-cart-open"
         }
-      </script>
-
-      <script>
-        var swiper = new Swiper(".swiper-container", {
-          autoplay: true,
-          slidesPerView: 1,
-          centeredSlides: true,
-          loop: true,
-          breakpoints: {
-            640: {
-              slidesPerView: 5,
-              spaceBetween: 20,
-            },
-          },
-        });
       </script>
     </body>
   </html>

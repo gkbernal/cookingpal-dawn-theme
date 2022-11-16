@@ -1,0 +1,50 @@
+<div class="section2-container isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
+  {% for block in section.blocks  %}
+    <div class="custom-column">
+      <img src="{{block.settings.images | img_url: 'large'}}" />
+      <h3 class="box-heading">{{ block.settings.heading-title }}</h3>
+      <span class="box-description">{{ block.settings.box-description }}</span>
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "Image with content",
+    "max_blocks": 3,
+    "blocks" : [
+      {
+        "type" : "image",
+        "name" : "Image block",
+        "settings" : [
+          {
+            "type" : "image_picker",
+            "label" : "image",
+            "id" : "images"
+          },
+          {
+            "type" : "text",
+            "label" : "Heading 3",
+            "id" : "heading-title"
+          },
+          {
+            "type" : "richtext",
+            "label" : "Description",
+            "id" : "box-description"
+          }
+        ]
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Section 2"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
