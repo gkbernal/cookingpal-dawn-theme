@@ -42,9 +42,8 @@ h3.box-heading {
 @media (max-width: 767px){
 .section3-container {
     padding: 40px 40px 40px;
-    margin: auto;
-    display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 10px;
 }
   
 h3.box-heading {
