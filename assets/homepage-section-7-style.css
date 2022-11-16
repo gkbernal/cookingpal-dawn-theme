@@ -39,6 +39,7 @@ a.book-class {
     text-decoration: none;
     font-family: 'CeraPro-Medium';
     color: #FFF;
+    transition: all ease-in-out 0.2s;
 }
 
 a.book-class:hover {
