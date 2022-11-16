@@ -128,6 +128,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/Cooking_Pal_Logo_transparent_b711ccd9-77f0-4fa5-9aa8-c66e10831788.png",
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "cooking-pal-menu",
