@@ -54,6 +54,11 @@ input.form-input {
     margin-right: 40px;
 }
 
+input.form-input:focus-visible {
+    border: none;
+    outline: none;
+}
+
 input.form-input::placeholder {
     color: #3232324D;
 }
