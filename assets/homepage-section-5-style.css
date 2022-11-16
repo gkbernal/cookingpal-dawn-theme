@@ -9,6 +9,8 @@
 .section5-col.isolate.page-width.section-template--16948494631219__c476dfc0-8dde-4da3-821a-6e02f0ccb4ef-padding {
     padding: 0;
     max-width: 1260px;
+    display: grid;
+    grid-template-columns: 1fr 30%;
 }
 
 h3.subscribe-heading {
@@ -26,7 +28,7 @@ h3.subscribe-heading {
 }
 
 a.form-submit {
-    padding: 12px 115px;
+    padding: 12px 0;
     border-radius: 50px;
     border: solid 1px #E76B38;
     background-color: #E76B38;
@@ -44,7 +46,6 @@ a.form-submit:hover {
 }
 
 input.form-input {
-    width: 676px;
     padding: 12px 32px;
     border-radius: 50px;
     border: solid 1px #FFFFFF;
