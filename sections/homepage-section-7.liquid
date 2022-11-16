@@ -1,7 +1,28 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Book Class",
+    "settings": [
+      {
+        "type" : "text",
+        "label" : "Heading 3",
+        "id" : "heading-title"
+      },
+      {
+        "type" : "richtext",
+        "label" : "Heading 3",
+        "id" : "body-content"
+      },
+      {
+        "type" : "image_picker",
+        "label" : "image",
+        "id" : "images"
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Section 7"
+      }
+    ]
   }
 {% endschema %}
 
