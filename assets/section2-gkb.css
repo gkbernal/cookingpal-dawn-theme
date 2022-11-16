@@ -45,6 +45,11 @@ h3.box-heading {
     grid-template-columns: 1fr;
     grid-gap: 10px;
 }
+
+.custom-column img {
+    width: 500px;
+    margin: auto;
+}
   
 h3.box-heading {
     display: none;
