@@ -17,6 +17,7 @@ h2.section-7-heading {
     line-height: 1.24em;
     margin: 0;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .book-description p {
@@ -26,6 +27,16 @@ h2.section-7-heading {
     line-height: 1.44em;
     color: #FFF;
     text-align: center;
+    margin-bottom: 40px;
+}
+
+a.book-class {
+    padding: 16px 77px;
+    background-color: #E76B38;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'CeraPro-Medium';
+    color: #FFF;
 }
 
 .section7-col-2 {
