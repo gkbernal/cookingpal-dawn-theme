@@ -20,7 +20,7 @@
               <div class="company-logo">
                 {{ block.settings.company_logo | image_url: width: 310 | image_tag: width: nil }}
               </div>
-            {%- endif -%}
+              {%- endif -%}
             {%- when 'heading' -%}
               <p class="heading">
                 {{ block.settings.heading }}
@@ -30,7 +30,9 @@
                 {{ block.settings.text }}
               </p>
             {%- when 'button' -%}
-              <a class="banner-button" href="#">Shop now</a>
+              {%- if block.settings.button_link_1 != blank and block.settings.button_label_1 != blank -%}
+              <a class="banner-button" href="{{ block.settings.button_link_1 }}">{{ block.settings.button_label_1 }}</a>
+              {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
       </div>

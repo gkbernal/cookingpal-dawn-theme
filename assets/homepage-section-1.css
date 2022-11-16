@@ -1,5 +1,7 @@
 div.homepage-top-banner {
 	width: 100%;
+    height: auto;
+    display: block;
 	padding-bottom: 40%; /* The aspect ration of 1920x761 size based on wireframe is 2:5 or (2/5) * 100 = 40% */ 
 	position: relative;
 }
@@ -15,10 +17,8 @@ div.homepage-top-banner > div.image-banner-media,
 div.homepage-top-banner > div.banner-content {
 	position: absolute;
 	top: 0; bottom: 0; left: 0; right: 0;
-
 	color: white;
 	font-size: 24px;
-	text-align: center;
 }
 
 div.homepage-top-banner > div.image-banner-media > div,
@@ -38,7 +38,7 @@ div.homepage-top-banner > div svg {
 
 div.homepage-top-banner .banner-details-content {
 	float: left;
-	margin-top: 18%;
+	margin-top: 120px;
 }
 
 div.homepage-top-banner .banner-details {
@@ -95,10 +95,116 @@ div.homepage-top-banner .banner-button {
 	width: 271px;
 	height: 50px;
 	padding-top: 16px;
+	text-align: center;
 }
 
 div.homepage-top-banner .banner-button:hover,
 div.homepage-top-banner .banner-button:active {
 	background-color:#c34f21;
 }
-       
+
+/* SEMI Medium screen - hamburger menu has shown */
+@media only screen and (min-width: 1100px) and (max-width: 1700px){
+	div.homepage-top-banner .banner-details-content {
+		margin-top: 10px;
+	}
+
+	div.homepage-top-banner .banner-details p.heading,
+	div.homepage-top-banner .banner-details p.text {
+		margin: 10px 0 0 0;
+	}
+	
+	div.homepage-top-banner .banner-details p.heading {
+		font-size: 35px;
+	}
+	
+	div.homepage-top-banner .banner-details p.text {
+		font-size: 17px;
+	}
+	
+	div.homepage-top-banner .banner-button {
+		margin-top: 10px;
+	}
+}
+
+/* SEMI Medium screen - hamburger menu has shown */
+@media only screen and (min-width: 990px) and (max-width: 1100px){
+	div.homepage-top-banner .banner-details-content {
+		margin-top: 10px;
+	}
+
+	div.homepage-top-banner .banner-details p.heading,
+	div.homepage-top-banner .banner-details p.text {
+		margin: 10px 0 0 0;
+	}
+
+	div.homepage-top-banner .banner-details p.heading {
+		font-size: 24px;
+	}
+	
+	div.homepage-top-banner .banner-details p.text {
+		font-size: 14px;
+	}
+
+	div.homepage-top-banner .banner-button {
+		margin-top: 10px;
+	}
+}
+
+/* Medium screen - hamburger menu has shown */
+@media only screen and (min-width: 420px) and (max-width: 990px){
+	div.homepage-top-banner > div.image-banner-media,
+	div.homepage-top-banner > div.banner-content {
+		position: relative;
+   		width: 100%;
+    	height: 557px;
+	}
+
+	div.homepage-top-banner .banner-details p.heading,
+	div.homepage-top-banner .banner-details p.text {
+		margin: 20px 0 0 0;
+	}
+
+	div.homepage-top-banner .banner-details .company-logo {
+		width: 190px;
+		height: 74px;
+	}
+
+	div.homepage-top-banner .banner-button {
+		margin-top: 22px;
+	}
+}
+
+/* Medium screen - hamburger menu has shown */
+@media only screen and (max-width: 419px){
+	div.homepage-top-banner > div.image-banner-media,
+	div.homepage-top-banner > div.banner-content {
+		position: relative;
+   		width: 100%;
+    	height: 314px;
+	}
+
+	div.homepage-top-banner .banner-details p.heading,
+	div.homepage-top-banner .banner-details p.text {
+		margin: 20px 0 0 0;
+	}
+
+	div.homepage-top-banner .banner-details .company-logo {
+		width: 190px;
+		height: 74px;
+	}
+
+	div.homepage-top-banner .banner-details p.heading {
+		font-size: 25px;
+		line-height: 27px;
+	}
+	
+	div.homepage-top-banner .banner-details p.text {
+		font-size: 16px;
+		line-height: 23px;
+	}
+
+	div.homepage-top-banner .banner-button {
+		margin-top: 22px;
+	}
+}
