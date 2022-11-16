@@ -41,6 +41,11 @@ a.book-class {
     color: #FFF;
 }
 
+a.book-class:hover {
+    background-color: #FFF;
+    color: #E76B38;
+}
+
 .section7-col-2 {
     width: 100%;
     background-repeat: no-repeat;
