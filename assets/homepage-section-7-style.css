@@ -59,3 +59,10 @@ h2.section-7-heading {
     width: 100%;
 }  
 }
+
+@media (max-width: 800px){
+.section7-container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+}
