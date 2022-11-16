@@ -4,7 +4,7 @@
     <span class="book-description">{{ section.settings.body-content }}</span>
     <a href="#" class="form-submit">Book a class</a>
   </div>
-  <div class="section7-col-2">
+  <div class="section7-col-2" style="background-image: url('{{section.settings.images | img_url: 'large'}}');">
     <img src="{{section.settings.images | img_url: 'large'}}" />
   </div>
 </div>
