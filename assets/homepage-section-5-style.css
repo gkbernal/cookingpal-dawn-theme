@@ -12,7 +12,7 @@
 }
 
 h3.subscribe-heading {
-    font-family: 'CeraPro-Medium';
+    font-family: 'Cera Pro Medium';
     color: #FFF;
     text-align: center;
     line-height: 1.23em;
@@ -35,7 +35,7 @@ a.form-submit {
     background-color: #E76B38;
     color: #FFF;
     text-align: center;
-    font-family: 'CeraPro-Medium';
+    font-family: 'Cera Pro Medium';
     font-size: 18px;
     text-decoration: none;
     transition: all ease-in-out 0.2s;
@@ -52,7 +52,7 @@ input.form-input {
     border-radius: 50px;
     border: solid 1px #FFFFFF;
     background-color: #FFFFFF;
-    font-family: 'CeraPro-Medium';
+    font-family: 'Cera Pro Medium';
     font-size: 18px;
 }
 
