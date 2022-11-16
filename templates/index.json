@@ -89,6 +89,14 @@
         "heading-title": "Be the first to know our latest offers, email-exclusive deals, newest recipes and more."
       }
     },
+    "8a62af86-d721-4b73-bc92-4c095b4eda30": {
+      "type": "homepage-section-7",
+      "settings": {
+        "heading-title": "Got a cooking question? Ask our Chef!",
+        "body-content": "<p>If you have 45 mins, book a cooking class...<\/p>",
+        "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg"
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -256,6 +264,7 @@
     "image_banner",
     "f94254a8-b471-46c4-9f4b-c1a421fac817",
     "c476dfc0-8dde-4da3-821a-6e02f0ccb4ef",
+    "8a62af86-d721-4b73-bc92-4c095b4eda30",
     "rich_text",
     "featured_collection",
     "collage",
