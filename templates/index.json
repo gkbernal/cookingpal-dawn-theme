@@ -89,10 +89,26 @@
       ],
       "settings": {
       }
+    },
+    "15c2b411-ecfe-4059-8ccd-e6a74875a6aa": {
+      "type": "homepage-section-5",
+      "settings": {
+        "heading-title": "Be the first to know our latest offers, email-exclusive deals, newest recipes and more."
+      }
+    },
+    "86302d89-3564-47ae-bc60-d40117ee8125": {
+      "type": "homepage-section-7",
+      "settings": {
+        "heading-title": "Got a cooking question? Ask our Chef!",
+        "body-content": "<p>If you have 45 mins, book a cooking class...<\/p>",
+        "images": "shopify:\/\/shop_images\/jamiefull.jpg"
+      }
     }
   },
   "order": [
     "multicolumn",
-    "855ed9f9-0408-4210-92f8-855f70656800"
+    "855ed9f9-0408-4210-92f8-855f70656800",
+    "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
+    "86302d89-3564-47ae-bc60-d40117ee8125"
   ]
 }
