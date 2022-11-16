@@ -1,7 +1,10 @@
 /** COOKING PAL ANNOUNCEMENT **/
 .cooking-pal-announcement-bar {
-  position: relative;
+  position: fixed;
   overflow: hidden;
+  height: 40px;
+  width: 100%;
+  z-index: 9999;
 }
 
 .cooking-pal-announcement-bar .cooking-pal-announcement-bar-wrapper {
@@ -26,6 +29,14 @@
 /** END COOKING PAL ANNOUNCEMENT **/
 
 /** COOKING PAL HEADER **/
+.shopify-section.section-header {
+  position: fixed;
+  width: 100%;
+  top: 40px;
+  z-index: 9999;
+  transform:translateY(0px);
+}
+
 header.cooking-pal-header,
 .cooking-pal-sticky-header {
   background: #383838;
