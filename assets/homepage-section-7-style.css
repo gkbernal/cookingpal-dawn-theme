@@ -15,6 +15,15 @@ h2.section-7-heading {
     font-family: 'CeraPro-Bold';
     font-size: 45px;
     line-height: 1.24em;
+    margin: 0;
+}
+
+.book-description p {
+    margin: 0;
+    font-size: 25px;
+    font-family: 'CeraPro-Bold';
+    line-height: 1.44em;
+    color: #FFF;
 }
 
 .section7-col-2 {
