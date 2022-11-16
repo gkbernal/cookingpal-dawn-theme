@@ -60,6 +60,16 @@ h2.section-7-heading {
 }  
 }
 
+@media (max-width: 1024px){
+h2.section-7-heading {
+    font-size: 40px;
+} 
+
+.book-description p {
+    font-size: 23px;
+}
+}
+
 @media (max-width: 800px){
 .section7-container {
     display: flex;
