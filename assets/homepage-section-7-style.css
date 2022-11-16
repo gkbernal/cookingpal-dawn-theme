@@ -65,4 +65,8 @@ h2.section-7-heading {
     display: flex;
     flex-direction: column-reverse;
 }
+
+.section7-col-2 img {
+    height: 450px;
+}
 }
