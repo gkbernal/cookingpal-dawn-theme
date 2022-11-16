@@ -71,3 +71,9 @@ input.form-input::placeholder {
     grid-gap: 20px;
 }
 }
+
+@media (max-width: 500px){
+.subscribe-form {
+    grid-template-columns: 1fr;
+}
+}
