@@ -79,6 +79,11 @@ h2.section-7-heading {
 .section7-col-2 img {
     height: 450px;
 }
+  
+.section7-col-1 {
+    text-align: center;
+    padding: 80px 40px;
+}
 }
 
 @media (max-width: 1024px){
