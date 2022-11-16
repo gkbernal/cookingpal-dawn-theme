@@ -6,7 +6,9 @@
     grid-gap: 25px;
 }
 
-
+.custom-column img {
+    width: 100%;
+}
 
 h3.box-heading {
     text-align: center;
