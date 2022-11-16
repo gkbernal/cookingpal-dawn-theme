@@ -17,7 +17,7 @@ h3.subscribe-heading {
     margin: auto;
 }
 
-button.form-submit {
+a.form-submit {
     padding: 12px 115px;
     border-radius: 50px;
     border: solid 1px #E76B38;
