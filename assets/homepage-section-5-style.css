@@ -25,6 +25,7 @@ h3.subscribe-heading {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 30%;
+    grid-gap: 40px;
 }
 
 a.form-submit {
@@ -53,7 +54,6 @@ input.form-input {
     background-color: #FFFFFF;
     font-family: 'CeraPro-Medium';
     font-size: 18px;
-    margin-right: 40px;
 }
 
 input.form-input:focus-visible {
