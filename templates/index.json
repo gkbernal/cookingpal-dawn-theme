@@ -47,40 +47,10 @@
         "show_text_below": false
       }
     },
-    "0abe063c-21c8-4aac-9b5d-2d13af96dab2": {
-      "type": "section2-gkb",
-      "blocks": {
-        "e61951c4-57fc-4d14-96e3-dc1c149e42a5": {
-          "type": "image",
-          "settings": {
-            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
-            "heading-title": "Easy",
-            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
-          }
-        },
-        "6a94c774-93d0-4044-afb1-1901b5027ab1": {
-          "type": "image",
-          "settings": {
-            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
-            "heading-title": "Healthy",
-            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p>"
-          }
-        },
-        "dbf28b23-7275-4bdb-985d-f8d7f91344ae": {
-          "type": "image",
-          "settings": {
-            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
-            "heading-title": "Tasty",
-            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "e61951c4-57fc-4d14-96e3-dc1c149e42a5",
-        "6a94c774-93d0-4044-afb1-1901b5027ab1",
-        "dbf28b23-7275-4bdb-985d-f8d7f91344ae"
-      ],
+    "c476dfc0-8dde-4da3-821a-6e02f0ccb4ef": {
+      "type": "homepage-section-5",
       "settings": {
+        "heading-title": ""
       }
     },
     "rich_text": {
@@ -248,7 +218,7 @@
   },
   "order": [
     "image_banner",
-    "0abe063c-21c8-4aac-9b5d-2d13af96dab2",
+    "c476dfc0-8dde-4da3-821a-6e02f0ccb4ef",
     "rich_text",
     "featured_collection",
     "collage",
