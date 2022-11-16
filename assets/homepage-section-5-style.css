@@ -64,3 +64,10 @@ input.form-input:focus-visible {
 input.form-input::placeholder {
     color: #3232324D;
 }
+
+@media (max-width: 1040px){
+.subscribe-form {
+    width: 100%;
+    grid-gap: 20px;
+}
+}
