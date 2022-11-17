@@ -472,14 +472,18 @@
 	color: #304A36;
 	font-weight: 700;
 	margin-bottom: 0;
+	text-align: center;
 }
 .tabcontent .feature-card p {
 	text-align: center;
 }
 
 @media screen and (max-width: 820px) {
+	.section-cooking-pal-features h2 {
+		font-size: 1.5em;
+	}
 	.tab {
-		grid-template-columns: 1;
+		grid-template-columns: 1fr;
 	}
 	.tabcontent {
 		grid-template-columns: repeat(2,minmax(0,1fr));
