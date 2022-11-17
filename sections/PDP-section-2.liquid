@@ -11,31 +11,38 @@
 </div>
 
 {% schema %}
-{
-  "name": "SVG Uploader",
-  "class": "svg-uploader",
-  "tag": "section",
-  "settings": [
-    {
-      "type": "header",
-      "content": "Desktop Settings"
-      },
+  {
+    "name": "Icon Box",
+    "max_blocks": 6,
+    "blocks" : [
       {
-      "type": "text",
-      "id": "svg_path",
-      "label":"SVG Path"
+        "type" : "iconbox",
+        "name" : "Image block",
+        "settings" : [
+          {
+            "type": "text",
+            "label":"SVG Path",
+            "id": "svg_path"
+          },
+          {
+            "type" : "text",
+            "label" : "Heading 4",
+            "id" : "iconbox-heading"
+          },
+          {
+            "type" : "richtext",
+            "label" : "Description",
+            "id" : "iconbox-description"
+          }
+        ]
       }
-      
-      ],
-      "presets": [
+    ],
+    "presets" : [
       {
-      "name": "SVG Uploader",
-      "category":"Image",
-      "settings": {
+        "name" : "Product Section 2"
       }
-    }
-  ]
-}
+    ]
+  }
 {% endschema %}
 
 {% stylesheet %}
