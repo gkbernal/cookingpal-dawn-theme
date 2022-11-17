@@ -397,18 +397,17 @@
     </script>
 
     <script>
-      var slides = new Swiper(".slick-slider", {
-        slidesPerView: 3,
-        slidesPerColumn: 2,
-        slidesPerGroup: 6,
-        spaceBetween: 30,
-        breakpoints: {
-          640: {
-            slidesPerView: 5,
-            spaceBetween: 20
-          }
-        }
-      });
+       var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            slidesPerColumn: 2,
+         //slidesPerColumnFill: "row",
+         slidesPerGroup: 6,
+            spaceBetween: 30,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+          });
     </script>
     
 <!--     <script>
