@@ -1,7 +1,7 @@
 <div class="product-section2-container">
   <div class="sec-col-1 isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
     {% for block in section.blocks  %}
-      <div class="">
+      <div class="slider">
         <img src="{{ block.settings.select-option | asset_url }}" />
         <h3 class="box-heading">{{ block.settings.iconbox-heading }}</h3>
         <span class="box-description">{{ block.settings.iconbox-description }}</span>
