@@ -8,6 +8,11 @@
   margin: auto;
 }
 
+.icon-box {
+    margin: 0 20px;
+    width: 100%-webkit-fill-available;
+}
+
 h3.iconbox-heading {
     margin: 0 0 13px;
     text-align: center;
