@@ -411,6 +411,19 @@
     		speed: 300,
     		slidesToShow: 2,
     		slidesToScroll: 1,
+            responsive: [
+              {
+                breakpoint: 1025,
+                settings: {
+                  rows: 1,
+                  slidesToShow: 4,
+                  slidesToScroll: 1
+                }
+              }
+            ]
+          });
+          $(window).on('resize', function() {
+              $('.slick-slider').slick('resize');
           });
         });
 
