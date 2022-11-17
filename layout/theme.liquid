@@ -412,9 +412,16 @@
 		slidesToScroll: 1,
         mobileFirst: true,
         responsive: [
-
+           {
+              breakpoint: 1025,
+              settings: {
+                rows: 1,
+                slidesToShow: 4,
+                slidesToScroll: 1
+              }
+            },
           ]
-});
+        });
 
     //       jQuery('.slick-slider').slick({
     //       dots: false,
