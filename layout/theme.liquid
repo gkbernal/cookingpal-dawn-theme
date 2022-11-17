@@ -398,7 +398,6 @@
     <script>
       jQuery(document).ready(function() {
           jQuery('.slick-slider').slick({
-          rows: 1,
           dots: false,
           infinite: true,
           autoplay: false,
@@ -407,8 +406,8 @@
           arrows: true,
           prevArrow:"<img class='a-left control-c prev slick-prev' src='{{ 'arrow-left.svg' | asset_url }}'>",
           nextArrow:"<img class='a-right control-c next slick-next' src='{{ 'arrow-right.svg' | asset_url }}'>",
-          slidesToShow: 6,
-          slidesToScroll: 1,
+		  slidesPerRow: 1,
+		  rows: 1,
           responsive: [
             {
               breakpoint: 1366,
@@ -435,7 +434,7 @@
               breakpoint: 500,
               settings: {
                 rows: 2,
-                slidesToShow: 2,
+                slidesPerRow: 2,
               }
             }
           ]
