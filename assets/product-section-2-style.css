@@ -3,6 +3,10 @@
     padding: 41px 0 44px;
 }
 
+.sec-col-1 {
+  width: 1625px;
+}
+
 h3.iconbox-heading {
     margin: 0 0 13px;
     text-align: center;
