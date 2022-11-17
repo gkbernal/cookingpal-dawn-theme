@@ -96,6 +96,43 @@
         "heading-title": "Be the first to know our latest offers, email-exclusive deals, newest recipes and more."
       }
     },
+    "1576b38d-4f20-4024-bf1b-0d860f6ae757": {
+      "type": "homepage-section-6",
+      "blocks": {
+        "1c45c344-7470-47c1-aa7e-b38cb5af7e6a": {
+          "type": "Category1",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/feature-1.png",
+            "title1": "Chop carrots",
+            "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image2": "shopify:\/\/shop_images\/feature-2.png",
+            "title2": "Sauté onions",
+            "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image3": "shopify:\/\/shop_images\/feature-3.png",
+            "title3": "Steam fish",
+            "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image4": "shopify:\/\/shop_images\/feature-4.png",
+            "title4": "Weigh ingredients",
+            "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image5": "shopify:\/\/shop_images\/feature-5.png",
+            "title5": "Knead dough",
+            "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image6": "shopify:\/\/shop_images\/feature-6.png",
+            "title6": "Whisk cream",
+            "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        }
+      },
+      "block_order": [
+        "1c45c344-7470-47c1-aa7e-b38cb5af7e6a"
+      ],
+      "settings": {
+        "section-title": "Features - Multo® Intelligent Cooking System",
+        "category-1": "Multo® Intelligent Cooking System",
+        "category-2": "Smart Kitchen Hub",
+        "category-3": "Pronto Pressure Cooker"
+      }
+    },
     "86302d89-3564-47ae-bc60-d40117ee8125": {
       "type": "homepage-section-7",
       "settings": {
@@ -109,6 +146,7 @@
     "multicolumn",
     "855ed9f9-0408-4210-92f8-855f70656800",
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
+    "1576b38d-4f20-4024-bf1b-0d860f6ae757",
     "86302d89-3564-47ae-bc60-d40117ee8125"
   ]
 }
