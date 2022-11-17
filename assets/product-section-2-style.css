@@ -60,5 +60,6 @@ h3.iconbox-heading {
 @media (max-width: 425px){
 .icon-box {
     margin: 0 0px;
+    padding: 0 10px 20px;
 }
 }
