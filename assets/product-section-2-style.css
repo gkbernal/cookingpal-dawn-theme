@@ -48,6 +48,16 @@ span.iconbox-description P {
 }
 
 @media (max-width: 1024px){
+img.slick-prev.slick-arrow {
+    width: 30px;
+    height: 30px;
+}
+
+img.slick-next.slick-arrow {
+    width: 30px;
+    height: 30px;
+}
+
 .icon-box {
     width: 282px !important;
     margin: auto;
