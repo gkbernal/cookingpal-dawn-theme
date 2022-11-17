@@ -126,7 +126,7 @@
         "860a4f57-3466-4a27-914a-94a1c5c2b99f": {
           "type": "iconbox",
           "settings": {
-            "svg_path": "",
+            "select-option": "bottom",
             "iconbox-heading": "",
             "iconbox-description": ""
           }
