@@ -289,6 +289,7 @@
     {{ 'homepage-section-5-style.css' | asset_url | stylesheet_tag }}
     {{ 'homepage-section-7-style.css' | asset_url | stylesheet_tag }}
     {{ 'product-section-2-style.css' | asset_url | stylesheet_tag }}
+    {{ 'product-section-4-style.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
