@@ -201,6 +201,87 @@
       "settings": {
       }
     },
+    "af3d4a07-a865-44cc-bcd9-eb9c9233cce9": {
+      "type": "productpage-section-4",
+      "blocks": {
+        "f96a1f8a-ed2e-4a7d-b710-fddaf172ccfe": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-time.svg",
+            "iconbox-heading": "Time Saving",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "133549c1-1e01-4439-ac54-ba2728afce5d": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-space.svg",
+            "iconbox-heading": "Space Saving",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "ec201130-2882-4592-8b31-c86c3a307cea": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-recipes.svg",
+            "iconbox-heading": "Recipe Inspirations",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "2f1d51f3-ec89-4874-9203-f27716ec75d4": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-remote.svg",
+            "iconbox-heading": "Remote Control",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "c2624288-44b6-4f5f-91a2-6cf47615a66e": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-mobile.svg",
+            "iconbox-heading": "Downloadable Phone App",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "3c87193e-f6c6-4b28-8df6-b24387c87999": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-choose.svg",
+            "iconbox-heading": "Smart Hub",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "30ffe6b5-9e1d-4570-9876-3532b65fc574": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-recipes.svg",
+            "iconbox-heading": "Recipe Inspirations",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "c9a8e4d0-a257-4b76-81bb-d5f2a0537d08": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-space.svg",
+            "iconbox-heading": "Space Saving",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f96a1f8a-ed2e-4a7d-b710-fddaf172ccfe",
+        "133549c1-1e01-4439-ac54-ba2728afce5d",
+        "ec201130-2882-4592-8b31-c86c3a307cea",
+        "2f1d51f3-ec89-4874-9203-f27716ec75d4",
+        "c2624288-44b6-4f5f-91a2-6cf47615a66e",
+        "3c87193e-f6c6-4b28-8df6-b24387c87999",
+        "30ffe6b5-9e1d-4570-9876-3532b65fc574",
+        "c9a8e4d0-a257-4b76-81bb-d5f2a0537d08"
+      ],
+      "settings": {
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -300,6 +381,7 @@
   "order": [
     "main",
     "f1ffc4e6-a4b5-41f9-8b46-6d4daa8485b9",
+    "af3d4a07-a865-44cc-bcd9-eb9c9233cce9",
     "image-with-text",
     "multicolumn",
     "product-recommendations"
