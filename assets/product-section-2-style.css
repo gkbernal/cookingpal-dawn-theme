@@ -23,6 +23,7 @@ span.iconbox-description P {
     font-size: 14px;
     margin: 0;
     text-align: center;
+    line-height: 1.42em;
 }
 
 .icon-box img {
