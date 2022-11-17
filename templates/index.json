@@ -140,6 +140,57 @@
         "body-content": "<p>If you have 45 mins, book a cooking class...<\/p>",
         "images": "shopify:\/\/shop_images\/jamiefull.jpg"
       }
+    },
+    "c802300d-ba80-4807-850c-14b10dec6b18": {
+      "type": "homepage-section-9",
+      "blocks": {
+        "764e481b-da12-4b60-a731-adf6f9a5cd21": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/gia-award.png"
+          }
+        },
+        "43edcd77-f9a8-4f49-ac99-fd68d10e03de": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/impact-award-winner-logo-2022.png"
+          }
+        },
+        "baef2d13-887d-4647-b5a7-87da4041030e": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/if-design-award-2022.png"
+          }
+        },
+        "7c0487b2-d6f3-4938-b506-cdc5d51e609f": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/good-design-logo.png"
+          }
+        },
+        "19cd49cb-0555-4c1d-a0a7-6962a5bfbd91": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/lg-780x405.png"
+          }
+        },
+        "c9c4c92a-568e-4358-92d2-f5120e243d10": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/refinery29-best-of-ces-logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "764e481b-da12-4b60-a731-adf6f9a5cd21",
+        "43edcd77-f9a8-4f49-ac99-fd68d10e03de",
+        "baef2d13-887d-4647-b5a7-87da4041030e",
+        "7c0487b2-d6f3-4938-b506-cdc5d51e609f",
+        "19cd49cb-0555-4c1d-a0a7-6962a5bfbd91",
+        "c9c4c92a-568e-4358-92d2-f5120e243d10"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -147,6 +198,7 @@
     "855ed9f9-0408-4210-92f8-855f70656800",
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
     "1576b38d-4f20-4024-bf1b-0d860f6ae757",
-    "86302d89-3564-47ae-bc60-d40117ee8125"
+    "86302d89-3564-47ae-bc60-d40117ee8125",
+    "c802300d-ba80-4807-850c-14b10dec6b18"
   ]
 }
