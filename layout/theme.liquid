@@ -428,7 +428,15 @@
               breakpoint: 1024,
               settings: {
                 rows: 2,
-                slidesToShow: 2
+        		dots: false,
+        		arrows: true,
+                infinite: true,
+                prevArrow:"<img class='a-left control-c prev slick-prev' src='{{ 'arrow-left.svg' | asset_url }}'>",
+                nextArrow:"<img class='a-right control-c next slick-next' src='{{ 'arrow-right.svg' | asset_url }}'>",
+        		infinite: true,
+        		speed: 300,
+        		slidesToShow: 2,
+        		slidesToScroll: 1,
               }
             },
           ]
