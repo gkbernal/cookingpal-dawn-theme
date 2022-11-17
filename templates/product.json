@@ -130,10 +130,19 @@
             "iconbox-heading": "asd",
             "iconbox-description": "<p>asd<\/p>"
           }
+        },
+        "3e552839-93ff-404b-a7cc-55202d357f3c": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-chop.svg",
+            "iconbox-heading": "try",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
         }
       },
       "block_order": [
-        "02150b9c-553a-423e-ab9c-aaa2fabe5f77"
+        "02150b9c-553a-423e-ab9c-aaa2fabe5f77",
+        "3e552839-93ff-404b-a7cc-55202d357f3c"
       ],
       "settings": {
       }
