@@ -2,7 +2,7 @@
   <div class="sec-col-1 isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
     {% for block in section.blocks  %}
       <div class="custom-column">
-        <img src="{{block.settings.svg_path | file_url }}" />
+        <img src="{{ block.settings.svg_path | file_url }}">
         <h3 class="box-heading">{{ block.settings.heading-title }}</h3>
         <span class="box-description">{{ block.settings.box-description }}</span>
       </div>
