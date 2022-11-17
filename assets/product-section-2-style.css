@@ -51,6 +51,7 @@ span.iconbox-description P {
 .icon-box {
     width: 282px !important;
     margin: auto;
+    padding: 0 0px 20px;
 }
 
 .slick-slide > div {
