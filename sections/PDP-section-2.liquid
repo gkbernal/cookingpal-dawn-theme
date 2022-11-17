@@ -1,6 +1,6 @@
 <div class="product-section2-container">
   <div class="sec-col-1 isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
-    <div class="slick-slider"></div>
+    <div class="slick-slider">
       {% for block in section.blocks  %}
         <div class="icon-box">
           <img src="{{ block.settings.select-option | asset_url }}" />
@@ -8,6 +8,7 @@
           <span class="box-description">{{ block.settings.iconbox-description }}</span>
         </div>
       {% endfor %}
+    </div>
   </div>
 </div>
 
