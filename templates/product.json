@@ -138,11 +138,47 @@
             "iconbox-heading": "try",
             "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
+        },
+        "b92bf639-9561-4bb8-a150-75720ccf2a6a": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-chop.svg",
+            "iconbox-heading": "asd",
+            "iconbox-description": "<p>asd<\/p>"
+          }
+        },
+        "eeff5915-7587-46dd-87f0-bb7371f0daa7": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-chop.svg",
+            "iconbox-heading": "asd",
+            "iconbox-description": "<p>asd<\/p>"
+          }
+        },
+        "e361f610-e6f4-42a9-bd73-9b40676ff923": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-chop.svg",
+            "iconbox-heading": "asd",
+            "iconbox-description": "<p>asd<\/p>"
+          }
+        },
+        "f6312401-5975-4bfe-8ace-33d266ed88b8": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-chop.svg",
+            "iconbox-heading": "asd",
+            "iconbox-description": "<p>asd<\/p>"
+          }
         }
       },
       "block_order": [
         "02150b9c-553a-423e-ab9c-aaa2fabe5f77",
-        "3e552839-93ff-404b-a7cc-55202d357f3c"
+        "3e552839-93ff-404b-a7cc-55202d357f3c",
+        "b92bf639-9561-4bb8-a150-75720ccf2a6a",
+        "eeff5915-7587-46dd-87f0-bb7371f0daa7",
+        "e361f610-e6f4-42a9-bd73-9b40676ff923",
+        "f6312401-5975-4bfe-8ace-33d266ed88b8"
       ],
       "settings": {
       }
