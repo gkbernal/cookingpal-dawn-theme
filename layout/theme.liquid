@@ -398,7 +398,8 @@
     </script>
     
     <script>
-      jQuery(document).ready(function($) {
+      if (window.matchMedia("(max-width: 768px)").matches) {
+        jQuery(document).ready(function($) {
         $('.slick-slider').slick({
 		rows: 2,
 		dots: false,
@@ -410,18 +411,9 @@
 		speed: 300,
 		slidesToShow: 2,
 		slidesToScroll: 1,
-        mobileFirst: true,
-        responsive: [
-           {
-              breakpoint: 1025,
-              settings: {
-                rows: 1,
-                slidesToShow: 4,
-                slidesToScroll: 1
-              }
-            },
-          ]
         });
+      } 
+
 
     //       jQuery('.slick-slider').slick({
     //       dots: false,
