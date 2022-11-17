@@ -123,16 +123,17 @@
     "4f31ebe8-7ba6-43ea-a600-658c55c90dd9": {
       "type": "PDP-section-2",
       "blocks": {
-        "f40e04c6-a813-48ed-814c-42b623462e95": {
+        "860a4f57-3466-4a27-914a-94a1c5c2b99f": {
           "type": "iconbox",
           "settings": {
+            "svg_path": "",
             "iconbox-heading": "",
             "iconbox-description": ""
           }
         }
       },
       "block_order": [
-        "f40e04c6-a813-48ed-814c-42b623462e95"
+        "860a4f57-3466-4a27-914a-94a1c5c2b99f"
       ],
       "settings": {
       }
