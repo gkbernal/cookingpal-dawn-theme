@@ -1,0 +1,147 @@
+<div class="section-cooking-pal-multicolumn">
+	<div class="cooking-pal-multicolumn-content-image" style="background-image: url('{{ section.settings.image | image_url: width: 950, height: 650 }}');">
+		{{ section.settings.image | image_url: width: 950, height: 650 | image_tag }}
+	</div>
+	<div class="cooking-pal-multicolumn-content">
+		<div class="cooking-pal-multicolumn-content-wrapper">
+			<h2 class="cooking-pal-multicolumn-title">{{ section.settings.title }}</h2>
+			<p>{{ section.settings.paragraph }}</p>
+			<div class="cooking-pal-multicolumn-content-button-group">
+				<a href="{{ section.settings.button1-link }}" class="btn1">{{ section.settings.button1-text }}</a>
+				<a href="{{ section.settings.button2-link }}" class="btn2">{{ section.settings.button2-text }}</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+	"name": "Cooking Pal - Multicolumn",
+	"settings": [
+		{
+			"type": "image_picker",
+			"label": "image",
+			"id": "image"
+		},
+		{
+			"type": "text",
+			"label":"Title",
+			"id":"title"
+		},
+		{
+			"type": "richtext",
+			"label": "Paragraph",
+			"id": "paragraph"
+		},
+		{
+			"type": "text",
+			"label": "Button 1 Text",
+			"id": "button1-text",
+			"placeholder": "Button 1",
+			"default": "Shop Now"
+		},
+		{
+			"type": "url",
+			"label": "Button 1 Link",
+			"id": "button1-link"
+		},
+		{
+			"type": "text",
+			"id": "button2-text",
+			"label": "Button 2 Text",
+			"placeholder": "Button 2",
+			"default": "How it Works"
+		},
+		{
+			"type": "url",
+			"label": "Button 2 Link",
+			"id": "button2-link"
+		}
+	],
+	"presets": [
+		{
+			"name" : "Cooking Pal - Multicolumn"
+		}
+	]
+}
+{% endschema %}
+
+{% stylesheet %}
+.section-cooking-pal-multicolumn {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-image {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-image img {
+	display: none;
+	width: 100%;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content {
+	padding: 50px;
+	display: grid;
+	place-content: center;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content .cooking-pal-multicolumn-content-wrapper {
+	max-width: 670px;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content h2 {
+	color: #304A36;
+	font-family: Cera Pro Bold;
+	font-size: 45px;
+	line-height: 1.24em;
+	margin: 0 0 30px;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content p {
+	margin-bottom: 37px;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 33px;
+	place-items: center;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group a {
+	text-align: center;
+	padding: 16px 77px;
+	border-radius: 100px; 
+	text-decoration: none;
+	font-family: CeraPro-Medium;
+	color: #fff;
+	transition: all ease-in-out .2s;
+	max-width: 270px;
+	width: 100%;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group .btn1 {
+	background: #E76B38;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group .btn1:hover {
+	background: #304A36;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group .btn2 {
+	background: #304A36;
+}
+.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group .btn2:hover {
+	background: #E76B38;
+}
+@media screen and (max-width: 480px) {
+	.section-cooking-pal-multicolumn,
+	.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group {
+		grid-template-columns: 1fr;
+	}
+	.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-image {
+		background: none;
+	}
+	.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-image img {
+		display: block;
+		height: auto;
+	}
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

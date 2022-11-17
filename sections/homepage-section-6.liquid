@@ -1,0 +1,488 @@
+<div class="section-cooking-pal-features">
+	<h2>{{ section.settings.section-title }}</h2>
+	<div class="tab">
+		<button class="tablinks" onclick="openCat(event, 'Cat1')">{{ section.settings.category-1 }}</button>
+		<button class="tablinks" onclick="openCat(event, 'Cat2')">{{ section.settings.category-2 }}</button>
+		<button class="tablinks" onclick="openCat(event, 'Cat3')">{{ section.settings.category-3 }}</button>
+	</div>
+
+	<!-- Tab content -->
+	{%- for block in section.blocks -%}
+		{%- case block.type -%}
+			{%- when 'Category1' -%}
+				<div id="Cat1" class="tabcontent" style="display:grid">
+					{% for i in (1..6) %}
+						{% assign block_type_text = 'text' | append: i %}
+						{% assign feature_text = block.settings[block_type_text] %}
+
+						{% assign block_type_title = 'title' | append: i %}
+						{% assign feature_title = block.settings[block_type_title] %}
+
+						{% assign block_type_image = 'image' | append: i %}
+						{% assign feature_image = block.settings[block_type_image] %}
+
+						<div class="feature-card">
+							{% if feature_image %}
+								{{ feature_image | image_url: height: 250 | image_tag }}
+							{% endif %}
+							<h3>{{ feature_title }}</h3>
+							<p>{{ feature_text }}</p>
+						</div>
+					{% endfor %}
+				</div>
+			{%- when 'Category2' -%}
+				<div id="Cat2" class="tabcontent">
+					{% for i in (1..6) %}
+						{% assign block_type_text = 'text' | append: i %}
+						{% assign feature_text = block.settings[block_type_text] %}
+
+						{% assign block_type_title = 'title' | append: i %}
+						{% assign feature_title = block.settings[block_type_title] %}
+
+						{% assign block_type_image = 'image' | append: i %}
+						{% assign feature_image = block.settings[block_type_image] %}
+
+						<div class="feature-card">
+							{% if feature_image %}
+								{{ feature_image | image_url: height: 250 | image_tag }}
+							{% endif %}
+							<h3>{{ feature_title }}</h3>
+							<p>{{ feature_text }}</p>
+						</div>
+					{% endfor %}
+				</div>
+			{%- when 'Category3' -%}
+				<div id="Cat3" class="tabcontent">
+					{% for i in (1..6) %}
+						{% assign block_type_text = 'text' | append: i %}
+						{% assign feature_text = block.settings[block_type_text] %}
+
+						{% assign block_type_title = 'title' | append: i %}
+						{% assign feature_title = block.settings[block_type_title] %}
+
+						{% assign block_type_image = 'image' | append: i %}
+						{% assign feature_image = block.settings[block_type_image] %}
+
+						<div class="feature-card">
+							{% if feature_image %}
+								{{ feature_image | image_url: height: 250 | image_tag }}
+							{% endif %}
+							<h3>{{ feature_title }}</h3>
+							<p>{{ feature_text }}</p>
+						</div>
+					{% endfor %}
+				</div>
+		{%- endcase -%}
+	{%- endfor -%}
+</div>
+
+{% schema %}
+{
+	"name": "Cooking Pal - Features",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section-title",
+      "placeholder": "Section Title",
+			"label": "Section Title",
+			"default": "Features - Multo® Intelligent Cooking System"
+    },
+    {
+      "type": "text",
+      "id": "category-1",
+      "placeholder": "Category Title 1",
+			"label": "Category Title 1"
+    },
+    {
+      "type": "text",
+      "id": "category-2",
+      "placeholder": "Category Title 2",
+			"label": "Category Title 2"
+    },
+    {
+      "type": "text",
+      "id": "category-3",
+      "placeholder": "Category Title 3",
+			"label": "Category Title 3"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Category1",
+      "name": "Category1",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image1",
+					"label": "Image 1"
+        },
+        {
+          "type": "text",
+          "id": "title1",
+          "label": "Title 1"
+        },
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "Text 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image2",
+					"label": "Image 2"
+        },
+        {
+          "type": "text",
+          "id": "title2",
+          "label": "Title 2"
+        },
+        {
+          "type": "text",
+          "id": "text2",
+          "label": "Text 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image3",
+					"label": "Image 3"
+        },
+        {
+          "type": "text",
+          "id": "title3",
+          "label": "Title 3"
+        },
+        {
+          "type": "text", 
+          "id": "text3",
+          "label": "Text 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image4",
+					"label": "Image 4"
+        },
+        {
+          "type": "text",
+          "id": "title4",
+          "label": "Title 4"
+        },
+        {
+          "type": "text",
+          "id": "text4",
+          "label": "Text 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "image5",
+					"label": "Image 5"
+        },
+        {
+          "type": "text",
+          "id": "title5",
+          "label": "Title 5"
+        },
+        {
+          "type": "text",
+          "id": "text5",
+          "label": "Text 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "image6",
+					"label": "Image 6"
+        },
+        {
+          "type": "text",
+          "id": "title6",
+          "label": "Title 6"
+        },
+        {
+          "type": "text",
+          "id": "text6",
+          "label": "Text 6"
+        }
+      ]
+    },
+    {
+      "type": "Category2",
+      "name": "Category2",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image1",
+					"label": "Image 1"
+        },
+        {
+          "type": "text",
+          "id": "title1",
+          "label": "Title 1"
+        },
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "Text 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image2",
+					"label": "Image 2"
+        },
+        {
+          "type": "text",
+          "id": "title2",
+          "label": "Title 2"
+        },
+        {
+          "type": "text",
+          "id": "text2",
+          "label": "Text 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image3",
+					"label": "Image 3"
+        },
+        {
+          "type": "text",
+          "id": "title3",
+          "label": "Title 3"
+        },
+        {
+          "type": "text",
+          "id": "text3",
+          "label": "Text 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image4",
+					"label": "Image 4"
+        },
+        {
+          "type": "text",
+          "id": "title4",
+          "label": "Title 4"
+        },
+        {
+          "type": "text",
+          "id": "text4",
+          "label": "Text 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "image5",
+					"label": "Image 5"
+        },
+        {
+          "type": "text",
+          "id": "title5",
+          "label": "Title 5"
+        },
+        {
+          "type": "text",
+          "id": "text5",
+          "label": "Text 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "image6",
+					"label": "Image 6"
+        },
+        {
+          "type": "text",
+          "id": "title6",
+          "label": "Title 6"
+        },
+        {
+          "type": "text",
+          "id": "text6",
+          "label": "Text 6"
+        }
+      ]
+    },
+    {
+      "type": "Category3",
+      "name": "Category3",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image1",
+					"label": "Image 1"
+        },
+        {
+          "type": "text",
+          "id": "title1",
+          "label": "Title 1"
+        },
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "Text 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image2",
+					"label": "Image 2"
+        },
+        {
+          "type": "text",
+          "id": "title2",
+          "label": "Title 2"
+        },
+        {
+          "type": "text",
+          "id": "text2",
+          "label": "Text 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image3",
+					"label": "Image 3"
+        },
+        {
+          "type": "text",
+          "id": "title3",
+          "label": "Title 3"
+        },
+        {
+          "type": "text",
+          "id": "text3",
+          "label": "Text 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image4",
+					"label": "Image 4"
+        },
+        {
+          "type": "text",
+          "id": "title4",
+          "label": "Title 4"
+        },
+        {
+          "type": "text",
+          "id": "text4",
+          "label": "Text 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "image5",
+					"label": "Image 5"
+        },
+        {
+          "type": "text",
+          "id": "title5",
+          "label": "Title 5"
+        },
+        {
+          "type": "text",
+          "id": "text5",
+          "label": "Text 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "image6",
+					"label": "Image 6"
+        },
+        {
+          "type": "text",
+          "id": "title6",
+          "label": "Title 6"
+        },
+        {
+          "type": "text",
+          "id": "text6",
+          "label": "Text 6"
+        }
+      ]
+    }
+  ],
+	"presets": [
+		{
+			"name" : "Cooking Pal - Features"
+		}
+	]
+}
+{% endschema %}
+
+{% stylesheet %}
+.section-cooking-pal-features {
+	padding: 87px 50px 95px;
+	margin: auto;
+}
+.section-cooking-pal-features h2 {
+	font-weight: 700;
+	font-size: 2.8125em;
+	color: #304A36;
+	text-align: center;
+}
+.tab {
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 25px;
+}
+.tab button {
+	color: #B4B4B4;
+	font-size: 1.875em;
+	font-weight: 700;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+	position: relative;
+}
+.tab button::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 5px;
+	border-radius: 100px;
+	background: #B4B4B4;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.tab button:hover,
+.tab button.active {
+	color: #304A36;
+}
+.tab button:hover::after,
+.tab button.active::after {
+	border-bottom: 5px solid #57C88C;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+	grid-template-columns: repeat(6,minmax(0,1fr));
+}
+.tabcontent .feature-card {
+	display: grid;
+	place-items: center;
+}
+.tabcontent .feature-card img {
+	width: 100%;
+	height: auto;
+	max-width: 200px;
+}
+.tabcontent .feature-card h3 {
+	color: #304A36;
+	font-weight: 700;
+}
+.tabcontent .feature-card p {
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	.tabcontent {
+		grid-template-columns: repeat(2,minmax(0,1fr));
+	}
+}
+{% endstylesheet %}
+
+{% javascript %}
+
+{% endjavascript %}
