@@ -1,13 +1,19 @@
 @font-face {
+    font-family: "Roboto Regular";
+    src: url("Roboto-Regular.woff2") format("woff2"),
+    url("Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
     font-family: "Cera Pro Light";
     src: url("CeraPro-Light.woff2") format("woff2"),
     url("CeraPro-Light.woff") format("woff");
 }
 
 @font-face {
-font-family: "Cera Pro Regular";
-src: url("CeraPro-Regular.woff2") format("woff2"),
-url("CeraPro-Regular.woff") format("woff");
+  font-family: "Cera Pro Regular";
+  src: url("CeraPro-Regular.woff2") format("woff2"),
+  url("CeraPro-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -26,12 +32,6 @@ url("CeraPro-Regular.woff") format("woff");
     font-family: "Cera Pro Black";
     src: url("CeraPro-Black.woff2") format("woff2"),
     url("CeraPro-Black.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Roboto Regular";
-    src: url("Roboto-Regular.woff2") format("woff2"),
-    url("Roboto-Regular.woff") format("woff");
 }
 
 h1 {
