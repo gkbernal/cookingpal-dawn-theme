@@ -170,6 +170,14 @@
             "iconbox-heading": "asd",
             "iconbox-description": "<p>asd<\/p>"
           }
+        },
+        "092ed398-449b-4456-a1f7-bf38a2ed67c7": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-chop.svg",
+            "iconbox-heading": "asd",
+            "iconbox-description": "<p>asd<\/p>"
+          }
         }
       },
       "block_order": [
@@ -178,7 +186,8 @@
         "b92bf639-9561-4bb8-a150-75720ccf2a6a",
         "eeff5915-7587-46dd-87f0-bb7371f0daa7",
         "e361f610-e6f4-42a9-bd73-9b40676ff923",
-        "f6312401-5975-4bfe-8ace-33d266ed88b8"
+        "f6312401-5975-4bfe-8ace-33d266ed88b8",
+        "092ed398-449b-4456-a1f7-bf38a2ed67c7"
       ],
       "settings": {
       }
