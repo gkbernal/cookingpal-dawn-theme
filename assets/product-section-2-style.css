@@ -46,3 +46,9 @@ span.iconbox-description P {
   width: 100%;
 }
 }
+
+@media (max-width: 767px){
+h3.iconbox-heading {
+    font-size: 18px;
+}
+}
