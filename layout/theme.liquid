@@ -395,7 +395,25 @@
         }
       });
     </script>
+
     <script>
+      var slides = new Swiper(".slick-slider", {
+        autoplay: true,
+        slidesPerView: 3,
+        slidesPerColumn: 2,
+        slidesPerGroup: 6,
+        centeredSlides: true,
+        loop: true,
+        breakpoints: {
+          640: {
+            slidesPerView: 5,
+            spaceBetween: 20
+          }
+        }
+      });
+    </script>
+    
+<!--     <script>
       jQuery(document).ready(function() {
           jQuery('.slick-slider').slick({
           dots: false,
@@ -442,6 +460,6 @@
           ]
         });
       });
-    </script>
+    </script> -->
   </body>
 </html>
