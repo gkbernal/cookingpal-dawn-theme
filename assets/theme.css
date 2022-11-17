@@ -28,6 +28,12 @@ url("CeraPro-Regular.woff") format("woff");
     url("CeraPro-Black.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("Roboto-Regular.woff2") format("woff2"),
+    url("Roboto-Regular.woff") format("woff");
+}
+
 h1 {
     font-family: 'Cera Pro Bold';
     font-size: 30px;
