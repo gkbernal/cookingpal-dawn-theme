@@ -407,12 +407,13 @@
         nextArrow:"<img class='a-right control-c next slick-next' src='{{ 'arrow-right.svg' | asset_url }}'>",
 		infinite: true,
 		speed: 300,
-		slidesPerRow: 6,
+		slidesToShow: 6,
 		slidesToScroll: 1,
         responsive: [
             {
               breakpoint: 1366,
               settings: {
+                rows: 1,
                 slidesToShow: 5,
                 slidesToScroll: 1
               }
