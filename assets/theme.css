@@ -34,34 +34,6 @@
     url("CeraPro-Black.woff") format("woff");
 }
 
-h1 {
-    font-family: 'Cera Pro Bold';
-    font-size: 30px;
-    line-height: 1.26em;
-    color: #383838;
-}
-
-h2 {
-    font-family: 'Cera Pro Bold';
-    font-size: 24px;
-    line-height: 1.25em;
-    color: #383838;
-}
-
-h3 {
-    font-family: 'Cera Pro Bold';
-    font-size: 20px;
-    line-height: 1.3em;
-    color: #383838;
-}
-
-p {
-    font-family: 'Cera Pro Regular';
-    font-size: 14px;
-    line-height: 1.214em;
-    color: #383838;
-}
-
 /*************************************** header *************************************/
 sticky-header.header-wrapper {
     background-color: #383838;
