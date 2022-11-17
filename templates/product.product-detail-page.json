@@ -126,9 +126,9 @@
         "860a4f57-3466-4a27-914a-94a1c5c2b99f": {
           "type": "iconbox",
           "settings": {
-            "select-option": "bottom",
-            "iconbox-heading": "",
-            "iconbox-description": ""
+            "select-option": "icon-chop.svg",
+            "iconbox-heading": "asd",
+            "iconbox-description": "<p>asd<\/p>"
           }
         }
       },
