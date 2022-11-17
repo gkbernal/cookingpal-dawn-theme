@@ -1,7 +1,47 @@
+<div class="product-section2-container">
+  <div class="sec-col-1 isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
+    {% for block in section.blocks  %}
+      <div class="custom-column">
+        <img src="{{block.settings.iconbox | img_url: 'large'}}" />
+        <h3 class="box-heading">{{ block.settings.heading-title }}</h3>
+        <span class="box-description">{{ block.settings.box-description }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Icon Box",
+    "max_blocks": 6,
+    "blocks" : [
+      {
+        "type" : "iconbox",
+        "name" : "Image block",
+        "settings" : [
+          {
+            "type" : "image_picker",
+            "label" : "image",
+            "id" : "iconbox"
+          },
+          {
+            "type" : "text",
+            "label" : "Heading 4",
+            "id" : "iconbox-heading"
+          },
+          {
+            "type" : "richtext",
+            "label" : "Description",
+            "id" : "iconbox-description"
+          }
+        ]
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Section 2"
+      }
+    ]
   }
 {% endschema %}
 
