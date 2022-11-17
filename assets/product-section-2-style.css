@@ -54,6 +54,10 @@ span.iconbox-description P {
     padding: 0 0 40px;
 }
 
+.product-section2-container {
+    padding: 50px 30px 10px;
+}
+
 .slick-slide > div {
     text-align: center;
 }
