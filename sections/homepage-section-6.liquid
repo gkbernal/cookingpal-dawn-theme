@@ -31,7 +31,7 @@
 					{% endfor %}
 				</div>
 			{%- when 'Category2' -%}
-				<div id="Cat2" class="tabcontent">
+				<div id="Cat2" class="tabcontent"> 
 					{% for i in (1..6) %}
 						{% assign block_type_text = 'text' | append: i %}
 						{% assign feature_text = block.settings[block_type_text] %}
