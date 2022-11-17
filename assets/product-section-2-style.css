@@ -5,6 +5,8 @@
 
 .sec-col-1 {
   width: 1625px;
+  margin: auto;
+  padding: 0 50px;
 }
 
 h3.iconbox-heading {
