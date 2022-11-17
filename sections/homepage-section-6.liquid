@@ -9,7 +9,7 @@
 	<!-- Tab content -->
 	{%- for block in section.blocks -%}
 		{%- case block.type -%}
-			{%- when 'Category1' -%}
+			{%- when 'Category1' -%} 
 				<div id="Cat1" class="tabcontent" style="display:grid">
 					{% for i in (1..6) %}
 						{% assign block_type_text = 'text' | append: i %}
