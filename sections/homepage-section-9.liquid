@@ -1,0 +1,61 @@
+<div class="section-cooking-pal-awards">
+	<div class="swiper awards-swiper">
+		<div class="awards-logo-container swiper-wrapper">
+			{%- for block in section.blocks -%}
+				<div class="swiper-slide">
+				{{ block.settings.image_awards | image_url: height: 100 | image_tag }}
+				</div>
+			{%- endfor -%}
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+	"name": "Cooking Pal - Awards",
+	"settings": [],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Awards Logo",
+      "settings": [
+        {
+          "label": "Logo",
+          "type": "image_picker",
+          "id": "image_awards"
+        }
+      ]
+    }
+  ],
+	"presets": [
+		{
+			"name" : "Cooking Pal - Awards"
+		}
+	]
+}
+{% endschema %}
+
+{% stylesheet %}
+.section-cooking-pal-awards {
+	padding-top: 75px;
+	padding-bottom: 75px;
+	width: 100%;
+}
+
+{% endstylesheet %}
+
+{% javascript %} 
+	var swiper = new Swiper(".awards-swiper", {
+		autoplay: true,
+		slidesPerView: 6,
+		centeredSlides: true,
+		spaceBetween: 20,
+		loop: true,
+		breakpoints: {
+			640: {
+				slidesPerView: 6,
+				spaceBetween: 20,
+			},
+		},
+	});
+{% endjavascript %}
