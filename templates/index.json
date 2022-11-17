@@ -1,66 +1,12 @@
 {
   "sections": {
-    "multicolumn": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "855ed9f9-0408-4210-92f8-855f70656800": {
       "type": "homepage-section-2",
       "blocks": {
         "a4b7ca75-dcff-4ddb-88fb-af904870da15": {
           "type": "image",
           "settings": {
-            "images": "shopify:\/\/shop_images\/easy-img.jpg",
+            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
             "heading-title": "Easy",
             "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
@@ -68,7 +14,7 @@
         "49e53ab0-552f-442a-9845-650b121fdb12": {
           "type": "image",
           "settings": {
-            "images": "shopify:\/\/shop_images\/healthy-img.jpg",
+            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
             "heading-title": "Healthy",
             "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
@@ -76,7 +22,7 @@
         "dc6713d4-852b-4a0f-acc4-53f65bb68cdb": {
           "type": "image",
           "settings": {
-            "images": "shopify:\/\/shop_images\/tasty-img.jpg",
+            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
             "heading-title": "Tasty",
             "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
@@ -102,22 +48,16 @@
         "1c45c344-7470-47c1-aa7e-b38cb5af7e6a": {
           "type": "Category1",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/feature-1.png",
             "title1": "Chop carrots",
             "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image2": "shopify:\/\/shop_images\/feature-2.png",
             "title2": "Sauté onions",
             "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image3": "shopify:\/\/shop_images\/feature-3.png",
             "title3": "Steam fish",
             "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image4": "shopify:\/\/shop_images\/feature-4.png",
             "title4": "Weigh ingredients",
             "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image5": "shopify:\/\/shop_images\/feature-5.png",
             "title5": "Knead dough",
             "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image6": "shopify:\/\/shop_images\/feature-6.png",
             "title6": "Whisk cream",
             "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           }
@@ -147,37 +87,31 @@
         "764e481b-da12-4b60-a731-adf6f9a5cd21": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/gia-award.png"
           }
         },
         "43edcd77-f9a8-4f49-ac99-fd68d10e03de": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/impact-award-winner-logo-2022.png"
           }
         },
         "baef2d13-887d-4647-b5a7-87da4041030e": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/if-design-award-2022.png"
           }
         },
         "7c0487b2-d6f3-4938-b506-cdc5d51e609f": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/good-design-logo.png"
           }
         },
         "19cd49cb-0555-4c1d-a0a7-6962a5bfbd91": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/lg-780x405.png"
           }
         },
         "c9c4c92a-568e-4358-92d2-f5120e243d10": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/refinery29-best-of-ces-logo.png"
           }
         }
       },
@@ -194,7 +128,6 @@
     }
   },
   "order": [
-    "multicolumn",
     "855ed9f9-0408-4210-92f8-855f70656800",
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
     "1576b38d-4f20-4024-bf1b-0d860f6ae757",
