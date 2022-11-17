@@ -4,8 +4,8 @@
       {% for block in section.blocks  %}
         <div class="icon-box">
           <img src="{{ block.settings.select-option | asset_url }}" />
-          <h3 class="box-heading">{{ block.settings.iconbox-heading }}</h3>
-          <span class="box-description">{{ block.settings.iconbox-description }}</span>
+          <h3 class="iconbox-heading">{{ block.settings.iconbox-heading }}</h3>
+          <span class="iconbox-description">{{ block.settings.iconbox-description }}</span>
         </div>
       {% endfor %}
     </div>
