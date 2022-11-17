@@ -2,7 +2,7 @@
   <div class="sec-col-1 isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
     {% for block in section.blocks  %}
       <div class="custom-column">
-        <div style="background-image: url('assets/{{ block.settings.select-option | asset_url }}');">
+        <div style="background-image: url('{{ block.settings.select-option | asset_url }}');">
           try
         </div>
         <h3 class="box-heading">{{ block.settings.iconbox-heading }}</h3>
