@@ -47,6 +47,17 @@ span.iconbox-description P {
 }
 }
 
+@media (max-width: 1024px){
+.icon-box {
+    width: 282px !important;
+    margin: auto;
+}
+
+.slick-slide > div {
+    text-align: center;
+}
+}
+
 @media (max-width: 767px){
 h3.iconbox-heading {
     font-size: 16px;
