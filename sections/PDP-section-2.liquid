@@ -3,7 +3,7 @@
     {% for block in section.blocks  %}
       <div class="custom-column">
         <select>
-          <option><img src="{{ block.settings.images | file_url }}"></option>
+          <option><img src="assets/{{ block.settings.select-option | file_url }}"></option>
         </select>
         <h3 class="box-heading">{{ block.settings.heading-title }}</h3>
         <span class="box-description">{{ block.settings.box-description }}</span>
@@ -22,9 +22,24 @@
         "name" : "Image block",
         "settings" : [
           {
-            "type" : "image_picker",
-            "label" : "image",
-            "id" : "images"
+              "type": "select",
+              "id": "select-option",
+              "label": "Vertical alignment",
+              "options": [
+                {
+                  "value": "top",
+                  "label": "Top"
+                },
+                {
+                  "value": "middle",
+                  "label": "Middle"
+                },
+                {
+                  "value": "bottom",
+                  "label": "Bottom"
+                }
+              ],
+              "default": "middle"
           },
           {
             "type" : "text",
