@@ -90,6 +90,18 @@
       "settings": {
       }
     },
+    "a19b4d0b-5548-4fad-b555-0e574221b197": {
+      "type": "homepage-section-3",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/section-3-image.jpg",
+        "title": "Multo® Intelligent  Cooking System",
+        "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non erat faucibus nisi, eleifend. Semper est orci scelerisque pellentesque nec augue nisi, arcu amet. Pellentesque aliquam vel, habitant id aenean. Condimentum sit maecenas dictum nunc.<\/p>",
+        "button1-text": "Shop Now",
+        "button1-link": "",
+        "button2-text": "How it Works",
+        "button2-link": ""
+      }
+    },
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa": {
       "type": "homepage-section-5",
       "settings": {
@@ -196,6 +208,7 @@
   "order": [
     "multicolumn",
     "855ed9f9-0408-4210-92f8-855f70656800",
+    "a19b4d0b-5548-4fad-b555-0e574221b197",
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
     "1576b38d-4f20-4024-bf1b-0d860f6ae757",
     "86302d89-3564-47ae-bc60-d40117ee8125",
