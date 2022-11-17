@@ -90,10 +90,59 @@
       "settings": {
       }
     },
+    "a19b4d0b-5548-4fad-b555-0e574221b197": {
+      "type": "homepage-section-3",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/section-3-image.jpg",
+        "title": "Multo® Intelligent  Cooking System",
+        "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non erat faucibus nisi, eleifend. Semper est orci scelerisque pellentesque nec augue nisi, arcu amet. Pellentesque aliquam vel, habitant id aenean. Condimentum sit maecenas dictum nunc.<\/p>",
+        "button1-text": "Shop Now",
+        "button1-link": "",
+        "button2-text": "How it Works",
+        "button2-link": ""
+      }
+    },
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa": {
       "type": "homepage-section-5",
       "settings": {
         "heading-title": "Be the first to know our latest offers, email-exclusive deals, newest recipes and more."
+      }
+    },
+    "1576b38d-4f20-4024-bf1b-0d860f6ae757": {
+      "type": "homepage-section-6",
+      "blocks": {
+        "1c45c344-7470-47c1-aa7e-b38cb5af7e6a": {
+          "type": "Category1",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/feature-1.png",
+            "title1": "Chop carrots",
+            "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image2": "shopify:\/\/shop_images\/feature-2.png",
+            "title2": "Sauté onions",
+            "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image3": "shopify:\/\/shop_images\/feature-3.png",
+            "title3": "Steam fish",
+            "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image4": "shopify:\/\/shop_images\/feature-4.png",
+            "title4": "Weigh ingredients",
+            "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image5": "shopify:\/\/shop_images\/feature-5.png",
+            "title5": "Knead dough",
+            "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "image6": "shopify:\/\/shop_images\/feature-6.png",
+            "title6": "Whisk cream",
+            "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        }
+      },
+      "block_order": [
+        "1c45c344-7470-47c1-aa7e-b38cb5af7e6a"
+      ],
+      "settings": {
+        "section-title": "Features - Multo® Intelligent Cooking System",
+        "category-1": "Multo® Intelligent Cooking System",
+        "category-2": "Smart Kitchen Hub",
+        "category-3": "Pronto Pressure Cooker"
       }
     },
     "86302d89-3564-47ae-bc60-d40117ee8125": {
@@ -103,12 +152,66 @@
         "body-content": "<p>If you have 45 mins, book a cooking class...<\/p>",
         "images": "shopify:\/\/shop_images\/jamiefull.jpg"
       }
+    },
+    "c802300d-ba80-4807-850c-14b10dec6b18": {
+      "type": "homepage-section-9",
+      "blocks": {
+        "764e481b-da12-4b60-a731-adf6f9a5cd21": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/gia-award.png"
+          }
+        },
+        "43edcd77-f9a8-4f49-ac99-fd68d10e03de": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/impact-award-winner-logo-2022.png"
+          }
+        },
+        "baef2d13-887d-4647-b5a7-87da4041030e": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/if-design-award-2022.png"
+          }
+        },
+        "7c0487b2-d6f3-4938-b506-cdc5d51e609f": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/good-design-logo.png"
+          }
+        },
+        "19cd49cb-0555-4c1d-a0a7-6962a5bfbd91": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/lg-780x405.png"
+          }
+        },
+        "c9c4c92a-568e-4358-92d2-f5120e243d10": {
+          "type": "logo",
+          "settings": {
+            "image_awards": "shopify:\/\/shop_images\/refinery29-best-of-ces-logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "764e481b-da12-4b60-a731-adf6f9a5cd21",
+        "43edcd77-f9a8-4f49-ac99-fd68d10e03de",
+        "baef2d13-887d-4647-b5a7-87da4041030e",
+        "7c0487b2-d6f3-4938-b506-cdc5d51e609f",
+        "19cd49cb-0555-4c1d-a0a7-6962a5bfbd91",
+        "c9c4c92a-568e-4358-92d2-f5120e243d10"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "multicolumn",
     "855ed9f9-0408-4210-92f8-855f70656800",
+    "a19b4d0b-5548-4fad-b555-0e574221b197",
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
-    "86302d89-3564-47ae-bc60-d40117ee8125"
+    "1576b38d-4f20-4024-bf1b-0d860f6ae757",
+    "86302d89-3564-47ae-bc60-d40117ee8125",
+    "c802300d-ba80-4807-850c-14b10dec6b18"
   ]
 }
