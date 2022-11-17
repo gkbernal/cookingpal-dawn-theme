@@ -1,3 +1,25 @@
 .product-section2-container {
     background-color: #323232;
+    padding: 41px 0 44px;
+}
+
+h3.iconbox-heading {
+    margin: 0 0 13px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Cera Pro Bold';
+    font-size: 20px;
+}
+
+span.iconbox-description P {
+    color: #FFF;
+    font-family: 'Cera Pro Regular';
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+}
+
+.icon-box img {
+    margin: auto;
+    padding-bottom: 15px;
 }
