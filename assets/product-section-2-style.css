@@ -1,3 +1,7 @@
 .product-section2-container {
     background-color: #323232;
 }
+
+.sec-col-1 {
+    display: flex;
+}
