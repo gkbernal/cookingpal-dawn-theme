@@ -1,6 +1,8 @@
 <div class="section-cooking-pal-multicolumn">
-	<div class="cooking-pal-multicolumn-content-image" style="background-image: url('{{ section.settings.image | image_url: width: 950, height: 650 }}');">
-		{{ section.settings.image | image_url: width: 950, height: 650 | image_tag }}
+	<div class="cooking-pal-multicolumn-content-image" style="background-image: url('{% if section.settings.image %} {{ section.settings.image | image_url: width: 950, height: 650 }} {% endif %}');">
+		{% if section.settings.image %}
+			{{ section.settings.image | image_url: width: 950, height: 650 | image_tag }}
+		{% endif %}
 	</div>
 	<div class="cooking-pal-multicolumn-content">
 		<div class="cooking-pal-multicolumn-content-wrapper">
@@ -95,9 +97,11 @@
 	font-size: 45px;
 	line-height: 1.24em;
 	margin: 0 0 30px;
+	width: 400px;
 }
 .section-cooking-pal-multicolumn .cooking-pal-multicolumn-content p {
 	margin-bottom: 37px;
+	width: 422px;
 }
 .section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group {
 	display: grid;
@@ -110,7 +114,7 @@
 	padding: 16px 77px;
 	border-radius: 100px; 
 	text-decoration: none;
-	font-family: CeraPro-Medium;
+	font-family: 'Cera Pro Medium';
 	color: #fff;
 	transition: all ease-in-out .2s;
 	max-width: 270px;
@@ -128,10 +132,12 @@
 .section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group .btn2:hover {
 	background: #E76B38;
 }
-@media screen and (max-width: 480px) {
-	.section-cooking-pal-multicolumn,
-	.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group {
+@media screen and (max-width: 820px) {
+	.section-cooking-pal-multicolumn {
 		grid-template-columns: 1fr;
+	}
+	.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content {
+		padding: 30px;
 	}
 	.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-image {
 		background: none;
@@ -139,6 +145,15 @@
 	.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-image img {
 		display: block;
 		height: auto;
+	}
+	.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content h2 {
+		font-size: 25px;
+	}
+	.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group {
+		grid-template-columns: 1fr 1fr;
+	}
+	.section-cooking-pal-multicolumn .cooking-pal-multicolumn-content-button-group a {
+		padding: 15px;
 	}
 }
 {% endstylesheet %}
