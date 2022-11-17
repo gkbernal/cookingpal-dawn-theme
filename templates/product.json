@@ -127,15 +127,15 @@
           "type": "iconbox",
           "settings": {
             "select-option": "icon-chop.svg",
-            "iconbox-heading": "asd",
-            "iconbox-description": "<p>asd<\/p>"
+            "iconbox-heading": "Chop carrots",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
         "3e552839-93ff-404b-a7cc-55202d357f3c": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-chop.svg",
-            "iconbox-heading": "try",
+            "iconbox-heading": "Sauté onions",
             "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
@@ -143,40 +143,40 @@
           "type": "iconbox",
           "settings": {
             "select-option": "icon-chop.svg",
-            "iconbox-heading": "asd",
-            "iconbox-description": "<p>asd<\/p>"
+            "iconbox-heading": "Steam fish",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
         "eeff5915-7587-46dd-87f0-bb7371f0daa7": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-chop.svg",
-            "iconbox-heading": "asd",
-            "iconbox-description": "<p>asd<\/p>"
+            "iconbox-heading": "Weigh ingredients",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
         "e361f610-e6f4-42a9-bd73-9b40676ff923": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-chop.svg",
-            "iconbox-heading": "asd",
-            "iconbox-description": "<p>asd<\/p>"
+            "iconbox-heading": "Knead dough",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
         "f6312401-5975-4bfe-8ace-33d266ed88b8": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-chop.svg",
-            "iconbox-heading": "asd",
-            "iconbox-description": "<p>asd<\/p>"
+            "iconbox-heading": "Whisk eggs",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
         "092ed398-449b-4456-a1f7-bf38a2ed67c7": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-chop.svg",
-            "iconbox-heading": "asd",
-            "iconbox-description": "<p>asd<\/p>"
+            "iconbox-heading": "Weigh ingredients",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         }
       },
