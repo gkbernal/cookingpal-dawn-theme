@@ -120,10 +120,10 @@
         "padding_bottom": 12
       }
     },
-    "2c1b3a04-1990-4b29-900e-fb9d6dc97f20": {
-      "type": "PDP-section-2",
+    "f1ffc4e6-a4b5-41f9-8b46-6d4daa8485b9": {
+      "type": "productpage-section-2",
       "blocks": {
-        "02150b9c-553a-423e-ab9c-aaa2fabe5f77": {
+        "35220f06-552d-4f26-ad18-60af3f53ed8a": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-chop.svg",
@@ -131,7 +131,7 @@
             "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
-        "3e552839-93ff-404b-a7cc-55202d357f3c": {
+        "0791f2b0-1ad7-4b4d-b22e-8380e36641cd": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-saute.svg",
@@ -139,7 +139,7 @@
             "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
-        "b92bf639-9561-4bb8-a150-75720ccf2a6a": {
+        "56d3ac9d-ba4c-4e09-b6ed-0985f3a16921": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-steam.svg",
@@ -147,7 +147,7 @@
             "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
-        "eeff5915-7587-46dd-87f0-bb7371f0daa7": {
+        "e87acb4c-939a-4ba4-b690-561f9d0778d9": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-weigh.svg",
@@ -155,7 +155,7 @@
             "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
-        "e361f610-e6f4-42a9-bd73-9b40676ff923": {
+        "5afd08b3-576d-4fc3-993c-2c8584d68b47": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-knead.svg",
@@ -163,7 +163,7 @@
             "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
-        "f6312401-5975-4bfe-8ace-33d266ed88b8": {
+        "144d12a2-516f-401f-bd99-a7f5c0185c37": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-whisk.svg",
@@ -171,7 +171,15 @@
             "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
         },
-        "092ed398-449b-4456-a1f7-bf38a2ed67c7": {
+        "12efdc22-1a09-45b6-a035-ee7cfe2f32f6": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-steam.svg",
+            "iconbox-heading": "Steam fish",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "90a1a39e-8739-4941-834b-fe822c177379": {
           "type": "iconbox",
           "settings": {
             "select-option": "icon-weigh.svg",
@@ -181,13 +189,14 @@
         }
       },
       "block_order": [
-        "02150b9c-553a-423e-ab9c-aaa2fabe5f77",
-        "3e552839-93ff-404b-a7cc-55202d357f3c",
-        "b92bf639-9561-4bb8-a150-75720ccf2a6a",
-        "eeff5915-7587-46dd-87f0-bb7371f0daa7",
-        "e361f610-e6f4-42a9-bd73-9b40676ff923",
-        "f6312401-5975-4bfe-8ace-33d266ed88b8",
-        "092ed398-449b-4456-a1f7-bf38a2ed67c7"
+        "35220f06-552d-4f26-ad18-60af3f53ed8a",
+        "0791f2b0-1ad7-4b4d-b22e-8380e36641cd",
+        "56d3ac9d-ba4c-4e09-b6ed-0985f3a16921",
+        "e87acb4c-939a-4ba4-b690-561f9d0778d9",
+        "5afd08b3-576d-4fc3-993c-2c8584d68b47",
+        "144d12a2-516f-401f-bd99-a7f5c0185c37",
+        "12efdc22-1a09-45b6-a035-ee7cfe2f32f6",
+        "90a1a39e-8739-4941-834b-fe822c177379"
       ],
       "settings": {
       }
@@ -290,7 +299,7 @@
   },
   "order": [
     "main",
-    "2c1b3a04-1990-4b29-900e-fb9d6dc97f20",
+    "f1ffc4e6-a4b5-41f9-8b46-6d4daa8485b9",
     "image-with-text",
     "multicolumn",
     "product-recommendations"
