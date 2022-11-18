@@ -1,0 +1,86 @@
+.homepage-user-generated {
+    margin: 85px 0;
+}
+
+.user-generated-header {
+    display: block;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 57px;
+    margin: 0;
+    text-align: center;
+}
+
+.user-generated-item {
+    background-color: #141920;
+    float: left;
+    width: calc(100% / 3 - 15px);
+    aspect-ratio : 1 / 1;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.user-generated-button {
+    background-color:#ffff;
+    border-radius:30px;
+    display: block;
+    cursor:pointer;
+    color: #000;
+    text-decoration:none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    width: 271px;
+    height: 50px;
+    padding-top: 16px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.user-generated-item .excerpt {
+    color: #ffff;
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    line-height: 29px;
+    margin: 20% 10px 10px 10px;
+}
+
+.user-generated-item .author {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.user-generated-item:last-child {
+    margin-right: 1px !important;
+}
+
+.clearfix::after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+
+ /* SEMI Medium screen - hamburger menu has shown */
+@media only screen and (max-width: 1100px){
+    .user-generated-item {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .user-generated-item .excerpt {
+        margin-top: 35%;
+    }
+}
