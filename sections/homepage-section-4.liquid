@@ -1,0 +1,93 @@
+{{ 'homepage-section-4.css' | asset_url | stylesheet_tag }}
+
+<div id="homepage-section-4" class="homepage-our-recipes">
+	<div class="homepage-our-recipes-slider">
+		<div class="our-recipes-header clearfix">
+			<div class="col-1">
+				<h2 class="heading-title">Our Recipes</h2>
+			</div>
+			<div class="col-2">
+				<a class="our-recipes-button" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+			</div>
+		</div>
+		<div class="homepage-slider-container">
+			<div class="slider-arrow-left" style="background-image: url('{{ "carousel-left-arrow.svg" | asset_url }}')"> </div>
+			<div class="slider-arrow-right" style="background-image: url('{{ "carousel-right-arrow.svg" | asset_url }}')"> </div>
+			<div class="our-recipes-swiper">
+				<div class="swiper-wrapper">
+					{% assign blog_category = section.settings.blog_category %}
+					{% for article in blogs[blog_category].articles limit: 20 %}
+						<div class="swiper-slide">
+							<div class="slide-image">
+								<div class="slide-title">{{ article.title }}</div>
+								{{ article.image | image_url: width: 300 | image_tag: width: nil }}
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+  "name": "Cooking Pal - Our Recipes",
+  "settings": [
+	{
+		"type" : "text",
+		"id" : "heading_title",
+		"label" : "Heading Title",
+		"default": "Our Recipes"
+	},
+    {
+		"type": "text",
+		"id": "button_label",
+		"default": "View all recipes",
+		"label": "Button Label"
+    },
+    {
+		"type": "url",
+		"id": "button_link",
+		"label": "Button link"
+    },
+    {
+		"type": "blog",
+		"id": "blog_category",
+		"label": "Select Blog Category"
+    }
+  ],
+  "presets" : [
+    {
+      "name" : "Cooking Pal - Our Recipes"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %} 
+	var swiper_s4 = new Swiper(".our-recipes-swiper", {
+		speed: 400,
+		spaceBetween: 100,
+		initialSlide: 0,
+		autoHeight: false,
+		paginationClickable: true,
+		direction: 'horizontal',
+		loop: false,
+		effect: 'slide',
+		spaceBetween: 29,
+		slidesPerView: 2,
+		centeredSlides: true,
+		slidesOffsetBefore: 0,
+		grabCursor: true,
+		breakpoints: {
+			820: {
+				slidesPerView: 5,
+				centeredSlides: false,
+			},
+		},navigation: {
+			nextEl: '.slider-arrow-left',
+			prevEl: '.slider-arrow-right',
+		}
+	});
+{% endjavascript %}
