@@ -90,6 +90,11 @@
       "settings": {
       }
     },
+    "380565a6-464f-4676-987c-d3d63f99bc52": {
+      "type": "product-section-5",
+      "settings": {
+      }
+    },
     "a19b4d0b-5548-4fad-b555-0e574221b197": {
       "type": "homepage-section-3",
       "settings": {
@@ -238,6 +243,7 @@
   "order": [
     "multicolumn",
     "855ed9f9-0408-4210-92f8-855f70656800",
+    "380565a6-464f-4676-987c-d3d63f99bc52",
     "a19b4d0b-5548-4fad-b555-0e574221b197",
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
     "1576b38d-4f20-4024-bf1b-0d860f6ae757",
