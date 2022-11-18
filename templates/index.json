@@ -1,5 +1,43 @@
 {
   "sections": {
+    "f9206e67-41f8-4e2f-96e3-2b42a7892472": {
+      "type": "homepage-section-1",
+      "blocks": {
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-0": {
+          "type": "company_logo",
+          "settings": {
+            "company_logo": "shopify:\/\/shop_images\/Cooking_Pal_Logo_transparent_b711ccd9-77f0-4fa5-9aa8-c66e10831788.png"
+          }
+        },
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "You're heading text here."
+          }
+        },
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-2": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-3": {
+          "type": "button",
+          "settings": {
+            "button_label_1": "Show now",
+            "button_link_1": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-0",
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-1",
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-2",
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-3"
+      ],
+      "settings": {
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "disabled": true,
@@ -254,6 +292,7 @@
     }
   },
   "order": [
+    "f9206e67-41f8-4e2f-96e3-2b42a7892472",
     "multicolumn",
     "855ed9f9-0408-4210-92f8-855f70656800",
     "a19b4d0b-5548-4fad-b555-0e574221b197",
