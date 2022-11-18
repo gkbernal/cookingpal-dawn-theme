@@ -1,0 +1,30 @@
+.prod-sec5-col-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inner-col-2 {
+    max-width: 590px;
+    margin: auto;
+}
+
+img.popular-img {
+    width: 100%;
+}
+
+h2.popular-heading {
+    margin: 0;
+    font-family: 'Roboto Bold';
+    font-size: 40px;
+    color: #304A36;
+    line-height: 1.15em;
+    padding-bottom: 28px;
+}
+
+.popular-description p {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Roboto Regular';
+    line-height:  1.45em;
+    color: #304A36;
+}
