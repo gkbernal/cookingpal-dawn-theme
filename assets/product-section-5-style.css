@@ -72,14 +72,14 @@ h2.popular-heading {
 .product-section5-container img.slick-prev.slick-arrow {
     top: unset;
     bottom: 0;
-    left: 50%;
+    left: 45%;
     margin-left: -31px;
 }
 
 .product-section5-container img.slick-next.slick-arrow {
     top: unset;
     bottom: 0;
-    left: 50%;
+    left: 45%;
     margin-left: 31px;
 }
 }
