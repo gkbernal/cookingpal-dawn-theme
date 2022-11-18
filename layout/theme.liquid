@@ -290,7 +290,6 @@
     {{ 'homepage-section-7-style.css' | asset_url | stylesheet_tag }}
     {{ 'product-section-2-style.css' | asset_url | stylesheet_tag }}
     {{ 'product-section-4-style.css' | asset_url | stylesheet_tag }}
-    {{ 'product-section-5-style.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -441,16 +440,6 @@
                 }
               }
             ]
-          });
-
-           $('.prod-sec5-col-1').slick({
-    		dots: false,
-    		arrows: true,
-            prevArrow:"<img class='a-left control-c prev slick-prev' src='{{ 'arrow-left.svg' | asset_url }}'>",
-            nextArrow:"<img class='a-right control-c next slick-next' src='{{ 'arrow-right.svg' | asset_url }}'>",
-    		speed: 1000,
-    		slidesToShow: 1,
-    		slidesToScroll: 1
           });
         });
     </script>
