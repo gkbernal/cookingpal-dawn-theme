@@ -191,6 +191,47 @@
       ],
       "settings": {
       }
+    },
+    "530bbe1f-1dfe-4456-8cce-69037477025c": {
+      "type": "faq-section",
+      "blocks": {
+        "39278f66-0e39-486a-97aa-da48c7a5aebd": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have a question?",
+            "answer": "<p>I have an answer<\/p>"
+          }
+        },
+        "b031d350-0681-46bb-b2bb-7629554f3e51": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have a question?",
+            "answer": "<p>I have an answer<\/p>"
+          }
+        },
+        "41ebf41d-b393-46bc-93ef-212190266b27": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have a question?",
+            "answer": "<p>I have an answer<\/p>"
+          }
+        },
+        "82d55f56-1f77-403a-b99f-14b194a74622": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have a question?",
+            "answer": "<p>I have an answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "39278f66-0e39-486a-97aa-da48c7a5aebd",
+        "b031d350-0681-46bb-b2bb-7629554f3e51",
+        "41ebf41d-b393-46bc-93ef-212190266b27",
+        "82d55f56-1f77-403a-b99f-14b194a74622"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -200,6 +241,7 @@
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
     "1576b38d-4f20-4024-bf1b-0d860f6ae757",
     "86302d89-3564-47ae-bc60-d40117ee8125",
-    "c802300d-ba80-4807-850c-14b10dec6b18"
+    "c802300d-ba80-4807-850c-14b10dec6b18",
+    "530bbe1f-1dfe-4456-8cce-69037477025c"
   ]
 }
