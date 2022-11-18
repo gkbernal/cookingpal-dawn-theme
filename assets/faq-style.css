@@ -3,6 +3,16 @@
     margin: auto;
 }
 
+h2.faq-heading {
+    color: #304A36;
+    margin: 0;
+    font-family: 'Roboto Bold';
+    font-size: 45px;
+    line-height: 1.17em;
+    margin-bottom: 47px;
+    text-align: center;
+}
+
 .faq-checkbox {
   position: absolute;
   opacity: 0;
