@@ -84,5 +84,18 @@ h2.faq-heading {
 .tab-content p {
     font-size: 24px;
 }
+}
 
+@media (max-width: 767px){
+.faq-section {
+    padding: 40px 30px;
+}
+
+.tab-label {
+  font-size: 25px;
+}
+
+.tab-content p {
+    font-size: 16px;
+}
 }
