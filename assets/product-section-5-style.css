@@ -73,12 +73,13 @@ h2.popular-heading {
     top: unset;
     bottom: 0;
     left: 50%;
+    margin-right: 56px;
 }
 
 .product-section5-container img.slick-next.slick-arrow {
     top: unset;
     bottom: 0;
     left: 50%;
-    margin-left: 66px;
+    margin-left: 56px;
 }
 }
