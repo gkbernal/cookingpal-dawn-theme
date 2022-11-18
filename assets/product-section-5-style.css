@@ -4,8 +4,9 @@
 }
 
 .inner-col-2 {
-    max-width: 590px;
+    max-width: 690px;
     margin: auto;
+    padding: 50px;
 }
 
 img.popular-img {
