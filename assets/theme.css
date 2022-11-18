@@ -5,12 +5,6 @@
 }
 
 @font-face {
-    font-family: "Roboto Bold";
-    src: url("Roboto-Bold.woff2") format("woff2"),
-    url("Roboto-Bold.woff") format("woff");
-}
-
-@font-face {
     font-family: "Cera Pro Light";
     src: url("CeraPro-Light.woff2") format("woff2"),
     url("CeraPro-Light.woff") format("woff");

@@ -1,6 +1,9 @@
 .section5-container {
     background-color: #304A36;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .section5-container .section5-col {
@@ -35,7 +38,6 @@ a.form-submit {
     font-family: 'Cera Pro Medium';
     font-size: 18px;
     text-decoration: none;
-    line-height: 1em;
     transition: all ease-in-out 0.2s;
 }
 
@@ -63,6 +65,18 @@ input.form-input::placeholder {
     color: #3232324D;
 }
 
+@media (max-width: 1024px){
+h3.subscribe-heading {
+    font-size: 25px;
+}
+}
+
+@media (max-width: 767px){
+h3.subscribe-heading {
+    font-size: 22px;
+}
+}
+
 @media (max-width: 1160px){
 .subscribe-form {
     width: 100%;
@@ -70,43 +84,8 @@ input.form-input::placeholder {
 }
 }
 
-@media (max-width: 1024px){
-.section5-container {
-    padding: 50px 30px;
-}
-
-h3.subscribe-heading {
-    font-size: 36px;
-}
-
+@media (max-width: 500px){
 .subscribe-form {
     grid-template-columns: 1fr;
-    justify-items: center;
-}
-
-a.form-submit {
-    padding: 16px 130px;
-    font-size: 20px;
-}
-
-input.form-input {
-    padding: 16px 32px;
-    width: 100%;
-    text-align: center;
-    font-size: 20px;
-}
-}
-
-@media (max-width: 767px){
-.subscribe-form {
-    justify-items: stretch;
-}
-
-a.form-submit {
-    padding: 16px 0px;
-}
-  
-h3.subscribe-heading {
-    font-size: 25px;
 }
 }
