@@ -6,7 +6,6 @@
         "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-0": {
           "type": "company_logo",
           "settings": {
-            "company_logo": "shopify:\/\/shop_images\/Cooking_Pal_Logo_transparent_b711ccd9-77f0-4fa5-9aa8-c66e10831788.png"
           }
         },
         "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-1": {
@@ -98,7 +97,7 @@
         "a4b7ca75-dcff-4ddb-88fb-af904870da15": {
           "type": "image",
           "settings": {
-            "images": "shopify:\/\/shop_images\/easy-img.jpg",
+            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
             "heading-title": "Easy",
             "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
@@ -106,7 +105,7 @@
         "49e53ab0-552f-442a-9845-650b121fdb12": {
           "type": "image",
           "settings": {
-            "images": "shopify:\/\/shop_images\/healthy-img.jpg",
+            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
             "heading-title": "Healthy",
             "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
@@ -114,7 +113,7 @@
         "dc6713d4-852b-4a0f-acc4-53f65bb68cdb": {
           "type": "image",
           "settings": {
-            "images": "shopify:\/\/shop_images\/tasty-img.jpg",
+            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
             "heading-title": "Tasty",
             "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
@@ -131,7 +130,7 @@
     "a19b4d0b-5548-4fad-b555-0e574221b197": {
       "type": "homepage-section-3",
       "settings": {
-        "image": "shopify:\/\/shop_images\/section-3-image.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
         "title": "Multo® Intelligent  Cooking System",
         "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non erat faucibus nisi, eleifend. Semper est orci scelerisque pellentesque nec augue nisi, arcu amet. Pellentesque aliquam vel, habitant id aenean. Condimentum sit maecenas dictum nunc.<\/p>",
         "button1-text": "Shop Now",
