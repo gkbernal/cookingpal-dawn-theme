@@ -114,29 +114,77 @@
         "1c45c344-7470-47c1-aa7e-b38cb5af7e6a": {
           "type": "Category1",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/feature-1.png",
+            "video_url1": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/59d7a850070349ebbc38ab536a2908cd.mp4",
             "title1": "Chop carrots",
             "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image2": "shopify:\/\/shop_images\/feature-2.png",
+            "video_url2": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8ef5b2d7a82d4a39b516e3e6409fe8a7.mp4",
             "title2": "Sauté onions",
             "text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image3": "shopify:\/\/shop_images\/feature-3.png",
+            "video_url3": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/682f2e996422464cb32e88586f956c01.mp4",
             "title3": "Steam fish",
             "text3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image4": "shopify:\/\/shop_images\/feature-4.png",
+            "video_url4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c4c8be62752845a1afa3cca2b05ab931.mp4",
             "title4": "Weigh ingredients",
             "text4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image5": "shopify:\/\/shop_images\/feature-5.png",
+            "video_url5": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9a9d122f27f34590b1299974738e6c4a.mp4",
             "title5": "Knead dough",
             "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image6": "shopify:\/\/shop_images\/feature-6.png",
+            "video_url6": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/88d0e4e67c1749269921ff67877b71b1.mp4",
             "title6": "Whisk cream",
             "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          }
+        },
+        "2b186162-9ef4-4cc0-aaf9-b917b867c7d7": {
+          "type": "Category2",
+          "settings": {
+            "video_url1": "",
+            "title1": "",
+            "text1": "",
+            "video_url2": "",
+            "title2": "",
+            "text2": "",
+            "video_url3": "",
+            "title3": "",
+            "text3": "",
+            "video_url4": "",
+            "title4": "",
+            "text4": "",
+            "video_url5": "",
+            "title5": "",
+            "text5": "",
+            "video_url6": "",
+            "title6": "",
+            "text6": ""
+          }
+        },
+        "ad341572-3780-4a1e-a6e9-ccc1c40e3246": {
+          "type": "Category3",
+          "settings": {
+            "video_url1": "",
+            "title1": "",
+            "text1": "",
+            "video_url2": "",
+            "title2": "",
+            "text2": "",
+            "video_url3": "",
+            "title3": "",
+            "text3": "",
+            "video_url4": "",
+            "title4": "",
+            "text4": "",
+            "video_url5": "",
+            "title5": "",
+            "text5": "",
+            "video_url6": "",
+            "title6": "",
+            "text6": ""
           }
         }
       },
       "block_order": [
-        "1c45c344-7470-47c1-aa7e-b38cb5af7e6a"
+        "1c45c344-7470-47c1-aa7e-b38cb5af7e6a",
+        "2b186162-9ef4-4cc0-aaf9-b917b867c7d7",
+        "ad341572-3780-4a1e-a6e9-ccc1c40e3246"
       ],
       "settings": {
         "section-title": "Features - Multo® Intelligent Cooking System",
@@ -159,37 +207,37 @@
         "764e481b-da12-4b60-a731-adf6f9a5cd21": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/gia-award.png"
+            "logo_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0595\/7337\/1050\/files\/gia-award-1.svg?v=1668763164"
           }
         },
         "43edcd77-f9a8-4f49-ac99-fd68d10e03de": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/impact-award-winner-logo-2022.png"
+            "logo_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0595\/7337\/1050\/files\/impact-award-winner-logo-2022svg.svg?v=1668763173"
           }
         },
         "baef2d13-887d-4647-b5a7-87da4041030e": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/if-design-award-2022.png"
+            "logo_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0595\/7337\/1050\/files\/IF-Design-Award-2022.svg?v=1668763169"
           }
         },
         "7c0487b2-d6f3-4938-b506-cdc5d51e609f": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/good-design-logo.png"
+            "logo_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0595\/7337\/1050\/files\/good-design-logo.svg?v=1668763166"
           }
         },
         "19cd49cb-0555-4c1d-a0a7-6962a5bfbd91": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/lg-780x405.png"
+            "logo_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0595\/7337\/1050\/files\/lg.svg?v=1668763194"
           }
         },
         "c9c4c92a-568e-4358-92d2-f5120e243d10": {
           "type": "logo",
           "settings": {
-            "image_awards": "shopify:\/\/shop_images\/refinery29-best-of-ces-logo.png"
+            "logo_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0595\/7337\/1050\/files\/refinery29-best-of-ces-logo.svg?v=1668763200"
           }
         }
       },
