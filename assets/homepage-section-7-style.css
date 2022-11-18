@@ -75,6 +75,10 @@ h2.section-7-heading {
 .section7-container {
     grid-template-columns: 1fr;
 }
+  
+.section7-col-1 {
+    padding: 50px 0px;
+}
 
 .section7-col-2 {
     display: none;
