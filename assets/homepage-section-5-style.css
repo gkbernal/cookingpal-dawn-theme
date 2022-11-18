@@ -99,7 +99,11 @@ input.form-input {
 
 @media (max-width: 767px){
 .subscribe-form {
-    j    justify-items: stretch;
+    justify-items: stretch;
+}
+
+a.form-submit {
+    padding: 16px 0px;
 }
   
 h3.subscribe-heading {
