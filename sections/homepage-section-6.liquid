@@ -1,79 +1,162 @@
 <div class="section-cooking-pal-features">
 	<h2>{{ section.settings.section-title }}</h2>
-	<div class="tab">
-		<button class="tablinks" onclick="openCat(event, 'Cat1')">{{ section.settings.category-1 }}</button>
-		<button class="tablinks" onclick="openCat(event, 'Cat2')">{{ section.settings.category-2 }}</button>
-		<button class="tablinks" onclick="openCat(event, 'Cat3')">{{ section.settings.category-3 }}</button>
+
+	<div class="cooking-pal-features-desktop">
+		<div class="tab">
+			<button class="tablinks" onclick="openCat(event, 'Cat1')">{{ section.settings.category-1 }}</button>
+			<button class="tablinks" onclick="openCat(event, 'Cat2')">{{ section.settings.category-2 }}</button>
+			<button class="tablinks" onclick="openCat(event, 'Cat3')">{{ section.settings.category-3 }}</button>
+		</div>
+
+		<!-- Tab content -->
+		{%- for block in section.blocks -%}
+			{%- case block.type -%}
+				{%- when 'Category1' -%}
+					<div id="Cat1" class="tabcontent" style="display:grid">
+						{% for i in (1..6) %}
+							{% assign block_type_text = 'text' | append: i %}
+							{% assign feature_text = block.settings[block_type_text] %}
+
+							{% assign block_type_title = 'title' | append: i %}
+							{% assign feature_title = block.settings[block_type_title] %}
+
+							{% assign block_type_url = 'video_url' | append: i %}
+							{% assign feature_video = block.settings[block_type_url] %}
+
+							<div class="feature-card">
+								{% if feature_video %}
+									<video class="feature-vid" src="{{ feature_video }}"  loop="" preload="auto" playsinline="" muted=""></video>
+								{% endif %}
+								<h3>{{ feature_title }}</h3>
+								<p>{{ feature_text }}</p>
+							</div>
+						{% endfor %}
+					</div>
+				{%- when 'Category2' -%}
+					<div id="Cat2" class="tabcontent"> 
+					{% for i in (1..6) %}
+						{% assign block_type_text = 'text' | append: i %}
+						{% assign feature_text = block.settings[block_type_text] %}
+
+						{% assign block_type_title = 'title' | append: i %}
+						{% assign feature_title = block.settings[block_type_title] %}
+
+						{% assign block_type_url = 'video_url' | append: i %}
+						{% assign feature_video = block.settings[block_type_url] %}
+
+						<div class="feature-card">
+							{% if feature_video %}
+								<video class="feature-vid" src="{{ feature_video }}"  loop="" preload="auto" playsinline="" muted=""></video>
+							{% endif %}
+							<h3>{{ feature_title }}</h3>
+							<p>{{ feature_text }}</p>
+						</div>
+					{% endfor %}
+					</div>
+				{%- when 'Category3' -%}
+					<div id="Cat3" class="tabcontent">
+						{% for i in (1..6) %}
+							{% assign block_type_text = 'text' | append: i %}
+							{% assign feature_text = block.settings[block_type_text] %}
+
+							{% assign block_type_title = 'title' | append: i %}
+							{% assign feature_title = block.settings[block_type_title] %}
+
+							{% assign block_type_url = 'video_url' | append: i %}
+							{% assign feature_video = block.settings[block_type_url] %}
+
+							<div class="feature-card">
+								{% if feature_video %}
+									<video class="feature-vid" src="{{ feature_video }}"  loop="" preload="auto" playsinline="" muted=""></video>
+								{% endif %}
+								<h3>{{ feature_title }}</h3>
+								<p>{{ feature_text }}</p>
+							</div>
+						{% endfor %}
+					</div>
+			{%- endcase -%}
+		{%- endfor -%}
 	</div>
-
-	<!-- Tab content -->
-	{%- for block in section.blocks -%}
-		{%- case block.type -%}
-			{%- when 'Category1' -%}
-				<div id="Cat1" class="tabcontent" style="display:grid">
-					{% for i in (1..6) %}
-						{% assign block_type_text = 'text' | append: i %}
-						{% assign feature_text = block.settings[block_type_text] %}
-
-						{% assign block_type_title = 'title' | append: i %}
-						{% assign feature_title = block.settings[block_type_title] %}
-
-						{% assign block_type_image = 'image' | append: i %}
-						{% assign feature_image = block.settings[block_type_image] %}
-
-						<div class="feature-card">
-							{% if feature_image %}
-								{{ feature_image | image_url: height: 250 | image_tag }}
-							{% endif %}
-							<h3>{{ feature_title }}</h3>
-							<p>{{ feature_text }}</p>
+	<div class="cooking-pal-features-mobile">
+		
+		{%- for block in section.blocks -%}
+			{%- case block.type -%}
+				{%- when 'Category1' -%}
+					<button class="features-accordion">{{ section.settings.category-1 }} <span>{% render 'icon-caret' %}</span></button>
+					<div class="features-panel">
+						<div class="features-wrapper">
+							{% for i in (1..6) %}
+								{% assign block_type_text = 'text' | append: i %}
+								{% assign feature_text = block.settings[block_type_text] %}
+	
+								{% assign block_type_title = 'title' | append: i %}
+								{% assign feature_title = block.settings[block_type_title] %}
+	
+								{% assign block_type_url = 'video_url' | append: i %}
+								{% assign feature_video = block.settings[block_type_url] %}
+	
+								<div class="feature-card">
+									{% if feature_video %}
+										<video class="feature-vid" src="{{ feature_video }}"  loop="" preload="auto" playsinline="" muted=""></video>
+									{% endif %}
+									<h3>{{ feature_title }}</h3>
+									<p>{{ feature_text }}</p>
+								</div>
+							{% endfor %}
 						</div>
-					{% endfor %}
-				</div>
-			{%- when 'Category2' -%}
-				<div id="Cat2" class="tabcontent"> 
-					{% for i in (1..6) %}
-						{% assign block_type_text = 'text' | append: i %}
-						{% assign feature_text = block.settings[block_type_text] %}
-
-						{% assign block_type_title = 'title' | append: i %}
-						{% assign feature_title = block.settings[block_type_title] %}
-
-						{% assign block_type_image = 'image' | append: i %}
-						{% assign feature_image = block.settings[block_type_image] %}
-
-						<div class="feature-card">
-							{% if feature_image %}
-								{{ feature_image | image_url: height: 250 | image_tag }}
-							{% endif %}
-							<h3>{{ feature_title }}</h3>
-							<p>{{ feature_text }}</p>
+					</div>
+				{%- when 'Category2' -%}
+					<button class="features-accordion">{{ section.settings.category-2 }} <span>{% render 'icon-caret' %}</span></button>
+					<div class="features-panel">
+						<div class="features-wrapper">
+							{% for i in (1..6) %}
+								{% assign block_type_text = 'text' | append: i %}
+								{% assign feature_text = block.settings[block_type_text] %}
+	
+								{% assign block_type_title = 'title' | append: i %}
+								{% assign feature_title = block.settings[block_type_title] %}
+	
+								{% assign block_type_url = 'video_url' | append: i %}
+								{% assign feature_video = block.settings[block_type_url] %}
+	
+								<div class="feature-card">
+									{% if feature_video %}
+										<video class="feature-vid" src="{{ feature_video }}"  loop="" preload="auto" playsinline="" muted=""></video>
+									{% endif %}
+									<h3>{{ feature_title }}</h3>
+									<p>{{ feature_text }}</p>
+								</div>
+							{% endfor %}
 						</div>
-					{% endfor %}
-				</div>
-			{%- when 'Category3' -%}
-				<div id="Cat3" class="tabcontent">
-					{% for i in (1..6) %}
-						{% assign block_type_text = 'text' | append: i %}
-						{% assign feature_text = block.settings[block_type_text] %}
-
-						{% assign block_type_title = 'title' | append: i %}
-						{% assign feature_title = block.settings[block_type_title] %}
-
-						{% assign block_type_image = 'image' | append: i %}
-						{% assign feature_image = block.settings[block_type_image] %}
-
-						<div class="feature-card">
-							{% if feature_image %}
-								{{ feature_image | image_url: height: 250 | image_tag }}
-							{% endif %}
-							<h3>{{ feature_title }}</h3>
-							<p>{{ feature_text }}</p>
+					</div>
+				{%- when 'Category3' -%}
+					<button class="features-accordion">{{ section.settings.category-3 }} <span>{% render 'icon-caret' %}</span></button>
+					<div class="features-panel">
+						<div class="features-wrapper">
+							{% for i in (1..6) %}
+								{% assign block_type_text = 'text' | append: i %}
+								{% assign feature_text = block.settings[block_type_text] %}
+	
+								{% assign block_type_title = 'title' | append: i %}
+								{% assign feature_title = block.settings[block_type_title] %}
+	
+								{% assign block_type_url = 'video_url' | append: i %}
+								{% assign feature_video = block.settings[block_type_url] %}
+	
+								<div class="feature-card">
+									{% if feature_video %}
+										<video class="feature-vid" src="{{ feature_video }}"  loop="" preload="auto" playsinline="" muted=""></video>
+									{% endif %}
+									<h3>{{ feature_title }}</h3>
+									<p>{{ feature_text }}</p>
+								</div>
+							{% endfor %}
 						</div>
-					{% endfor %}
-				</div>
-		{%- endcase -%}
-	{%- endfor -%}
+					</div>
+			{%- endcase -%}
+		{%- endfor -%}
+
+	</div>
 </div>
 
 {% schema %}
@@ -113,9 +196,9 @@
       "name": "Category1",
       "settings": [
         {
-          "type": "image_picker",
-          "id": "image1",
-					"label": "Image 1"
+          "type": "url",
+          "id": "video_url1",
+          "label": "Video URL 1"
         },
         {
           "type": "text",
@@ -128,9 +211,9 @@
           "label": "Text 1"
         },
         {
-          "type": "image_picker",
-          "id": "image2",
-					"label": "Image 2"
+          "type": "url",
+          "id": "video_url2",
+          "label": "Video URL 2"
         },
         {
           "type": "text",
@@ -143,9 +226,9 @@
           "label": "Text 2"
         },
         {
-          "type": "image_picker",
-          "id": "image3",
-					"label": "Image 3"
+          "type": "url",
+          "id": "video_url3",
+          "label": "Video URL 3"
         },
         {
           "type": "text",
@@ -153,14 +236,14 @@
           "label": "Title 3"
         },
         {
-          "type": "text", 
+          "type": "text",
           "id": "text3",
           "label": "Text 3"
         },
         {
-          "type": "image_picker",
-          "id": "image4",
-					"label": "Image 4"
+          "type": "url",
+          "id": "video_url4",
+          "label": "Video URL 4"
         },
         {
           "type": "text",
@@ -173,9 +256,9 @@
           "label": "Text 4"
         },
         {
-          "type": "image_picker",
-          "id": "image5",
-					"label": "Image 5"
+          "type": "url",
+          "id": "video_url5",
+          "label": "Video URL 5"
         },
         {
           "type": "text",
@@ -188,9 +271,9 @@
           "label": "Text 5"
         },
         {
-          "type": "image_picker",
-          "id": "image6",
-					"label": "Image 6"
+          "type": "url",
+          "id": "video_url6",
+          "label": "Video URL 6"
         },
         {
           "type": "text",
@@ -209,9 +292,9 @@
       "name": "Category2",
       "settings": [
         {
-          "type": "image_picker",
-          "id": "image1",
-					"label": "Image 1"
+          "type": "url",
+          "id": "video_url1",
+          "label": "Video URL 1"
         },
         {
           "type": "text",
@@ -224,9 +307,9 @@
           "label": "Text 1"
         },
         {
-          "type": "image_picker",
-          "id": "image2",
-					"label": "Image 2"
+          "type": "url",
+          "id": "video_url2",
+          "label": "Video URL 2"
         },
         {
           "type": "text",
@@ -239,9 +322,9 @@
           "label": "Text 2"
         },
         {
-          "type": "image_picker",
-          "id": "image3",
-					"label": "Image 3"
+          "type": "url",
+          "id": "video_url3",
+          "label": "Video URL 3"
         },
         {
           "type": "text",
@@ -254,9 +337,9 @@
           "label": "Text 3"
         },
         {
-          "type": "image_picker",
-          "id": "image4",
-					"label": "Image 4"
+          "type": "url",
+          "id": "video_url4",
+          "label": "Video URL 4"
         },
         {
           "type": "text",
@@ -269,9 +352,9 @@
           "label": "Text 4"
         },
         {
-          "type": "image_picker",
-          "id": "image5",
-					"label": "Image 5"
+          "type": "url",
+          "id": "video_url5",
+          "label": "Video URL 5"
         },
         {
           "type": "text",
@@ -284,9 +367,9 @@
           "label": "Text 5"
         },
         {
-          "type": "image_picker",
-          "id": "image6",
-					"label": "Image 6"
+          "type": "url",
+          "id": "video_url6",
+          "label": "Video URL 6"
         },
         {
           "type": "text",
@@ -305,9 +388,9 @@
       "name": "Category3",
       "settings": [
         {
-          "type": "image_picker",
-          "id": "image1",
-					"label": "Image 1"
+          "type": "url",
+          "id": "video_url1",
+          "label": "Video URL 1"
         },
         {
           "type": "text",
@@ -320,9 +403,9 @@
           "label": "Text 1"
         },
         {
-          "type": "image_picker",
-          "id": "image2",
-					"label": "Image 2"
+          "type": "url",
+          "id": "video_url2",
+          "label": "Video URL 2"
         },
         {
           "type": "text",
@@ -335,9 +418,9 @@
           "label": "Text 2"
         },
         {
-          "type": "image_picker",
-          "id": "image3",
-					"label": "Image 3"
+          "type": "url",
+          "id": "video_url3",
+          "label": "Video URL 3"
         },
         {
           "type": "text",
@@ -350,9 +433,9 @@
           "label": "Text 3"
         },
         {
-          "type": "image_picker",
-          "id": "image4",
-					"label": "Image 4"
+          "type": "url",
+          "id": "video_url4",
+          "label": "Video URL 4"
         },
         {
           "type": "text",
@@ -365,9 +448,9 @@
           "label": "Text 4"
         },
         {
-          "type": "image_picker",
-          "id": "image5",
-					"label": "Image 5"
+          "type": "url",
+          "id": "video_url5",
+          "label": "Video URL 5"
         },
         {
           "type": "text",
@@ -380,9 +463,9 @@
           "label": "Text 5"
         },
         {
-          "type": "image_picker",
-          "id": "image6",
-					"label": "Image 6"
+          "type": "url",
+          "id": "video_url6",
+          "label": "Video URL 6"
         },
         {
           "type": "text",
@@ -424,7 +507,7 @@
 }
 .tab button {
 	color: #B4B4B4;
-	font-size: 1.5em;
+	font-size: 30px;
 	font-weight: 700;
   background-color: inherit;
   float: left;
@@ -445,6 +528,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	transition: all ease-in .3s;
 }
 .tab button:hover,
 .tab button.active {
@@ -453,6 +537,7 @@
 .tab button:hover::after,
 .tab button.active::after {
 	border-bottom: 5px solid #57C88C;
+	width: 100%;
 }
 .tabcontent {
   display: none;
@@ -465,22 +550,77 @@
 	display: grid;
 	place-items: center;
 }
-.tabcontent .feature-card img {
+.tabcontent .feature-card img,
+.tabcontent .feature-card video {
 	width: 100%;
 	height: auto;
-	max-width: 200px;
+	max-width: 250px;
 }
 .tabcontent .feature-card h3 {
 	color: #304A36;
 	font-weight: 700;
 	margin-bottom: 0;
 	text-align: center;
+	margin-top: 40px;
 }
 .tabcontent .feature-card p {
 	text-align: center;
 }
-
+.cooking-pal-features-mobile {
+	display: none;
+}
+button.features-accordion {
+	color: #304A36;
+	font-size: 1.5em;
+	font-weight: 700;
+	width: 100%;
+	background: none;
+	border: none;
+	outline: none;
+	position: relative;
+	padding-bottom: 10px;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+button.features-accordion::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 5px;
+	border-radius: 100px;
+	background: #304A36;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+button.features-accordion span {
+	float: right;
+}
+button.features-accordion span svg {
+	width: 20px;
+	transition: transform ease-in .1s;
+}
+button.features-accordion.active span svg {
+	transform: rotate(180deg);
+}
+.features-panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
 @media screen and (max-width: 820px) {
+	.section-cooking-pal-features {
+		padding: 87px 30px 95px;
+	}
+	.cooking-pal-features-desktop {
+		display: none;
+	}
+	.cooking-pal-features-mobile {
+		display: block;
+	}
 	.section-cooking-pal-features h2 {
 		font-size: 1.5em;
 	}
@@ -491,9 +631,55 @@
 		grid-template-columns: repeat(2,minmax(0,1fr));
 		gap: 30px;
 	}
+	.cooking-pal-features-mobile video.feature-vid {
+		max-width: 135px;
+	}
+	.cooking-pal-features-mobile h3 {
+		margin: 0;
+		text-align: center;
+	}
+	.features-panel .features-wrapper {
+		display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+	}
+}
+@media screen and (max-width: 414px) {
+	.cooking-pal-features-mobile .features-panel {
+		margin-top: 28px;
+	}
+	.cooking-pal-features-mobile video.feature-vid {
+		max-width: 166px;
+	}
 }
 {% endstylesheet %}
 
 {% javascript %}
+	var acc = document.getElementsByClassName("features-accordion");
+	var i;
 
+	for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+				panel.style.maxHeight = null;
+			} else {
+				panel.style.maxHeight = panel.scrollHeight + "px";
+			}
+		});
+	}
+
+	// Listening to the video element
+	var clip = document.getElementsByClassName("feature-vid");
+	var v;
+
+	for (v = 0; v < clip.length; v++) {
+		clip[v].addEventListener("mouseover", function (e) {
+			this.play();
+		});
+		clip[v].addEventListener("mouseout", function (e) {
+			this.pause();
+		});
+	}
 {% endjavascript %}
