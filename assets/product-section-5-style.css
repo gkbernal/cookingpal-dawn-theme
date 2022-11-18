@@ -62,6 +62,7 @@ h2.popular-heading {
 
 h2.popular-heading {
     text-align: start;
+    padding-bottom: 10px;
 }
 
 .popular-description p {
