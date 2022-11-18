@@ -1,4 +1,4 @@
-.prod-sec5-col-1 {
+.inner-product {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
