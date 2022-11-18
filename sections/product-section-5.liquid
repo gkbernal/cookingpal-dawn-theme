@@ -1,7 +1,49 @@
+<div class="product-section2-container">
+  <div class="prod-sec2-col-1">
+    {% for block in section.blocks  %}
+      <div class="inner-col-1">
+        <img src="{{block.settings.images | img_url: 'large'}}" />
+      </div>
+      <div class="inner-col-2">
+        <h3 class="box-heading">{{ block.settings.heading-title }}</h3>
+        <span class="box-description">{{ block.settings.box-description }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Most popular section",
+    "max_blocks": 3,
+    "blocks" : [
+      {
+        "type" : "image",
+        "name" : "Image block",
+        "settings" : [
+          {
+            "type" : "image_picker",
+            "label" : "image",
+            "id" : "images"
+          },
+          {
+            "type" : "text",
+            "label" : "Heading 3",
+            "id" : "heading-title"
+          },
+          {
+            "type" : "richtext",
+            "label" : "Description",
+            "id" : "box-description"
+          }
+        ]
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Most popular section"
+      }
+    ]
   }
 {% endschema %}
 
