@@ -73,6 +73,7 @@ h3.subscribe-heading {
 
 .subscribe-form {
     grid-template-columns: 1fr;
+    justify-items: center;
 }
 }
 
