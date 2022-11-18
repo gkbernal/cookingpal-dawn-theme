@@ -1,13 +1,19 @@
 @font-face {
+    font-family: "Roboto Regular";
+    src: url("Roboto-Regular.woff2") format("woff2"),
+    url("Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
     font-family: "Cera Pro Light";
     src: url("CeraPro-Light.woff2") format("woff2"),
     url("CeraPro-Light.woff") format("woff");
 }
 
 @font-face {
-font-family: "Cera Pro Regular";
-src: url("CeraPro-Regular.woff2") format("woff2"),
-url("CeraPro-Regular.woff") format("woff");
+  font-family: "Cera Pro Regular";
+  src: url("CeraPro-Regular.woff2") format("woff2"),
+  url("CeraPro-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -26,34 +32,6 @@ url("CeraPro-Regular.woff") format("woff");
     font-family: "Cera Pro Black";
     src: url("CeraPro-Black.woff2") format("woff2"),
     url("CeraPro-Black.woff") format("woff");
-}
-
-h1 {
-    font-family: 'Cera Pro Bold';
-    font-size: 30px;
-    line-height: 1.26em;
-    color: #383838;
-}
-
-h2 {
-    font-family: 'Cera Pro Bold';
-    font-size: 24px;
-    line-height: 1.25em;
-    color: #383838;
-}
-
-h3 {
-    font-family: 'Cera Pro Bold';
-    font-size: 20px;
-    line-height: 1.3em;
-    color: #383838;
-}
-
-p {
-    font-family: 'Cera Pro Regular';
-    font-size: 14px;
-    line-height: 1.214em;
-    color: #383838;
 }
 
 /*************************************** header *************************************/

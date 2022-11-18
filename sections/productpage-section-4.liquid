@@ -1,0 +1,106 @@
+<div class="product-section4-container">
+  <div class="sec-col-1">
+    <div class="slick-slider">
+      {% for block in section.blocks  %}
+        <div class="icon-box">
+          <img src="{{ block.settings.select-option | asset_url }}" />
+          <h3 class="iconbox-heading">{{ block.settings.iconbox-heading }}</h3>
+          <span class="iconbox-description">{{ block.settings.iconbox-description }}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Icon Box 2",
+    "max_blocks": 10,
+    "blocks" : [
+      {
+        "type" : "iconbox",
+        "name" : "Icon Box 2",
+        "settings" : [
+          {
+              "type": "select",
+              "id": "select-option",
+              "label": "Select Icon",
+              "options": [
+                {
+                  "value": "icon-chop.svg",
+                  "label": "icon-chop.svg"
+                },
+                {
+                  "value": "icon-knead.svg",
+                  "label": "icon-knead.svg"
+                },
+                {
+                  "value": "icon-saute.svg",
+                  "label": "icon-saute.svg"
+                },
+                {
+                  "value": "icon-steam.svg",
+                  "label": "icon-steam.svg"
+                },
+                {
+                  "value": "icon-weigh.svg",
+                  "label": "icon-weigh.svg"
+                },
+                {
+                  "value": "icon-whisk.svg",
+                  "label": "icon-whisk.svg"
+                },
+                {
+                  "value": "icon-choose.svg",
+                  "label": "icon-choose.svg"
+                },
+                {
+                  "value": "icon-mobile.svg",
+                  "label": "icon-mobile.svg"
+                },
+                {
+                  "value": "icon-recipes.svg",
+                  "label": "icon-recipes.svg"
+                },
+                {
+                  "value": "icon-remote.svg",
+                  "label": "icon-remote.svg"
+                },
+                {
+                  "value": "icon-space.svg",
+                  "label": "icon-space.svg"
+                },
+                {
+                  "value": "icon-time.svg",
+                  "label": "icon-time.svg"
+                }
+              ],
+              "default": "icon-chop.svg"
+          },
+          {
+            "type" : "text",
+            "label" : "Heading 4",
+            "id" : "iconbox-heading"
+          },
+          {
+            "type" : "richtext",
+            "label" : "Description",
+            "id" : "iconbox-description"
+          }
+        ]
+      }
+    ],
+    "presets" : [
+      {
+        "name" : "Product Section 4"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+
+{% endjavascript %}

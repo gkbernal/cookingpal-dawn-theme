@@ -7,6 +7,14 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -280,6 +288,8 @@
     {{ 'homepage-section-2-style.css' | asset_url | stylesheet_tag }}
     {{ 'homepage-section-5-style.css' | asset_url | stylesheet_tag }}
     {{ 'homepage-section-7-style.css' | asset_url | stylesheet_tag }}
+    {{ 'product-section-2-style.css' | asset_url | stylesheet_tag }}
+    {{ 'product-section-4-style.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -326,7 +336,7 @@
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
     </ul>
-
+    
     <script>
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
@@ -386,6 +396,52 @@
           }
         }
       });
+    </script>
+    
+    <script>
+        jQuery(document).ready(function($) {
+            $('.slick-slider').slick({
+    		rows: 2,
+            mobileFirst: true,
+    		dots: false,
+    		arrows: true,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            prevArrow:"<img class='a-left control-c prev slick-prev' src='{{ 'arrow-left.svg' | asset_url }}'>",
+            nextArrow:"<img class='a-right control-c next slick-next' src='{{ 'arrow-right.svg' | asset_url }}'>",
+    		infinite: true,
+    		speed: 1000,
+    		slidesToShow: 2,
+    		slidesToScroll: 1,
+            responsive: [
+              {
+                breakpoint: 1025,
+                settings: {
+                  rows: 1,
+                  slidesToShow: 4,
+                  slidesToScroll: 1
+                }
+              },
+              {
+                breakpoint: 1366,
+                settings: {
+                  rows: 1,
+                  slidesToShow: 5,
+                  slidesToScroll: 1
+                }
+              },
+              {
+                breakpoint: 1440,
+                settings: {
+                  rows: 1,
+                  slidesToShow: 6,
+                  slidesToScroll: 1
+                }
+              }
+            ]
+          });
+        });
     </script>
   </body>
 </html>
