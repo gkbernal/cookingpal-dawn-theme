@@ -81,10 +81,13 @@ h2.section-7-heading {
 
 img.middle-img {
     display: block;
+    width: 100%;
+    margin-bottom: 67px;
 }
 
 h2.section-7-heading {
-    font-size: 40px;
+    font-size: 42px;
+    margin-bottom: 53px;
 } 
 
 .book-description p {
