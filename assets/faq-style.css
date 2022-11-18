@@ -80,4 +80,9 @@ h2.faq-heading {
 .tab-label {
   font-size: 42px;
 }
+
+.tab-content p {
+    font-size: 24px;
+}
+
 }
