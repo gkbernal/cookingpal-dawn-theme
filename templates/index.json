@@ -1,5 +1,43 @@
 {
   "sections": {
+    "f9206e67-41f8-4e2f-96e3-2b42a7892472": {
+      "type": "homepage-section-1",
+      "blocks": {
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-0": {
+          "type": "company_logo",
+          "settings": {
+            "company_logo": "shopify:\/\/shop_images\/Cooking_Pal_Logo_transparent_b711ccd9-77f0-4fa5-9aa8-c66e10831788.png"
+          }
+        },
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Devices to do it all. Hundreds of smart recipes Bringing joy to everyone around the kitchen table."
+          }
+        },
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-2": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non erat faucibus nisi, eleifend. Semper est orci scelerisque pellentesque nec augue nisi, arcu amet. Pellentesque aliquam vel, habitant id aenean. Condimentum sit maecenas dictum nunc."
+          }
+        },
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-3": {
+          "type": "button",
+          "settings": {
+            "button_label_1": "Show now",
+            "button_link_1": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-0",
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-1",
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-2",
+        "template--15999744442538__f9206e67-41f8-4e2f-96e3-2b42a7892472-16687688860ba192cb-3"
+      ],
+      "settings": {
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "disabled": true,
@@ -60,7 +98,7 @@
         "a4b7ca75-dcff-4ddb-88fb-af904870da15": {
           "type": "image",
           "settings": {
-            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
+            "images": "shopify:\/\/shop_images\/easy-img.jpg",
             "heading-title": "Easy",
             "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
@@ -68,7 +106,7 @@
         "49e53ab0-552f-442a-9845-650b121fdb12": {
           "type": "image",
           "settings": {
-            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
+            "images": "shopify:\/\/shop_images\/healthy-img.jpg",
             "heading-title": "Healthy",
             "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
@@ -76,7 +114,7 @@
         "dc6713d4-852b-4a0f-acc4-53f65bb68cdb": {
           "type": "image",
           "settings": {
-            "images": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
+            "images": "shopify:\/\/shop_images\/tasty-img.jpg",
             "heading-title": "Tasty",
             "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
           }
@@ -90,37 +128,10 @@
       "settings": {
       }
     },
-    "380565a6-464f-4676-987c-d3d63f99bc52": {
-      "type": "product-section-5",
-      "blocks": {
-        "5f97671e-b25b-48be-98ea-38b13dd78ce3": {
-          "type": "image",
-          "settings": {
-            "images": "shopify:\/\/shop_images\/pulled_pork_sliders_with_red_cabbage_slaw_hero_1.jpg",
-            "heading-title": "Most popular recipes",
-            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac turpis cras morbi lorem lacus, gravida vitae, nec. Mi, arcu vitae duis donec integer tortor, varius.<\/p>"
-          }
-        },
-        "fc74429a-5ab7-43b5-90c3-578265cafcf3": {
-          "type": "image",
-          "settings": {
-            "images": "shopify:\/\/shop_images\/pulled_pork_sliders_with_red_cabbage_slaw_hero_1.jpg",
-            "heading-title": "Most popular recipes",
-            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac turpis cras morbi lorem lacus, gravida vitae, nec. Mi, arcu vitae duis donec integer tortor, varius.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "5f97671e-b25b-48be-98ea-38b13dd78ce3",
-        "fc74429a-5ab7-43b5-90c3-578265cafcf3"
-      ],
-      "settings": {
-      }
-    },
     "a19b4d0b-5548-4fad-b555-0e574221b197": {
       "type": "homepage-section-3",
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_3460_1.jpg",
+        "image": "shopify:\/\/shop_images\/section-3-image.jpg",
         "title": "Multo® Intelligent  Cooking System",
         "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non erat faucibus nisi, eleifend. Semper est orci scelerisque pellentesque nec augue nisi, arcu amet. Pellentesque aliquam vel, habitant id aenean. Condimentum sit maecenas dictum nunc.<\/p>",
         "button1-text": "Shop Now",
@@ -154,10 +165,46 @@
             "title6": "Whisk cream",
             "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
           }
+        },
+        "2b186162-9ef4-4cc0-aaf9-b917b867c7d7": {
+          "type": "Category2",
+          "settings": {
+            "title1": "",
+            "text1": "",
+            "title2": "",
+            "text2": "",
+            "title3": "",
+            "text3": "",
+            "title4": "",
+            "text4": "",
+            "title5": "",
+            "text5": "",
+            "title6": "",
+            "text6": ""
+          }
+        },
+        "ad341572-3780-4a1e-a6e9-ccc1c40e3246": {
+          "type": "Category3",
+          "settings": {
+            "title1": "",
+            "text1": "",
+            "title2": "",
+            "text2": "",
+            "title3": "",
+            "text3": "",
+            "title4": "",
+            "text4": "",
+            "title5": "",
+            "text5": "",
+            "title6": "",
+            "text6": ""
+          }
         }
       },
       "block_order": [
-        "1c45c344-7470-47c1-aa7e-b38cb5af7e6a"
+        "1c45c344-7470-47c1-aa7e-b38cb5af7e6a",
+        "2b186162-9ef4-4cc0-aaf9-b917b867c7d7",
+        "ad341572-3780-4a1e-a6e9-ccc1c40e3246"
       ],
       "settings": {
         "section-title": "Features - Multo® Intelligent Cooking System",
@@ -218,59 +265,16 @@
       ],
       "settings": {
       }
-    },
-    "530bbe1f-1dfe-4456-8cce-69037477025c": {
-      "type": "faq-section",
-      "blocks": {
-        "39278f66-0e39-486a-97aa-da48c7a5aebd": {
-          "type": "faq",
-          "settings": {
-            "question": "What can Multo do?",
-            "answer": "<p>Multo helps chefs in the kitchen to prep and cook. It also cleans itself afterwards.<br\/><br\/>Its prepping functions include: cut, chop, grind, knead, grate, weigh\/scale and more.<br\/><br\/>Its cooking functions include: sauté, steam, boil, mix, emulsify and more.<br\/><br\/>The result is a new type of kitchen appliance that makes cooking easier for all, whether as an all-in-one machine that can help you cook entire meals, or as a reliable sous-chef that helps you make one part of your more elaborate feasts.<\/p>"
-          }
-        },
-        "b031d350-0681-46bb-b2bb-7629554f3e51": {
-          "type": "faq",
-          "settings": {
-            "question": "How does Multo clean itself?",
-            "answer": "<p>I have an answer<\/p>"
-          }
-        },
-        "41ebf41d-b393-46bc-93ef-212190266b27": {
-          "type": "faq",
-          "settings": {
-            "question": "How does Multo compare to other appliances?",
-            "answer": "<p>I have an answer<\/p>"
-          }
-        },
-        "82d55f56-1f77-403a-b99f-14b194a74622": {
-          "type": "faq",
-          "settings": {
-            "question": "Guided Recipes and Cooking Modes",
-            "answer": "<p>I have an answer<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "39278f66-0e39-486a-97aa-da48c7a5aebd",
-        "b031d350-0681-46bb-b2bb-7629554f3e51",
-        "41ebf41d-b393-46bc-93ef-212190266b27",
-        "82d55f56-1f77-403a-b99f-14b194a74622"
-      ],
-      "settings": {
-        "heading-title": "Frequently Asked Questions"
-      }
     }
   },
   "order": [
+    "f9206e67-41f8-4e2f-96e3-2b42a7892472",
     "multicolumn",
     "855ed9f9-0408-4210-92f8-855f70656800",
-    "380565a6-464f-4676-987c-d3d63f99bc52",
     "a19b4d0b-5548-4fad-b555-0e574221b197",
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
     "1576b38d-4f20-4024-bf1b-0d860f6ae757",
     "86302d89-3564-47ae-bc60-d40117ee8125",
-    "c802300d-ba80-4807-850c-14b10dec6b18",
-    "530bbe1f-1dfe-4456-8cce-69037477025c"
+    "c802300d-ba80-4807-850c-14b10dec6b18"
   ]
 }
