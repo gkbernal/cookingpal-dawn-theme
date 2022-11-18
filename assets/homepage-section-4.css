@@ -1,0 +1,158 @@
+.our-recipes-header {
+    position: relative;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.our-recipes-header > div.col-1 {
+    float: left;
+}
+
+.our-recipes-header > div.col-2 {
+    float: right;
+    overflow: hidden;
+}
+
+#homepage-section-4 .heading-title {
+    display: block;
+    padding-bottom: 20px;
+}
+
+#homepage-section-4 h2 {
+    display: block;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 57px;
+    margin: 0;
+}
+
+.homepage-our-recipes-slider {
+    width: 1620px;
+    margin: 0 auto;
+}
+
+.homepage-our-recipes .our-recipes-swiper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.homepage-slider-container {
+    position: relative;
+}
+
+.slider-arrow-left,
+.slider-arrow-right {
+    border-radius: 24px;
+    width: 48px;
+    height: 48px;
+    background: #304A36;
+    position: absolute;
+    top: calc(50% - 24px);
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    cursor: pointer;
+}
+
+.slider-arrow-left {
+    left: -77px;
+    background-position-x: 13px;
+}
+
+.slider-arrow-right {
+    right: -77px;
+    background-position-x: 18px;
+}
+
+.homepage-our-recipes .swiper-slide {
+    background-color: darkGray;
+    aspect-ratio : 1 / 1;
+    position: relative;
+}
+
+.homepage-our-recipes .slide-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    top: 0;
+    z-index: 1;
+}
+
+.homepage-our-recipes .slide-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.homepage-our-recipes .swiper-slide .slide-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    width: 100%;
+    text-align: center;
+    margin-top: calc(100% / 2 - 22px);
+    color: #ffffff;
+}
+
+#homepage-section-4 .our-recipes-button {
+    background-color:#E76B38;
+    border-radius:30px;
+    display: block;
+    cursor:pointer;
+    color:#ffffff;
+    text-decoration:none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 18px;
+    width: 271px;
+    height: 50px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+
+/* Medium screen - hamburger menu has shown */
+@media only screen and (max-width: 1600px){
+    .homepage-our-recipes-slider {
+        width: 100%;
+        padding: 0 30px !important;
+    }
+}
+
+@media only screen and (max-width: 1860px){
+    .slider-arrow-left,
+    .slider-arrow-right {
+        display: none;
+    }
+}
+
+/* SEMI Medium screen - hamburger menu has shown */
+@media only screen and (max-width: 820px){
+    .our-recipes-header > div.col-1 {
+        float: none;
+        text-align: center;
+    }
+    .our-recipes-header > div.col-2 {
+        float: none;
+        width: 272px;
+        margin: 0 auto;
+    }
+
+    .slider-arrow-left,
+    .slider-arrow-right {
+        display: none;
+    }
+}
