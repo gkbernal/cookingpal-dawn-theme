@@ -59,4 +59,12 @@ h2.popular-heading {
     max-width: 100%;
     padding: 30px 30px 80px;
 }
+
+h2.popular-heading {
+    text-align: start;
+}
+
+.popular-description p {
+    text-align: start;
+}
 }
