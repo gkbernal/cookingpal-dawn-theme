@@ -68,7 +68,7 @@ input.form-input::placeholder {
 
 @media (max-width: 1024px){
 h3.subscribe-heading {
-    font-size: 25px;
+    font-size: 36px;
 }
 
 .subscribe-form {
@@ -83,6 +83,7 @@ a.form-submit {
 input.form-input {
     padding: 16px 32px;
     width: 100%;
+    text-align: center;
 }
 }
 
