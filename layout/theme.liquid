@@ -442,6 +442,42 @@
               }
             ]
           });
+
+           $('.prod-sec5-col-1').slick({
+    		dots: false,
+    		arrows: true,
+            prevArrow:"<img class='a-left control-c prev slick-prev' src='{{ 'arrow-left.svg' | asset_url }}'>",
+            nextArrow:"<img class='a-right control-c next slick-next' src='{{ 'arrow-right.svg' | asset_url }}'>",
+    		speed: 1000,
+    		slidesToShow: 1,
+    		slidesToScroll: 1,
+            responsive: [
+              {
+                breakpoint: 1025,
+                settings: {
+                  rows: 1,
+                  slidesToShow: 4,
+                  slidesToScroll: 1
+                }
+              },
+              {
+                breakpoint: 1366,
+                settings: {
+                  rows: 1,
+                  slidesToShow: 5,
+                  slidesToScroll: 1
+                }
+              },
+              {
+                breakpoint: 1440,
+                settings: {
+                  rows: 1,
+                  slidesToShow: 6,
+                  slidesToScroll: 1
+                }
+              }
+            ]
+          });
         });
     </script>
   </body>
