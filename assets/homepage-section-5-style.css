@@ -75,6 +75,15 @@ h3.subscribe-heading {
     grid-template-columns: 1fr;
     justify-items: center;
 }
+
+a.form-submit {
+    padding: 16px 130px;
+}
+
+input.form-input {
+    padding: 16px 32px;
+    width: 100%;
+}
 }
 
 @media (max-width: 767px){
