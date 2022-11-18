@@ -96,4 +96,12 @@ h2.popular-heading {
     left: 45%;
     margin-left: 31px;
 }
+
+h2.popular-heading {
+    font-size: 25px;
+}
+
+.popular-description p {
+    font-size: 16px;
+}
 }
