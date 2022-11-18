@@ -11,7 +11,9 @@
           }
         },
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {
+          }
         },
         "caption": {
           "type": "text",
@@ -21,7 +23,9 @@
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -30,7 +34,9 @@
           }
         },
         "quantity_selector": {
-          "type": "quantity_selector"
+          "type": "quantity_selector",
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -39,7 +45,9 @@
           }
         },
         "description": {
-          "type": "description"
+          "type": "description",
+          "settings": {
+          }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -101,13 +109,177 @@
       ],
       "settings": {
         "enable_sticky_info": true,
+        "media_position": "left",
         "gallery_layout": "stacked",
         "media_size": "large",
+        "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "f1ffc4e6-a4b5-41f9-8b46-6d4daa8485b9": {
+      "type": "productpage-section-2",
+      "blocks": {
+        "35220f06-552d-4f26-ad18-60af3f53ed8a": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-chop.svg",
+            "iconbox-heading": "Chop carrots",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "0791f2b0-1ad7-4b4d-b22e-8380e36641cd": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-saute.svg",
+            "iconbox-heading": "Sauté onions",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "56d3ac9d-ba4c-4e09-b6ed-0985f3a16921": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-steam.svg",
+            "iconbox-heading": "Steam fish",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "e87acb4c-939a-4ba4-b690-561f9d0778d9": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-weigh.svg",
+            "iconbox-heading": "Weigh ingredients",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "5afd08b3-576d-4fc3-993c-2c8584d68b47": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-knead.svg",
+            "iconbox-heading": "Knead dough",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "144d12a2-516f-401f-bd99-a7f5c0185c37": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-whisk.svg",
+            "iconbox-heading": "Whisk eggs",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "12efdc22-1a09-45b6-a035-ee7cfe2f32f6": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-steam.svg",
+            "iconbox-heading": "Steam fish",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "90a1a39e-8739-4941-834b-fe822c177379": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-weigh.svg",
+            "iconbox-heading": "Weigh ingredients",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "35220f06-552d-4f26-ad18-60af3f53ed8a",
+        "0791f2b0-1ad7-4b4d-b22e-8380e36641cd",
+        "56d3ac9d-ba4c-4e09-b6ed-0985f3a16921",
+        "e87acb4c-939a-4ba4-b690-561f9d0778d9",
+        "5afd08b3-576d-4fc3-993c-2c8584d68b47",
+        "144d12a2-516f-401f-bd99-a7f5c0185c37",
+        "12efdc22-1a09-45b6-a035-ee7cfe2f32f6",
+        "90a1a39e-8739-4941-834b-fe822c177379"
+      ],
+      "settings": {
+      }
+    },
+    "af3d4a07-a865-44cc-bcd9-eb9c9233cce9": {
+      "type": "productpage-section-4",
+      "blocks": {
+        "f96a1f8a-ed2e-4a7d-b710-fddaf172ccfe": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-time.svg",
+            "iconbox-heading": "Time Saving",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "133549c1-1e01-4439-ac54-ba2728afce5d": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-space.svg",
+            "iconbox-heading": "Space Saving",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "ec201130-2882-4592-8b31-c86c3a307cea": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-recipes.svg",
+            "iconbox-heading": "Recipe Inspirations",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "2f1d51f3-ec89-4874-9203-f27716ec75d4": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-remote.svg",
+            "iconbox-heading": "Remote Control",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "c2624288-44b6-4f5f-91a2-6cf47615a66e": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-mobile.svg",
+            "iconbox-heading": "Downloadable Phone App",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "3c87193e-f6c6-4b28-8df6-b24387c87999": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-choose.svg",
+            "iconbox-heading": "Smart Hub",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "30ffe6b5-9e1d-4570-9876-3532b65fc574": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-recipes.svg",
+            "iconbox-heading": "Recipe Inspirations",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        },
+        "c9a8e4d0-a257-4b76-81bb-d5f2a0537d08": {
+          "type": "iconbox",
+          "settings": {
+            "select-option": "icon-space.svg",
+            "iconbox-heading": "Space Saving",
+            "iconbox-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f96a1f8a-ed2e-4a7d-b710-fddaf172ccfe",
+        "133549c1-1e01-4439-ac54-ba2728afce5d",
+        "ec201130-2882-4592-8b31-c86c3a307cea",
+        "2f1d51f3-ec89-4874-9203-f27716ec75d4",
+        "c2624288-44b6-4f5f-91a2-6cf47615a66e",
+        "3c87193e-f6c6-4b28-8df6-b24387c87999",
+        "30ffe6b5-9e1d-4570-9876-3532b65fc574",
+        "c9a8e4d0-a257-4b76-81bb-d5f2a0537d08"
+      ],
+      "settings": {
       }
     },
     "image-with-text": {
@@ -181,9 +353,9 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -193,6 +365,7 @@
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
+        "products_to_show": 4,
         "columns_desktop": 4,
         "color_scheme": "background-1",
         "image_ratio": "square",
@@ -207,6 +380,8 @@
   },
   "order": [
     "main",
+    "f1ffc4e6-a4b5-41f9-8b46-6d4daa8485b9",
+    "af3d4a07-a865-44cc-bcd9-eb9c9233cce9",
     "image-with-text",
     "multicolumn",
     "product-recommendations"

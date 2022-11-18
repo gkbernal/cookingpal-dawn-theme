@@ -1,0 +1,97 @@
+.product-section4-container {
+    background-color: #304A36;
+    padding: 41px 50px 44px;
+}
+
+.sec-col-1 {
+  width: 1625px;
+  margin: auto;
+}
+
+.icon-box {
+    margin: 0 20px;
+    width: 100%;
+}
+
+.slick-track {
+    display: flex;
+    align-items: flex-end;
+}
+
+h3.iconbox-heading {
+    margin: 0 0 13px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Cera Pro Bold';
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+span.iconbox-description P {
+    color: #FFF;
+    font-family: "Cera Pro Light";
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    line-height: 1.42em;
+}
+
+.icon-box img {
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 1725px){
+.sec-col-1 {
+  width: 100%;
+}
+}
+
+@media (max-width: 1024px){
+img.slick-prev.slick-arrow {
+    width: 30px;
+    height: 30px;
+}
+
+img.slick-next.slick-arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-box {
+    width: 282px !important;
+    margin: auto;
+    padding: 0 0 40px;
+}
+
+.product-section2-container {
+    padding: 50px 30px 10px;
+}
+
+.slick-slide > div {
+    text-align: center;
+}
+}
+
+@media (max-width: 767px){
+h3.iconbox-heading {
+    font-size: 16px;
+}
+
+.icon-box {
+    margin: 0 0px;
+    padding: 0 10px 24px;
+}
+
+.product-section2-container {
+    padding: 24px 30px 0px;
+}
+}
+
+@media (max-width: 600px){
+.icon-box {
+    width: 100% !important;
+    margin: auto;
+    padding: 0 10px 24px;
+}
+}
