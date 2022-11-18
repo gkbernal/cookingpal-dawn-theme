@@ -51,10 +51,12 @@ h3.box-heading {
 }
 
 @media (max-width: 767px){
+.sec2-col-1 {
+    grid-gap: 10px;
+}
+
 .section2-container {
     padding: 40px 30px;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
 }
 
 .custom-column {
