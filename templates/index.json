@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@giothe52 
+Ecommerceado
+/
+cookingpal-dawn-theme
+Private
+Code
+Issues
+Pull requests
+1
+Actions
+Projects
+Security
+Insights
+cookingpal-dawn-theme/templates/index.json
+@shopify
+shopify Update from Shopify for theme cookingpal-dawn-theme/custom-cart
+…
+Latest commit be0be66 1 hour ago
+ History
+ 5 contributors
+@shopify@ralph-ecommerceado@RCLabbao@makiboy23@billlhughes1221
+276 lines (276 sloc)  9.94 KB
+
 {
   "sections": {
     "multicolumn": {
@@ -203,7 +234,7 @@
     },
     "c802300d-ba80-4807-850c-14b10dec6b18": {
       "type": "homepage-section-9",
-      "blocks": {
+      "blocks": {g
         "764e481b-da12-4b60-a731-adf6f9a5cd21": {
           "type": "logo",
           "settings": {
