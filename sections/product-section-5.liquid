@@ -1,13 +1,15 @@
 <div class="product-section5-container">
   <div class="prod-sec5-col-1">
     {% for block in section.blocks  %}
-      <div class="inner-col-1">
-        <img src="{{block.settings.images | img_url: 'large'}}" class="popular-img"/>
-      </div>
-      <div class="inner-col-2">
-        <h2 class="popular-heading">{{ block.settings.heading-title }}</h2>
-        <span class="popular-description">{{ block.settings.box-description }}</span>
-      </div>
+      <div class="inner-section">
+        <div class="inner-col-1">
+          <img src="{{block.settings.images | img_url: 'large'}}" class="popular-img"/>
+        </div>
+        <div class="inner-col-2">
+          <h2 class="popular-heading">{{ block.settings.heading-title }}</h2>
+          <span class="popular-description">{{ block.settings.box-description }}</span>
+        </div>
+      <div class="inner-section">
     {% endfor %}
   </div>
 </div>
