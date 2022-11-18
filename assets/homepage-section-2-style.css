@@ -1,6 +1,9 @@
 .section2-container {
-    max-width: 1620px;
     padding: 87px 50px 95px;
+}
+
+.sec2-col-1 {
+    max-width: 1620px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
