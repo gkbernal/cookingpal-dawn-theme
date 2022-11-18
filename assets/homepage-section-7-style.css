@@ -22,6 +22,10 @@ h2.section-7-heading {
     margin-bottom: 30px;
 }
 
+img.middle-img {
+    display: none;
+}
+
 .book-description p {
     margin: 0;
     font-size: 25px;
@@ -39,6 +43,7 @@ a.book-class {
     text-decoration: none;
     font-family: 'Cera Pro Medium';
     color: #FFF;
+    font-size: 20px;
     transition: all ease-in-out 0.2s;
 }
 
@@ -67,12 +72,39 @@ h2.section-7-heading {
 }
 
 @media (max-width: 1024px){
+.section7-container {
+    grid-template-columns: 1fr;
+}
+  
+.section7-col-1 {
+    padding: 50px 0px 60px;
+    width: 100%;
+}
+
+.section7-col-2 {
+    display: none;
+}
+
+img.middle-img {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
 h2.section-7-heading {
-    font-size: 40px;
-} 
+    font-size: 42px;
+    width: 560px;
+    margin: auto;
+    padding: 0 30px 50px;
+}
 
 .book-description p {
-    font-size: 23px;
+    font-size: 30px;
+    padding: 0 30px;
+}
+
+a.book-class {
+    font-size: 26px;
 }
 }
 
@@ -85,28 +117,28 @@ h2.section-7-heading {
 .section7-col-2 img {
     height: 450px;
 }
-  
-.section7-col-1 {
-    padding: 80px 40px 95px;
-}
 }
 
 @media (max-width: 767px){
+.section7-col-1 {
+    padding: 40px 0px 50px;
+}
+  
 h2.section-7-heading {
-    font-size: 35px;
+    font-size: 25px;
+    width: 100%;
+    padding: 0 30px 30px;
 } 
 
 .book-description p {
-    font-size: 21px;
-}
+    font-size: 16px;
 }
 
-@media (max-width: 600px){
-.section7-col-2 img {
-    height: 350px;
+img.middle-img {
+    margin-bottom: 30px;
 }
-  
-.section7-col-1 {
-    padding: 50px 30px 65px;
+
+a.book-class {
+    font-size: 20px;
 }
 }
