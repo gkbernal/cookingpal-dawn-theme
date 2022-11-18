@@ -43,6 +43,7 @@ a.book-class {
     text-decoration: none;
     font-family: 'Cera Pro Medium';
     color: #FFF;
+    font-size: 20;
     transition: all ease-in-out 0.2s;
 }
 
@@ -92,6 +93,10 @@ h2.section-7-heading {
 
 .book-description p {
     font-size: 30px;
+}
+
+a.book-class {
+    font-size: 26;
 }
 }
 
