@@ -3,6 +3,24 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.product-section5-container img.slick-next.slick-arrow {
+    right: 35px;
+    background-color: #304A36;
+    border-radius: 50%;
+    padding: 7px 7px 7px 8px;
+    width: 45px;
+    height: 45px;
+}
+
+.product-section5-container img.slick-prev.slick-arrow {
+    left: 35px;
+    background-color: #304A36;
+    border-radius: 50%;
+    padding: 7px 8px 7px 7px;
+    width: 45px;
+    height: 45px;
+}
+
 .inner-col-2 {
     max-width: 690px;
     margin: auto;
