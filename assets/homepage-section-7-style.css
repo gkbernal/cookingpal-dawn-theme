@@ -71,6 +71,10 @@ h2.section-7-heading {
 }
 
 @media (max-width: 1024px){
+.section7-container {
+    grid-template-columns: 1fr;
+}
+  
 h2.section-7-heading {
     font-size: 40px;
 } 
