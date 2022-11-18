@@ -205,21 +205,21 @@
         "b031d350-0681-46bb-b2bb-7629554f3e51": {
           "type": "faq",
           "settings": {
-            "question": "Do you have a question?",
+            "question": "How does Multo clean itself?",
             "answer": "<p>I have an answer<\/p>"
           }
         },
         "41ebf41d-b393-46bc-93ef-212190266b27": {
           "type": "faq",
           "settings": {
-            "question": "Do you have a question?",
+            "question": "How does Multo compare to other appliances?",
             "answer": "<p>I have an answer<\/p>"
           }
         },
         "82d55f56-1f77-403a-b99f-14b194a74622": {
           "type": "faq",
           "settings": {
-            "question": "Do you have a question?",
+            "question": "Guided Recipes and Cooking Modes",
             "answer": "<p>I have an answer<\/p>"
           }
         }
