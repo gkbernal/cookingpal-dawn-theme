@@ -120,13 +120,22 @@ a.book-class {
 }
 
 @media (max-width: 767px){
+.section7-col-1 {
+    padding: 40px 0px 50px;
+}
+  
 h2.section-7-heading {
     font-size: 25px;
     width: 100%;
+    padding: 0 30px 30px;
 } 
 
 .book-description p {
     font-size: 16px;
+}
+
+img.middle-img {
+    margin-bottom: 30px;
 }
 
 a.book-class {
