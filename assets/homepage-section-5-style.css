@@ -38,6 +38,7 @@ a.form-submit {
     font-family: 'Cera Pro Medium';
     font-size: 18px;
     text-decoration: none;
+    line-height: 1em;
     transition: all ease-in-out 0.2s;
 }
 
@@ -68,6 +69,10 @@ input.form-input::placeholder {
 @media (max-width: 1024px){
 h3.subscribe-heading {
     font-size: 25px;
+}
+
+.subscribe-form {
+    grid-template-columns: 1fr;
 }
 }
 
