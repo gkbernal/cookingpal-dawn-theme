@@ -22,12 +22,21 @@
 }
 
 .tab-label {
-    border-bottom: solid 1px;
-    color: #304A36;
-    font-size: 35px;
-    font-family: 'Roboto Regular';
-    line-height: 1.17em;
-    padding: 13px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: transparent;
+  border-bottom: solid 1px;
+  color: #304A36;
+  font-size: 35px;
+  font-family: 'Roboto Regular';
+  line-height: 1.17em;
+  padding: 13px 0;
+}
+
+.tab-label {
+
 }
 
 .tab-content p {
