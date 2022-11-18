@@ -54,4 +54,9 @@ h2.popular-heading {
 .inner-product {
     grid-template-columns: 1fr;
 }
+
+.inner-col-2 {
+    max-width: 100%;
+    padding: 30px 30px 80px;
+}
 }
