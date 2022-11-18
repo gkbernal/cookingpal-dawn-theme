@@ -1,0 +1,50 @@
+.page-width.page-width--narrow {
+    max-width: 1346px;
+    margin: auto;
+}
+
+.faq-checkbox {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.tabs {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+
+.tab-label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  font-weight: bold;
+  background-color: transparent;
+  color: #304A36;
+}
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  background-color: white;
+  transition: all 0.5s;
+  color: black;
+}
+
+.tab-content p {
+  margin: 0;
+}
+
+.faq-checkbox:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em;
+}
+Code language: CSS (css)
