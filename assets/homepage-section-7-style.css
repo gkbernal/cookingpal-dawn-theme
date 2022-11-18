@@ -74,7 +74,15 @@ h2.section-7-heading {
 .section7-container {
     grid-template-columns: 1fr;
 }
-  
+
+.section7-col-2 {
+    display: none;
+}
+
+img.middle-img {
+    display: block;
+}
+
 h2.section-7-heading {
     font-size: 40px;
 } 
