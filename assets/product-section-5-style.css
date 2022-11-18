@@ -61,11 +61,13 @@ h2.popular-heading {
 }
 
 h2.popular-heading {
+    font-size: 42px;
     text-align: start;
     padding-bottom: 10px;
 }
 
 .popular-description p {
+    font-size: 20px;
     text-align: start;
 }
 
