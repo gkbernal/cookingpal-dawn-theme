@@ -248,6 +248,15 @@
         "images": "shopify:\/\/shop_images\/jamiefull.jpg"
       }
     },
+    "8b546e92-8893-47dd-a6dc-5840d287d00d": {
+      "type": "homepage-section-8",
+      "settings": {
+        "heading_title": "User Contents",
+        "article1": "our-recipes\/fitness-meal",
+        "article2": "user-generated\/lindsey-mamanowwhat-testimonial",
+        "article3": "our-recipes\/desserts"
+      }
+    },
     "c802300d-ba80-4807-850c-14b10dec6b18": {
       "type": "homepage-section-9",
       "blocks": {
@@ -309,6 +318,7 @@
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
     "1576b38d-4f20-4024-bf1b-0d860f6ae757",
     "86302d89-3564-47ae-bc60-d40117ee8125",
+    "8b546e92-8893-47dd-a6dc-5840d287d00d",
     "c802300d-ba80-4807-850c-14b10dec6b18"
   ]
 }
