@@ -77,6 +77,11 @@ h2.faq-heading {
     padding: 50px 30px;
 }
 
+h2.faq-heading {
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
 .tab-label {
   font-size: 42px;
 }
@@ -89,6 +94,11 @@ h2.faq-heading {
 @media (max-width: 767px){
 .faq-section {
     padding: 40px 30px;
+}
+
+h2.faq-heading {
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .tab-label {
