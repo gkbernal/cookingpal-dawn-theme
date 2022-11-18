@@ -10,6 +10,7 @@
     padding: 7px 7px 7px 8px;
     width: 45px;
     height: 45px;
+    z-index: 10;
 }
 
 .product-section5-container img.slick-prev.slick-arrow {
@@ -19,6 +20,7 @@
     padding: 7px 8px 7px 7px;
     width: 45px;
     height: 45px;
+    z-index: 10;
 }
 
 .inner-col-2 {
