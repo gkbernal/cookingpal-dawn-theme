@@ -1,11 +1,13 @@
-<div class="section2-container isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
-  {% for block in section.blocks  %}
-    <div class="custom-column">
-      <img src="{{block.settings.images | img_url: 'large'}}" />
-      <h3 class="box-heading">{{ block.settings.heading-title }}</h3>
-      <span class="box-description">{{ block.settings.box-description }}</span>
-    </div>
-  {% endfor %}
+<div class="section2-container">
+  <div class="sec2-col-1">
+    {% for block in section.blocks  %}
+      <div class="custom-column">
+        <img src="{{block.settings.images | img_url: 'large'}}" />
+        <h3 class="box-heading">{{ block.settings.heading-title }}</h3>
+        <span class="box-description">{{ block.settings.box-description }}</span>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 
 {% schema %}
