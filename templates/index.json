@@ -140,6 +140,15 @@
         "button2-link": ""
       }
     },
+    "d9d86eba-f26f-464a-a6c5-d124d6562c3a": {
+      "type": "homepage-section-4",
+      "settings": {
+        "heading_title": "Our Recipes",
+        "button_label": "View all recipes",
+        "button_link": "shopify:\/\/blogs\/our-recipes",
+        "blog_category": "our-recipes"
+      }
+    },
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa": {
       "type": "homepage-section-5",
       "settings": {
@@ -296,6 +305,7 @@
     "multicolumn",
     "855ed9f9-0408-4210-92f8-855f70656800",
     "a19b4d0b-5548-4fad-b555-0e574221b197",
+    "d9d86eba-f26f-464a-a6c5-d124d6562c3a",
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
     "1576b38d-4f20-4024-bf1b-0d860f6ae757",
     "86302d89-3564-47ae-bc60-d40117ee8125",
