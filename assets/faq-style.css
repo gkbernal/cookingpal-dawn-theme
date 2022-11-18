@@ -33,11 +33,10 @@
   font-family: 'Roboto Regular';
   line-height: 1.17em;
   padding: 13px 0;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.5s;
 }
 
 .tab-content p {
-    transition: all ease-in-out 0.3s;
     font-family: 'Roboto Regular';
     font-size: 20px;
     line-height: 1.45em;
@@ -51,7 +50,7 @@
 .tab-content {
   max-height: 0;
   background-color: white;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.5s;
   color: black;
 }
 
