@@ -92,6 +92,19 @@
     },
     "380565a6-464f-4676-987c-d3d63f99bc52": {
       "type": "product-section-5",
+      "blocks": {
+        "5f97671e-b25b-48be-98ea-38b13dd78ce3": {
+          "type": "image",
+          "settings": {
+            "images": "shopify:\/\/shop_images\/pulled_pork_sliders_with_red_cabbage_slaw_hero_1.jpg",
+            "heading-title": "Most popular recipes",
+            "box-description": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac turpis cras morbi lorem lacus, gravida vitae, nec. Mi, arcu vitae duis donec integer tortor, varius.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5f97671e-b25b-48be-98ea-38b13dd78ce3"
+      ],
       "settings": {
       }
     },
