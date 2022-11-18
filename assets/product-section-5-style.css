@@ -26,7 +26,7 @@
 .inner-col-2 {
     max-width: 690px;
     margin: auto;
-    padding: 50px;
+    padding: 50px 50px 50px 70px;
 }
 
 img.popular-img {
@@ -48,4 +48,8 @@ h2.popular-heading {
     font-family: 'Roboto Regular';
     line-height:  1.45em;
     color: #304A36;
+}
+
+@media (max-width: 1024px){
+  
 }
