@@ -33,10 +33,7 @@
   font-family: 'Roboto Regular';
   line-height: 1.17em;
   padding: 13px 0;
-}
-
-.tab-label {
-
+  transition: all ease-in-out 0.3s;
 }
 
 .tab-content p {
