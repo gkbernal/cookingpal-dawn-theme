@@ -51,5 +51,7 @@ h2.popular-heading {
 }
 
 @media (max-width: 1024px){
-  
+.inner-product {
+    grid-template-columns: 1fr;
+}
 }
