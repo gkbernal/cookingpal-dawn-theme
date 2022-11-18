@@ -1,0 +1,96 @@
+{{ 'homepage-section-8.css' | asset_url | stylesheet_tag }}
+
+<div id="homepage-section-8" class="homepage-user-generated">
+	<div class="user-generated-wrapper isolate page-width">
+		<div class="user-generated-header">
+			<h2 class="heading-title">{{ section.settings.heading_title }}</h2>
+		</div>
+		<div class="user-generated-items clearfix">
+			{%- if section.settings.article1 != blank -%}
+				{% assign article1 = section.settings.article1 %}
+				<div class="user-generated-item" style="background-image: url('{{ article1.image | img_url: 'large' }}');">
+					<div class="excerpt">{{ article1.excerpt_or_content }}</div>
+					<div class="author">{{ article1.author }}</div>
+					<a class="user-generated-button" href="{{ article1.url }}">Learn more</a>
+				</div>
+			{%- endif -%}
+			{%- if section.settings.article2 != blank -%}
+				{% assign article2 = section.settings.article2 %}
+				<div class="user-generated-item" style="background-image: url('{{ article2.image | img_url: 'large' }}');">
+					<div class="excerpt">{{ article2.excerpt_or_content }}</div>
+					<div class="author">{{ article2.author }}</div>
+					<a class="user-generated-button" href="{{ article2.url }}">Learn more</a>
+				</div>
+			{%- endif -%}
+			{%- if section.settings.article3 != blank -%}
+				{% assign article3 = section.settings.article3 %}
+				<div class="user-generated-item" style="background-image: url('{{ article3.image | img_url: 'large' }}');">
+					<div class="excerpt">{{ article3.excerpt_or_content }}</div>
+					<div class="author">{{ article3.author }}</div>
+					<a class="user-generated-button" href="{{ article3.url }}">Learn more</a>
+				</div>
+			{%- endif -%}
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+  "name": "Cooking Pal - User Gen",
+  "settings": [
+	{
+		"type" : "text",
+		"id" : "heading_title",
+		"label" : "Heading Title",
+		"default": "User Contents"
+	},
+    {
+		"type": "article",
+		"id": "article1",
+		"label": "Select Article 1"
+    },
+	{
+		"type": "article",
+		"id": "article2",
+		"label": "Select Article 1"
+    },
+	{
+		"type": "article",
+		"id": "article3",
+		"label": "Select Article 3"
+    }
+  ],
+  "presets" : [
+    {
+      "name" : "Cooking Pal - User Gen"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %} 
+	// var swiper_s4 = new Swiper(".our-recipes-swiper", {
+	// 	speed: 400,
+	// 	spaceBetween: 100,
+	// 	initialSlide: 0,
+	// 	autoHeight: false,
+	// 	paginationClickable: true,
+	// 	direction: 'horizontal',
+	// 	loop: false,
+	// 	effect: 'slide',
+	// 	spaceBetween: 29,
+	// 	slidesPerView: 2,
+	// 	centeredSlides: true,
+	// 	slidesOffsetBefore: 0,
+	// 	grabCursor: true,
+	// 	breakpoints: {
+	// 		820: {
+	// 			slidesPerView: 5,
+	// 			centeredSlides: false,
+	// 		},
+	// 	},navigation: {
+	// 		nextEl: '.slider-arrow-left',
+	// 		prevEl: '.slider-arrow-right',
+	// 	}
+	// });
+{% endjavascript %}
