@@ -1,5 +1,5 @@
 .section2-container {
-    width: 1620px;
+    max-width: 1620px;
     padding: 87px 50px 95px;
     margin: auto;
     display: grid;
