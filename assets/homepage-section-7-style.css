@@ -95,11 +95,12 @@ h2.section-7-heading {
     font-size: 42px;
     width: 500px;
     margin: auto;
-    padding-bottom: 50px;
+    padding: 0 30px 50px;
 }
 
 .book-description p {
     font-size: 30px;
+    padding: 0 30px;
 }
 
 a.book-class {
