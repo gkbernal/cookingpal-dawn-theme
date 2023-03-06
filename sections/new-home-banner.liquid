@@ -42,16 +42,18 @@
 .new-home-sec-col1 a {
     text-decoration: none;
     padding: 10px 25px;
-    background-color: #193c46;
+    background-color: {{ section.settings.id-btn-color }};
     color: #fff;
     border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: {{ section.settings.btn-size }}px;
+    color: {{ section.settings.id-btn-text-color }};
 }
 
 .new-home-sec-col1 a:hover {
     background-color: #E64845;
 }
-
-
 
 .new-home-sec-col2 img {
     border-radius: 24px;
@@ -132,6 +134,28 @@
         "step": 1,
         "unit": "px",
         "label": "Content Size",
+        "default": 16
+      },
+      {
+        "type": "color",
+        "label": "Button Background Color",
+        "id": "id-btn-color",
+        "default": "#193C46"
+      },
+      {
+        "type": "color",
+        "label": "Button Text Color",
+        "id": "id-btn-text-color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "range",
+        "id": "btn-size",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Button Text Size",
         "default": 16
       }
     ],
