@@ -1,5 +1,15 @@
 {
   "sections": {
+    "406b975b-c2ca-4150-bcb0-8e10c75f44db": {
+      "type": "new-home-banner",
+      "settings": {
+        "id-head": "March Mini Madness",
+        "id-content": "<p>Save Up To 30% Off<br\/>Our Single Varietal 8-Packs<\/p>",
+        "id-btn-text": "Shop Sale",
+        "id-btn-url": "#",
+        "id-img": "shopify:\/\/shop_images\/VineVoyageCuratedTastingsKit.jpg"
+      }
+    },
     "f9206e67-41f8-4e2f-96e3-2b42a7892472": {
       "type": "homepage-section-1",
       "blocks": {
@@ -267,6 +277,7 @@
     }
   },
   "order": [
+    "406b975b-c2ca-4150-bcb0-8e10c75f44db",
     "f9206e67-41f8-4e2f-96e3-2b42a7892472",
     "multicolumn",
     "855ed9f9-0408-4210-92f8-855f70656800",
