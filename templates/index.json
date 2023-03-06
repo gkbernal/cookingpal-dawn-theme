@@ -274,6 +274,48 @@
       ],
       "settings": {
       }
+    },
+    "3a72c92b-1b7b-4bed-964f-1bfa511744a0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16948494631219__3a72c92b-1b7b-4bed-964f-1bfa511744a0-1678107032116c47db-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16948494631219__3a72c92b-1b7b-4bed-964f-1bfa511744a0-1678107032116c47db-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16948494631219__3a72c92b-1b7b-4bed-964f-1bfa511744a0-1678107032116c47db-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16948494631219__3a72c92b-1b7b-4bed-964f-1bfa511744a0-1678107032116c47db-0",
+        "template--16948494631219__3a72c92b-1b7b-4bed-964f-1bfa511744a0-1678107032116c47db-1",
+        "template--16948494631219__3a72c92b-1b7b-4bed-964f-1bfa511744a0-1678107032116c47db-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -285,6 +327,7 @@
     "15c2b411-ecfe-4059-8ccd-e6a74875a6aa",
     "1576b38d-4f20-4024-bf1b-0d860f6ae757",
     "86302d89-3564-47ae-bc60-d40117ee8125",
-    "c802300d-ba80-4807-850c-14b10dec6b18"
+    "c802300d-ba80-4807-850c-14b10dec6b18",
+    "3a72c92b-1b7b-4bed-964f-1bfa511744a0"
   ]
 }
