@@ -32,6 +32,8 @@
 .new-home-sec-col1 p {
     margin: 0 0 20px;
     line-height: 1.7;
+    font-size: {{ section.settings.id-content-size }}px;
+    color: {{ section.settings.id-content-color }};
 }
 
 .new-home-sec-col2 img {
@@ -104,6 +106,16 @@
         "label": "Content Color",
         "id": "id-content-color",
         "default": "#193C46"
+      },
+      {
+        "type": "range",
+        "id": "content-size",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Content Size",
+        "default": 16
       }
     ],
     "presets" : [
