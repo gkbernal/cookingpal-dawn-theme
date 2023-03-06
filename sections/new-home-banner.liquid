@@ -14,7 +14,7 @@
 
 .new-home-sec-col1 {
     padding: 20%;
-    background-image: radial-gradient(#FEF2E5, #FCF0CA);
+    background-image: radial-gradient({{ section.settings.bg-color1 }}, {{ section.settings.bg-color2 }});
     border-radius: 24px;
     margin-right: -50px;
     position: relative;
@@ -157,6 +157,18 @@
         "unit": "px",
         "label": "Button Text Size",
         "default": 16
+      },
+      {
+        "type": "color",
+        "label": "Gradiant First Color",
+        "id": "bg-color1",
+        "default": "#FEF2E5"
+      },
+      {
+        "type": "color",
+        "label": "Gradiant Second Color",
+        "id": "bg-color2",
+        "default": "#FCF0CA"
       }
     ],
     "presets" : [
