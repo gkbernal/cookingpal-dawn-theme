@@ -95,6 +95,7 @@
 
 .new-home-sec-col1 h1 {
     text-align: center;
+    font-size: {{ section.settings.id-heading-mobile-size }}px;
 }
 
 .new-home-sec-col1 p {
@@ -224,6 +225,16 @@
         "unit": "px",
         "label": "Heading Tablet Size",
         "default": 50
+      },
+      {
+        "type": "range",
+        "id": "id-heading-mobile-size",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Heading Mobile Size",
+        "default": 40
       }
     ],
     "presets" : [
