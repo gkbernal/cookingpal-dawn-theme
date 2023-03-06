@@ -9,7 +9,9 @@
         "id-btn-url": "#",
         "id-img": "shopify:\/\/shop_images\/VineVoyageCuratedTastingsKit.jpg",
         "id-head-color": "#193c46",
-        "head-size": 60
+        "head-size": 60,
+        "id-content-color": "#193C46",
+        "content-size": 16
       }
     },
     "f9206e67-41f8-4e2f-96e3-2b42a7892472": {
@@ -315,7 +317,7 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 44,
+        "padding_top": 40,
         "padding_bottom": 52
       }
     }
