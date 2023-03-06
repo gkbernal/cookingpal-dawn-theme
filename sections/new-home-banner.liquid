@@ -19,6 +19,9 @@
     margin-right: -50px;
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .new-home-sec-col1 h1 {
@@ -35,6 +38,20 @@
     font-size: {{ section.settings.content-size }}px;
     color: {{ section.settings.id-content-color }};
 }
+
+.new-home-sec-col1 a {
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #193c46;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.new-home-sec-col1 a:hover {
+    background-color: #E64845;
+}
+
+
 
 .new-home-sec-col2 img {
     border-radius: 24px;
