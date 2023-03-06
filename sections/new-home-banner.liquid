@@ -2,9 +2,11 @@
   <div class="new-home-sec-row">
     <div class="new-home-sec-col1">
       <h1>{{ section.settings.id-head }}</h1>
+      {{ section.settings.id-content }}
+      <a href="{{ section.settings.id-btn-url }}">{{ section.settings.id-btn-text }}</a>
     </div>
     <div class="new-home-sec-col2">
-      
+      <img src=" {{ section.settings.id-img | img_url: 'master' }}" loading="lazy" width="100%" height="auto" />
     </div>
   </div>
 </div>
