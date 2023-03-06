@@ -74,6 +74,10 @@
 .new-home-sec-row {
     grid-template-columns: 40% 1fr;
 }
+
+.new-home-sec-col1 h1 {
+    font-size: {{ section.settings.id-heading-tablet-size }}px;
+}
 }
 
 @media (max-width: 767px) {
@@ -210,6 +214,16 @@
         "label": "Gradiant Second Color",
         "id": "bg-color2",
         "default": "#FCF0CA"
+      },
+      {
+        "type": "range",
+        "id": "id-heading-tablet-size",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Heading Tablet Size",
+        "default": 50
       }
     ],
     "presets" : [
