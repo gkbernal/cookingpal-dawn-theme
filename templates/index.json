@@ -7,7 +7,9 @@
         "id-content": "<p>Save Up To 30% Off<br\/>Our Single Varietal 8-Packs<\/p>",
         "id-btn-text": "Shop Sale",
         "id-btn-url": "#",
-        "id-img": "shopify:\/\/shop_images\/VineVoyageCuratedTastingsKit.jpg"
+        "id-img": "shopify:\/\/shop_images\/VineVoyageCuratedTastingsKit.jpg",
+        "id-head-color": "#ffffff",
+        "head-size": 60
       }
     },
     "f9206e67-41f8-4e2f-96e3-2b42a7892472": {
